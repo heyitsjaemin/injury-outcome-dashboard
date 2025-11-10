@@ -5,6 +5,7 @@ library(tmap)   # for tmapOutput
 
 ui <- fluidPage(
   useShinyjs(),
+  title = "Injury Outcome Dashboard", 
   
   # ---- HEAD (fonts, icons, styles) ----
   tags$head(
