@@ -20,16 +20,6 @@ server <- function(input, output, session) {
         " sf:", if (exists("merged_county_data")) inherits(merged_county_data,"sf") else NA, "\n\n")
   })
   
-  # ------------------------------
-  # Inputs debug (helps a ton)
-  # ------------------------------
-  observeEvent(input$level,            { cat("[INPUT] level:",            input$level, "\n") })
-  observeEvent(input$map_type,         { cat("[INPUT] map_type:",         input$map_type, "\n") })
-  observeEvent(input$selected_period,  { cat("[INPUT] selected_period:",  input$selected_period, "\n") })
-  observeEvent(input$var,              { cat("[INPUT] var:",              input$var, "\n") })
-  observeEvent(input$selected_state_on_county_level, {
-    cat("[INPUT] county-state filter:", input$selected_state_on_county_level, "\n")
-  })
   
   # ------------------------------
   # Helpers
@@ -60,7 +50,6 @@ server <- function(input, output, session) {
         CRUDE_RATE = suppressWarnings(as.numeric(CRUDE_RATE)),
         GEOID      = as.character(GEOID)
       )
-    cat("[states_sf] rows:", nrow(d), " NA CRUDE_RATE:", sum(is.na(d$CRUDE_RATE)), "\n")
     d
   })
   
@@ -107,26 +96,28 @@ server <- function(input, output, session) {
   # Selections (click interaction)
   # ------------------------------
   selected_state_geoid <- reactiveVal("26")    # default MI
-  selected_county_row  <- reactiveVal(NA_integer_)
+  selected_county_geoid  <- reactiveVal("26161")
   
   observeEvent(input$usa_map_shape_click, {
-    click_id <- input$usa_map_shape_click$id
-    if (is.null(click_id)) return()
+    id <- input$usa_map_shape_click$id
     
-    # tmap sends "X1", "X2", ...; leaflet we set layerId=ROWNUM (integer)
     if (input$level == "state") {
-      idx <- suppressWarnings(as.numeric(gsub("^X|_1$", "", click_id)))
-      d <- states_sf()
-      if (!is.na(idx) && idx >= 1 && idx <= nrow(d)) {
-        selected_state_geoid(as.character(d$GEOID[idx]))
-        cat("✅ State clicked. GEOID=", selected_state_geoid(), "\n")
+      d  <- states_sf()
+      
+      # make sure columns are character
+      d$GEOID <- as.character(d$GEOID)
+      if ("NAME" %in% names(d)) d$NAME <- as.character(d$NAME)
+      
+      # id could be GEOID (if you set id="GEOID") or NAME (id="NAME")
+      if (!is.null(id)) {
+        if (id %in% d$GEOID) {
+          selected_state_geoid(id)
+        } else if ("NAME" %in% names(d) && id %in% d$NAME) {
+          selected_state_geoid(d$GEOID[match(id, d$NAME)])
+        }
       }
-    } else if (input$level == "county") {
-      ridx <- suppressWarnings(as.integer(click_id))
-      if (!is.na(ridx)) {
-        selected_county_row(ridx)
-        cat("✅ County clicked. ROWNUM=", ridx, "\n")
-      }
+    }else if(input$level == "county"){
+      selected_county_geoid(as.character(id))
     }
   })
   
@@ -158,11 +149,15 @@ server <- function(input, output, session) {
   
   county_summary <- reactive({
     d <- counties_sf_filtered()
-    ridx <- selected_county_row()
-    if (is.na(ridx) || ridx < 1 || ridx > nrow(d)) {
-      return(data.frame(Field = "No County Selected", Value = ""))
+    gid <- selected_county_geoid()
+    
+    # choose a default if nothing clicked yet
+    if (is.null(gid) || !gid %in% as.character(d$GEOID)) {
+      if (nrow(d) == 0) return(data.frame(Field = "No County Available", Value = ""))
+      gid <- as.character(d$GEOID[1])
     }
-    row <- d[ridx, , drop = FALSE]
+    
+    row <- d %>% dplyr::filter(as.character(GEOID) == gid)
     pop_val <- ifelse(is.na(row$POPULATION) | row$POPULATION == 0,
                       "Not Available",
                       formatC(row$POPULATION, format = "f", big.mark = ",", digits = 0))
@@ -173,6 +168,7 @@ server <- function(input, output, session) {
     } else {
       formatC(row$CRUDE_RATE, format = "f", digits = 2)
     }
+    
     data.frame(
       Field = c("County", "Crude Death Rate", "Total Deaths", "Total Population"),
       Value = c(row$NAME, crude_val,
@@ -182,6 +178,7 @@ server <- function(input, output, session) {
     )
   })
   
+  
   output$my_table <- renderTable({
     if (input$level == "state") state_summary() else county_summary()
   })
@@ -190,61 +187,63 @@ server <- function(input, output, session) {
   # Map output (switch by level)
   # ------------------------------
   output$usa_map <- tmap::renderTmap({
-    req(input$level == "state")
-    d <- states_sf()
-    cat("🗺️ Rendering STATE map. n=", nrow(d), " mode=", input$map_type, "\n")
-    if (identical(input$map_type, "Hotspot Analysis")) {
-      d2 <- compute_hotspot(d)
-      tm_shape(d2) +
-        tm_borders() +
-        tm_fill("hotspot_category",
-                palette = c("blue", "white", "red"),
-                title = "Hotspot Analysis",
-                popup.vars = c("State" = "NAME", "Hotspot" = "hotspot_category")) +
-        tm_layout(scale = 1.5)
-    } else {
-      tm_shape(d) +
-        tm_borders() +
-        tm_fill("CRUDE_RATE",
-                palette = "Blues",
-                style   = "quantile",
-                title   = "Crude Rate",
-                popup.vars = c("State"="NAME","Rate"="CRUDE_RATE","Deaths"="DEATHS")) +
-        tm_layout(scale = 1.5)
-    }
-  })
-  
-  observe({
-    req(input$level == "county")
-    d <- counties_sf_filtered()
-    cat("🗺️ Rendering COUNTY map. n=", nrow(d), "\n")
     
-    # dynamic bins
-    qs  <- unique(stats::quantile(d$CRUDE_RATE, probs = c(0, .2, .4, .6, .8, 1), na.rm = TRUE))
-    pal <- colorBin("Blues", domain = d$CRUDE_RATE, bins = qs, na.color = "gray")
-    bb  <- try(sf::st_bbox(d), silent = TRUE)
-    
-    output$usa_map <- leaflet::renderLeaflet({
-      m <- leaflet(d) |>
-        addTiles() |>
-        addPolygons(
-          fillColor = ~pal(CRUDE_RATE),
-          weight = 1, opacity = 1, color = "white", dashArray = "3", fillOpacity = 0.7,
-          highlightOptions = highlightOptions(weight = 3, color = "#666", fillOpacity = 0.9, bringToFront = TRUE),
-          layerId = ~ROWNUM,
-          popup = ~paste0(
-            "<b>County:</b> ", NAME, "<br>",
-            "<b>Crude Rate:</b> ",
-            ifelse(is.na(CRUDE_RATE), "Not Available",
-                   ifelse(CRUDE_RATE == -1.0, "Unreliable", formatC(CRUDE_RATE, format = "f", digits = 2))),
-            "<br><b>Deaths:</b> ", formatC(DEATHS, format = "f", big.mark = ",", digits = 0)
-          )
-        )
-      if (!inherits(bb, "try-error")) {
-        m <- fitBounds(m, bb[["xmin"]], bb[["ymin"]], bb[["xmax"]], bb[["ymax"]])
+    if(input$level == "state"){
+      d <- states_sf()
+      
+      if (identical(input$map_type, "Hotspot Analysis")) {
+        d2 <- compute_hotspot(d)
+        tm_shape(d2) + 
+          tm_borders() +
+          tm_fill(
+            col = "hotspot_category",
+            id = "NAME",
+            palette = c("blue", "white", "red"),
+            title = "Hotspot Analysis",
+            popup.vars = c("State" = "NAME", "Hotspot" = "hotspot_category")) +
+          tm_layout(scale = 1.5)
+      } else {
+        tm_shape(d) + 
+          tm_borders() +
+          tm_fill(
+            col = "CRUDE_RATE",
+            id  = "NAME",
+            palette = "Blues",
+            style   = "quantile",
+            title   = "Crude Rate",
+            popup.vars = c("State"="NAME","Rate"="CRUDE_RATE","Deaths"="DEATHS")) +
+          tm_layout(scale = 1.5)
       }
-      m
-    })
+    }else{
+      d <- counties_sf_filtered()
+      
+      
+      if (identical(input$map_type, "Hotspot Analysis")) {
+        d2 <- compute_hotspot(d)
+        tm_shape(d2) + 
+          tm_borders() +
+          tm_fill(
+            col = "hotspot_category",
+            id = "NAME",
+            palette = c("blue", "white", "red"),
+            title = "Hotspot Analysis",
+            popup.vars = c("State" = "NAME", "Hotspot" = "hotspot_category")) +
+          tm_layout(scale = 1.5)
+      } else {
+        tm_shape(d) + 
+          tm_borders() +
+          tm_fill(
+            col = "CRUDE_RATE",
+            id  = "NAME",
+            palette = "Blues",
+            style   = "quantile",
+            title   = "Crude Rate",
+            popup.vars = c("State"="NAME","Rate"="CRUDE_RATE","Deaths"="DEATHS")) +
+          tm_layout(scale = 1.5)
+      }
+      
+    }
+    
   })
   
   # ------------------------------

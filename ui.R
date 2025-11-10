@@ -154,7 +154,8 @@ ui <- fluidPage(
                selectInput(
                  inputId  = "selected_period",
                  label    = "Period",
-                 choices  = c("2019", "2020", "2021", "2022", "2023", "TTM"),
+                 # choices  = c("2019", "2020", "2021", "2022", "2023", "TTM"),
+                 choices = c("2023"),
                  selected = "2023"
                )
         ),
@@ -179,7 +180,8 @@ ui <- fluidPage(
           selectInput(
             inputId  = "var",
             label    = "Choose a variable to visualize:",
-            choices  = c("Unintentional Drug Overdose Death Rate", "Firearm", "Suicide", "Homicide"),
+            # choices  = c("Unintentional Drug Overdose Death Rate", "Firearm", "Suicide", "Homicide"),
+            choices = c("Unintentional Drug Overdose Death Rate"),
             selected = "Unintentional Drug Overdose Death Rate"
           ),
           tags$h4("Summary Statistics"),
