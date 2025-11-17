@@ -189,7 +189,7 @@ ui <- fluidPage(
           tableOutput("my_table")
         ),
         mainPanel(
-          tmapOutput("usa_map")
+          tmapOutput("usa_map", height = "400px", width = "500px")
         )
       )
   ),
@@ -213,7 +213,7 @@ ui <- fluidPage(
           )
       ),
       div(class = "scatter-content",
-          plotOutput("scatter_plot", height = "450px", width = "100%")
+          plotOutput("scatter_plot", height = "450px", width = "450px")
       )
   ),
   

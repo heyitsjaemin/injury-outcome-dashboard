@@ -201,7 +201,10 @@ server <- function(input, output, session) {
             palette = c("blue", "white", "red"),
             title = "Hotspot Analysis",
             popup.vars = c("State" = "NAME", "Hotspot" = "hotspot_category")) +
-          tm_layout(scale = 1.5)
+          tm_layout(
+            asp = 1,   
+            frame = TRUE
+          )
       } else {
         tm_shape(d) + 
           tm_borders() +
@@ -212,7 +215,10 @@ server <- function(input, output, session) {
             style   = "quantile",
             title   = "Crude Rate",
             popup.vars = c("State"="NAME","Rate"="CRUDE_RATE","Deaths"="DEATHS")) +
-          tm_layout(scale = 1.5)
+          tm_layout(
+            asp = 1,   
+            frame = TRUE
+          )
       }
     }else{
       d <- counties_sf_filtered()
@@ -228,7 +234,10 @@ server <- function(input, output, session) {
             palette = c("blue", "white", "red"),
             title = "Hotspot Analysis",
             popup.vars = c("State" = "NAME", "Hotspot" = "hotspot_category")) +
-          tm_layout(scale = 1.5)
+          tm_layout(
+            asp = 1,   
+            frame = TRUE
+          )
       } else {
         tm_shape(d) + 
           tm_borders() +
@@ -239,7 +248,10 @@ server <- function(input, output, session) {
             style   = "quantile",
             title   = "Crude Rate",
             popup.vars = c("State"="NAME","Rate"="CRUDE_RATE","Deaths"="DEATHS")) +
-          tm_layout(scale = 1.5)
+          tm_layout(
+            asp = 1,   
+            frame = TRUE
+          )
       }
       
     }
