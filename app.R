@@ -7,6 +7,4 @@ source("global.R")
 source("ui.R")
 source("server.R")
 
-tmap::tmap_mode("view")   # interactive map
-
 shinyApp(ui = ui, server = server)

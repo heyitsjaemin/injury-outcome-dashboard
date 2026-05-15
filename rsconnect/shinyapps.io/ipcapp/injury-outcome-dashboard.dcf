@@ -5,8 +5,6 @@ account: ipcapp
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 16012606
-bundleId: 11449882
+bundleId: 11998820
 url: https://ipcapp.shinyapps.io/injury-outcome-dashboard/
 version: 1
-asMultiple: FALSE
-asStatic: FALSE

@@ -1,0 +1,101 @@
+"Notes"	"State"	"State Code"	Deaths	Population	Crude Rate
+	"Alabama"	"01"	6609	29935229	22.1
+	"Alaska"	"02"	1161	4399803	26.4
+	"Arizona"	"04"	12775	43938621	29.1
+	"Arkansas"	"05"	2704	18201411	14.9
+	"California"	"06"	50317	235669717	21.4
+	"Colorado"	"08"	7983	34791624	22.9
+	"Connecticut"	"09"	7548	21543936	35.0
+	"Delaware"	"10"	2720	5981414	45.5
+	"District of Columbia"	"11"	2171	4141845	52.4
+	"Florida"	"12"	36884	131147051	28.1
+	"Georgia"	"13"	11554	64588584	17.9
+	"Hawaii"	"15"	1423	8560256	16.6
+	"Idaho"	"16"	1621	11172868	14.5
+	"Illinois"	"17"	18896	75803621	24.9
+	"Indiana"	"18"	12076	40680271	29.7
+	"Iowa"	"19"	2009	19075376	10.5
+	"Kansas"	"20"	2896	17550902	16.5
+	"Kentucky"	"21"	11003	26961184	40.8
+	"Louisiana"	"22"	10444	27742127	37.6
+	"Maine"	"23"	2905	8186066	35.5
+	"Maryland"	"24"	6169	36654242	16.8
+	"Massachusetts"	"25"	13580	41656322	32.6
+	"Michigan"	"26"	13886	60071512	23.1
+	"Minnesota"	"27"	5848	34070642	17.2
+	"Mississippi"	"28"	3314	17759177	18.7
+	"Missouri"	"29"	10508	36957728	28.4
+	"Montana"	"30"	871	6571610	13.3
+	"Nebraska"	"31"	939	11711222	8.0
+	"Nevada"	"32"	4831	18768746	25.7
+	"New Hampshire"	"33"	2441	8268721	29.5
+	"New Jersey"	"34"	16550	54492751	30.4
+	"New Mexico"	"35"	4636	12642168	36.7
+	"New York"	"36"	28255	117416826	24.1
+	"North Carolina"	"37"	18327	63558153	28.8
+	"North Dakota"	"38"	572	4625583	12.4
+	"Ohio"	"39"	27420	70393769	39.0
+	"Oklahoma"	"40"	5066	23941096	21.2
+	"Oregon"	"41"	5562	25369607	21.9
+	"Pennsylvania"	"42"	27349	77290050	35.4
+	"Rhode Island"	"44"	2169	6459107	33.6
+	"South Carolina"	"45"	10070	31297775	32.2
+	"South Dakota"	"46"	426	5384129	7.9
+	"Tennessee"	"47"	17377	41639064	41.7
+	"Texas"	"48"	24177	177119299	13.7
+	"Utah"	"49"	3089	19753451	15.6
+	"Vermont"	"50"	1125	3813733	29.5
+	"Virginia"	"51"	11989	51685358	23.2
+	"Washington"	"53"	11594	46181454	25.1
+	"West Virginia"	"54"	7001	10710952	65.4
+	"Wisconsin"	"55"	8356	35168059	23.8
+	"Wyoming"	"56"	533	3483065	15.3
+"Total"			499729	1984987277	25.2
+"---"
+"Dataset: Multiple Cause of Death, 2018-2023, Single Race"
+"Query Parameters:"
+"Title: Cause of Death by State, County for Great Lake Regions (2018-2023)"
+"MCD - Drug/Alcohol Induced Causes: Drug poisonings (overdose) Unintentional (X40-X44)"
+"UCD - Drug/Alcohol Induced Causes: Drug poisonings (overdose) Unintentional (X40-X44)"
+"Group By: State"
+"Show Totals: True"
+"Show Zero Values: True"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd-expanded.html for more information."
+"---"
+"Query Date: Feb 3, 2025 2:02:27 AM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Mortality 2018-2023 on CDC WONDER Online Database, released in 2024. Data are from the Multiple Cause of Death Files,"
+"2018-2023, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative"
+"Program. Accessed at http://wonder.cdc.gov/mcd-icd10-expanded.html on Feb 3, 2025 2:02:27 AM"
+"---"
+Caveats:
+"1. The population figures for years 2023 are single-race estimates of the July 1 resident population, from the Vintage 2022"
+"postcensal series released by the Census Bureau on June 27, 2024. The 2023 series is based on the Modified Blended Base produced"
+"by the US Census Bureau in lieu of the April 1, 2020 decennial population count. The Modified Blended Base consists of the blend"
+"of Vintage 2020 postcensal population estimates for April 1, 2020, 2020 Demographic Analysis Estimates, and 2020 Census data"
+"from the internal Census Edited File (CEF). The population figures for years 2022 are single-race estimates of the July 1"
+"resident population, from the Vintage 2022 postcensal series released by the Census Bureau on June 22, 2023. The 2022 series is"
+"based on the Modified Blended Base produced by the US Census Bureau in lieu of the April 1, 2020 decennial population count. The"
+"Modified Blended Base consists of the blend of Vintage 2020 postcensal population estimates for April 1, 2020, 2020 Demographic"
+"Analysis Estimates, and 2020 Census data from the internal Census Edited File (CEF). The population figures for year 2021 are"
+"single-race estimates of the July 1 resident population, based on the Blended Base produced by the US Census Bureau in lieu of"
+"the April 1, 2020 decennial population count, from the Vintage 2021 postcensal series released by the Census Bureau on June 30,"
+"2022. The population figures for year 2020 are single-race estimates of the July 1 resident population, from the Vintage 2020"
+"postcensal series based on April 2010 Census, released by the Census Bureau on July 27, 2021. The population figures for year"
+"2019 are single-race estimates of the July 1 resident population, from the Vintage 2019 postcensal series based on April 2010"
+"Census, released by the Census Bureau on June 25, 2020. The population figures for year 2018 are single-race estimates of the"
+"July 1 resident population, from the Vintage 2018 postcensal series based on April 2010 Census, released by the Census Bureau on"
+"June 20, 2019. More information: http://wonder.cdc.gov/wonder/help/mcd-expanded.html#Population Data."
+"2. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd-expanded.html#Age"
+"Group."
+"3. Connecticut population estimates for 2022 and later years are reported for 9 planning regions as county equivalent areas,"
+"instead of the former 8 legacy counties in the Vintage 2022 postcensal series released by the Census Bureau on June 22, 2023,"
+"and in the Vintage 2023 postcensal series released by the Census Bureau on June 27, 2024 Populations estimates for the former"
+"counties are not available for 2022 and later years. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd-expanded.html#Connecticut-2022."

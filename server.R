@@ -7,8 +7,6 @@ library(leaflet)
 library(spdep)
 library(ggplot2)
 
-tmap_mode("view")
-
 server <- function(input, output, session) {
   
   # --- quick sanity log once ---
@@ -116,8 +114,17 @@ server <- function(input, output, session) {
           selected_state_geoid(d$GEOID[match(id, d$NAME)])
         }
       }
-    }else if(input$level == "county"){
-      selected_county_geoid(as.character(id))
+    } else if (input$level == "county") {
+      d <- counties_sf_filtered()
+      d$GEOID <- as.character(d$GEOID)
+      d$NAME  <- as.character(d$NAME)
+      if (!is.null(id)) {
+        if (id %in% d$GEOID) {
+          selected_county_geoid(id)
+        } else if (id %in% d$NAME) {
+          selected_county_geoid(d$GEOID[match(id, d$NAME)])
+        }
+      }
     }
   })
   
@@ -186,76 +193,62 @@ server <- function(input, output, session) {
   # ------------------------------
   # Map output (switch by level)
   # ------------------------------
-  output$usa_map <- tmap::renderTmap({
-    
-    if(input$level == "state"){
+  output$usa_map <- renderLeaflet({
+
+    if (input$level == "state") {
       d <- states_sf()
-      
-      if (identical(input$map_type, "Hotspot Analysis")) {
+
+      map_obj <- if (identical(input$map_type, "Hotspot Analysis")) {
         d2 <- compute_hotspot(d)
-        tm_shape(d2) + 
-          tm_borders() +
-          tm_fill(
-            col = "hotspot_category",
+        tm_shape(d2) +
+          tm_polygons(
+            fill = "hotspot_category",
+            fill.scale = tm_scale_categorical(
+              values = c("Cold Spot" = "blue", "Neutral" = "white", "Hot Spot" = "red")
+            ),
+            fill.legend = tm_legend(title = "Hotspot Analysis"),
             id = "NAME",
-            palette = c("blue", "white", "red"),
-            title = "Hotspot Analysis",
-            popup.vars = c("State" = "NAME", "Hotspot" = "hotspot_category")) +
-          tm_layout(
-            asp = 1,   
-            frame = TRUE
+            popup.vars = c("State" = "NAME", "Hotspot" = "hotspot_category")
           )
       } else {
-        tm_shape(d) + 
-          tm_borders() +
-          tm_fill(
-            col = "CRUDE_RATE",
-            id  = "NAME",
-            palette = "Blues",
-            style   = "quantile",
-            title   = "Crude Rate",
-            popup.vars = c("State"="NAME","Rate"="CRUDE_RATE","Deaths"="DEATHS")) +
-          tm_layout(
-            asp = 1,   
-            frame = TRUE
+        tm_shape(d) +
+          tm_polygons(
+            fill = "CRUDE_RATE",
+            fill.scale = tm_scale_intervals(style = "quantile", values = "Blues"),
+            fill.legend = tm_legend(title = "Crude Rate"),
+            id = "NAME",
+            popup.vars = c("State" = "NAME", "Rate" = "CRUDE_RATE", "Deaths" = "DEATHS")
           )
       }
-    }else{
+
+    } else {
       d <- counties_sf_filtered()
-      
-      
-      if (identical(input$map_type, "Hotspot Analysis")) {
+
+      map_obj <- if (identical(input$map_type, "Hotspot Analysis")) {
         d2 <- compute_hotspot(d)
-        tm_shape(d2) + 
-          tm_borders() +
-          tm_fill(
-            col = "hotspot_category",
+        tm_shape(d2) +
+          tm_polygons(
+            fill = "hotspot_category",
+            fill.scale = tm_scale_categorical(
+              values = c("Cold Spot" = "blue", "Neutral" = "white", "Hot Spot" = "red")
+            ),
+            fill.legend = tm_legend(title = "Hotspot Analysis"),
             id = "NAME",
-            palette = c("blue", "white", "red"),
-            title = "Hotspot Analysis",
-            popup.vars = c("State" = "NAME", "Hotspot" = "hotspot_category")) +
-          tm_layout(
-            asp = 1,   
-            frame = TRUE
+            popup.vars = c("County" = "NAME", "Hotspot" = "hotspot_category")
           )
       } else {
-        tm_shape(d) + 
-          tm_borders() +
-          tm_fill(
-            col = "CRUDE_RATE",
-            id  = "NAME",
-            palette = "Blues",
-            style   = "quantile",
-            title   = "Crude Rate",
-            popup.vars = c("State"="NAME","Rate"="CRUDE_RATE","Deaths"="DEATHS")) +
-          tm_layout(
-            asp = 1,   
-            frame = TRUE
+        tm_shape(d) +
+          tm_polygons(
+            fill = "CRUDE_RATE",
+            fill.scale = tm_scale_intervals(style = "quantile", values = "Blues"),
+            fill.legend = tm_legend(title = "Crude Rate"),
+            id = "NAME",
+            popup.vars = c("County" = "NAME", "Rate" = "CRUDE_RATE", "Deaths" = "DEATHS")
           )
       }
-      
     }
-    
+
+    tmap_leaflet(map_obj)
   })
   
   # ------------------------------

@@ -1,7 +1,7 @@
 # ui.R
 library(shiny)
 library(shinyjs)
-library(tmap)   # for tmapOutput
+library(leaflet)
 
 ui <- fluidPage(
   useShinyjs(),
@@ -189,7 +189,7 @@ ui <- fluidPage(
           tableOutput("my_table")
         ),
         mainPanel(
-          tmapOutput("usa_map", height = "400px", width = "500px")
+          leafletOutput("usa_map", height = "500px", width = "100%")
         )
       )
   ),
