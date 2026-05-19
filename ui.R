@@ -142,22 +142,18 @@ ui <- fluidPage(
                selectInput(
                  inputId  = "demographics",
                  label    = "Demographics",
-                 choices  = c(
-                   "All Demographics", "Male", "Female", "Asian", "Black or African American",
-                   "White", "Hispanic or Latino", "Age < 1 year", "Age 1-4 years", "Age 5-14 years",
-                   "Age 15-24 years", "Age 25-34 years", "Age 35-44 years", "Age 45-54 years",
-                   "Age 55-64 years", "Age 65-74 years", "Age 75-84 years", "Age 85+ years"
-                 ),
-                 selected = "All Demographics"
+                 choices  = available_options$demographics,
+                 selected = if ("all_demographics" %in% available_options$demographics)
+                              "all_demographics"
+                            else head(available_options$demographics, 1)
                )
         ),
         column(4,
                selectInput(
                  inputId  = "selected_period",
                  label    = "Period",
-                 # choices  = c("2019", "2020", "2021", "2022", "2023", "TTM"),
-                 choices = c("2023"),
-                 selected = "2023"
+                 choices  = available_options$periods,
+                 selected = tail(available_options$periods, 1)
                )
         ),
         column(4,
@@ -181,9 +177,8 @@ ui <- fluidPage(
           selectInput(
             inputId  = "var",
             label    = "Choose a variable to visualize:",
-            # choices  = c("Unintentional Drug Overdose Death Rate", "Firearm", "Suicide", "Homicide"),
-            choices = c("Unintentional Drug Overdose Death Rate"),
-            selected = "Unintentional Drug Overdose Death Rate"
+            choices  = available_options$injury_types,
+            selected = head(available_options$injury_types, 1)
           ),
           tags$h4("Summary Statistics"),
           tableOutput("my_table")

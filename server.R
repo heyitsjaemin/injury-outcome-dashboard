@@ -12,10 +12,10 @@ server <- function(input, output, session) {
   # --- quick sanity log once ---
   observe({
     cat("\n=== BOOT: GLOBALS SUMMARY ===\n")
-    cat("[merged_state_data] rows:", if (exists("merged_state_data")) nrow(merged_state_data) else NA,
-        " sf:", if (exists("merged_state_data")) inherits(merged_state_data,"sf") else NA, "\n")
-    cat("[merged_county_data] rows:", if (exists("merged_county_data")) nrow(merged_county_data) else NA,
-        " sf:", if (exists("merged_county_data")) inherits(merged_county_data,"sf") else NA, "\n\n")
+    cat("[overdose_state]  rows:", if (exists("overdose_state"))  nrow(overdose_state)  else NA, "\n")
+    cat("[overdose_county] rows:", if (exists("overdose_county")) nrow(overdose_county) else NA, "\n")
+    cat("[usa_states]      rows:", if (exists("usa_states"))      nrow(usa_states)      else NA, "\n")
+    cat("[usa_counties]    rows:", if (exists("usa_counties"))    nrow(usa_counties)    else NA, "\n\n")
   })
   
   
@@ -39,40 +39,61 @@ server <- function(input, output, session) {
   # ------------------------------
   # Reactive data sources
   # ------------------------------
-  states_sf <- reactive({
-    validate(need(exists("merged_state_data"), "merged_state_data is missing (check global.R)"))
-    d <- merged_state_data |>
+  # Filter the long-format overdose tables by the dropdown selections,
+  # then left-join onto the shapefile for the chosen level.
+  filter_overdose <- function(tbl) {
+    req(input$var, input$selected_period, input$demographics)
+    tbl %>%
+      filter(
+        INJURY_TYPE == input$var,
+        PERIOD      == input$selected_period,
+        DEMOGRAPHIC == input$demographics
+      ) %>%
       mutate(
         DEATHS     = suppressWarnings(as.numeric(DEATHS)),
         POPULATION = suppressWarnings(as.numeric(POPULATION)),
         CRUDE_RATE = suppressWarnings(as.numeric(CRUDE_RATE)),
         GEOID      = as.character(GEOID)
       )
-    d
+  }
+
+  states_sf <- reactive({
+    validate(
+      need(exists("overdose_state") && !is.null(overdose_state),
+           "overdose_state is missing (check global.R / setup_db.R)"),
+      need(exists("usa_states") && !is.null(usa_states), "usa_states shapefile missing")
+    )
+    slice <- filter_overdose(overdose_state)
+    validate(need(nrow(slice) > 0,
+                  "No data for the selected Injury Type / Period / Demographic combination."))
+    usa_states %>%
+      mutate(GEOID = as.character(GEOID)) %>%
+      left_join(slice, by = "GEOID")
   })
-  
+
   # Populate county-state dropdown once we have county data
   observe({
-    validate(need(exists("merged_county_data"), FALSE))
-    d <- merged_county_data
-    if ("STATE" %in% names(d)) {
-      ch <- sort(unique(na.omit(d$STATE)))
+    validate(need(exists("overdose_county") && !is.null(overdose_county), FALSE))
+    if ("STATE" %in% names(overdose_county)) {
+      ch <- sort(unique(na.omit(overdose_county$STATE)))
       updateSelectInput(session, "selected_state_on_county_level",
                         choices = ch,
                         selected = if ("Michigan" %in% ch) "Michigan" else head(ch, 1))
     }
   })
-  
+
   counties_sf_all <- reactive({
-    validate(need(exists("merged_county_data"), "merged_county_data is missing (check global.R)"))
-    d <- merged_county_data |>
-      mutate(
-        DEATHS     = suppressWarnings(as.numeric(DEATHS)),
-        POPULATION = suppressWarnings(as.numeric(POPULATION)),
-        CRUDE_RATE = suppressWarnings(as.numeric(CRUDE_RATE)),
-        GEOID      = as.character(GEOID)
-      )
-    # stable row id for clicks/popups
+    validate(
+      need(exists("overdose_county") && !is.null(overdose_county),
+           "overdose_county is missing (check global.R / setup_db.R)"),
+      need(exists("usa_counties") && !is.null(usa_counties), "usa_counties shapefile missing")
+    )
+    slice <- filter_overdose(overdose_county)
+    validate(need(nrow(slice) > 0,
+                  "No data for the selected Injury Type / Period / Demographic combination."))
+    d <- usa_counties %>%
+      mutate(GEOID = as.character(GEOID)) %>%
+      left_join(slice, by = "GEOID")
     d$ROWNUM <- seq_len(nrow(d))
     cat("[counties_sf_all] rows:", nrow(d), " NA CRUDE_RATE:", sum(is.na(d$CRUDE_RATE)), "\n")
     d

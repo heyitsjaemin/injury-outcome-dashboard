@@ -13,7 +13,7 @@ suppressPackageStartupMessages({
   library(shinyjs)
 })
 
-# ---- 2. Connect to local DuckDB ----
+# ---- 2. Connect to local SQLite ----
 db_path <- "data/injury_outcomes.sqlite"
 
 db_con <- tryCatch({
@@ -27,22 +27,31 @@ db_con <- tryCatch({
   NULL
 })
 
-# ---- 3. Load overdose tables ----
+# ---- 3. Load overdose tables (long format with metadata columns) ----
+overdose_state  <- NULL
+overdose_county <- NULL
+
 if (!is.null(db_con)) {
   tryCatch({
-    message("Loading overdose tables from DuckDB...")
+    message("Loading overdose tables from SQLite...")
 
     overdose_state <- dbReadTable(db_con, "overdose_by_state") %>%
       rename(
-        GEOID      = geoid,
-        STATE      = state_name,
-        DEATHS     = deaths,
-        POPULATION = population,
-        CRUDE_RATE = crude_rate
+        INJURY_TYPE = injury_type,
+        PERIOD      = period,
+        DEMOGRAPHIC = demographic,
+        GEOID       = geoid,
+        STATE       = state_name,
+        DEATHS      = deaths,
+        POPULATION  = population,
+        CRUDE_RATE  = crude_rate
       )
 
     overdose_county <- dbReadTable(db_con, "overdose_by_county") %>%
       rename(
+        INJURY_TYPE = injury_type,
+        PERIOD      = period,
+        DEMOGRAPHIC = demographic,
         GEOID       = geoid,
         STATE       = state_name,
         COUNTY_NAME = county_name,
@@ -54,12 +63,13 @@ if (!is.null(db_con)) {
     message("Tables loaded — state rows: ", nrow(overdose_state),
             ", county rows: ", nrow(overdose_county))
   }, error = function(e) {
-    warning("Could not read tables from DuckDB: ", e$message)
-    overdose_state <- overdose_county <- NULL
+    warning("Could not read tables from SQLite: ", e$message)
   })
 }
 
 # ---- 4. Load shapefiles ----
+usa_states   <- NULL
+usa_counties <- NULL
 tryCatch({
   message("Loading local shapefiles...")
   usa_states   <- readRDS("data/usa_states_s.rds")
@@ -67,19 +77,35 @@ tryCatch({
   message("Shapefiles loaded.")
 }, error = function(e) {
   warning("Could not read shapefiles: ", e$message)
-  usa_states <- usa_counties <- NULL
 })
 
-# ---- 5. Join overdose data onto shapefiles ----
-if (!is.null(usa_states) && exists("overdose_state") && !is.null(overdose_state)) {
-  merged_state_data <- usa_states %>%
-    left_join(overdose_state, by = "GEOID")
+# ---- 5. Build filter-option lists for the UI ----
+# prettify("unintentional_drug_overdose") -> "Unintentional Drug Overdose"
+prettify <- function(s) {
+  if (length(s) == 0) return(character(0))
+  out <- gsub("_", " ", s, fixed = TRUE)
+  out <- tools::toTitleCase(out)
+  # toTitleCase keeps short stop-words ("all", "or") lowercase even at the start.
+  paste0(toupper(substr(out, 1, 1)), substr(out, 2, nchar(out)))
 }
 
-if (!is.null(usa_counties) && exists("overdose_county") && !is.null(overdose_county)) {
-  merged_county_data <- usa_counties %>%
-    left_join(overdose_county, by = "GEOID")
+# Returns a named character vector: names = display label, values = internal key.
+# Used directly as `choices` in selectInput().
+option_choices <- function(values) {
+  values <- sort(unique(values[!is.na(values) & nzchar(values)]))
+  if (length(values) == 0) return(character(0))
+  setNames(values, prettify(values))
 }
+
+available_options <- list(
+  injury_types = option_choices(c(overdose_state$INJURY_TYPE, overdose_county$INJURY_TYPE)),
+  periods      = option_choices(c(overdose_state$PERIOD,      overdose_county$PERIOD)),
+  demographics = option_choices(c(overdose_state$DEMOGRAPHIC, overdose_county$DEMOGRAPHIC))
+)
+
+message("Available filters — injury_types: ", length(available_options$injury_types),
+        ", periods: ", length(available_options$periods),
+        ", demographics: ", length(available_options$demographics))
 
 # ---- 6. Helper used by server ----
 compute_hotspot <- function(spatial_data) {
