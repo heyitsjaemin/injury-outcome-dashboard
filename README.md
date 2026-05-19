@@ -100,13 +100,13 @@ data/
                 └── county_unintentional_drug_overdose_2024_male.txt
 ```
 
-After [rebuilding the database and reloading the app](#4-how-to-view-your-changes), the dashboard will automatically:
+After [reloading the app](#4-how-to-view-your-changes), the dashboard will automatically:
 
 - Add **2024** to the **Period** dropdown.
 - Add **Male** to the **Demographics** dropdown.
 - Show the new map when the user selects that combination.
 
-No R code changes are needed.
+No R code changes are needed, and no manual database step is needed — `./run.sh` detects the new file and rebuilds the SQLite database before the app boots.
 
 ### 3.4 The file format
 
@@ -138,7 +138,7 @@ If you export from CDC WONDER and untick any of the required columns, the script
 1. [ ] Export the dataset from CDC WONDER, save as `.txt`.
 2. [ ] Create the four-level folder path inside `data/` (lowercase, underscores).
 3. [ ] Drop the `.txt` in and rename it following the `{level}_{injury_type}_{period}_{demographic}.txt` convention.
-4. [ ] Rebuild the database and reload the app (next section).
+4. [ ] Run `./run.sh` and check the dropdowns (next section).
 
 ---
 
@@ -152,37 +152,34 @@ This section is the "I just want to see my new data on the site" walkthrough. No
 - The repo is at `~/injury_outcome_dashboard/`.
 - You have already placed your new `.txt` file(s) according to [Section 3](#3-adding-new-data-the-main-user-workflow).
 
-### 4.2 Two-step process
-
-**Step 1 — Rebuild the database** (tells the app about your new files):
+### 4.2 Just one command
 
 ```bash
 cd ~/injury_outcome_dashboard
-module load Rgeospatial/4.5.1-2025-10-07
-Rscript setup_db.R
-```
-
-You should see output like:
-
-```
-overdose_by_state: 102 rows written from 2 file(s)
-overdose_by_county: 4572 rows written from 2 file(s)
-Done. SQLite DB written to: data/injury_outcomes.sqlite
-```
-
-The "from 2 file(s)" tells you the scanner found your new file (it was "1 file" before you added one).
-
-**Step 2 — Start the app:**
-
-```bash
 ./run.sh
 ```
 
-After about 10–30 seconds you should see:
+That is it. On every start, the app scans `data/` for `.txt` files that are newer than the SQLite database (or any new files that aren't in it yet) and rebuilds the database automatically before booting. You will see one of these two messages near the top of the output:
+
+```
+Data changes detected (or DB missing) — rebuilding SQLite from data/ ...
+overdose_by_state: 102 rows written from 2 file(s)
+...
+```
+
+…meaning your new file was picked up, **or:**
+
+```
+SQLite is up to date with data/ — skipping rebuild.
+```
+
+…meaning nothing changed since the last run. Either way, after about 10–30 seconds you should see:
 
 ```
 Listening on http://127.0.0.1:3838
 ```
+
+> **Note on deletions:** the auto-detect only watches for *new* or *modified* files. If you **delete** a `.txt` file from `data/` and want the database to forget about it, run `FORCE_DB_REBUILD=1 ./run.sh` (or `Rscript setup_db.R` once) — that wipes and rebuilds the DB from scratch.
 
 ### 4.3 Opening the dashboard in a browser
 
@@ -215,12 +212,19 @@ cd ~/injury_outcome_dashboard
 ./run.sh
 ```
 
-If you have added new data files first, rebuild the database before launching:
+`./run.sh` always runs `global.R` first, which auto-rebuilds `data/injury_outcomes.sqlite` if any `.txt` under `data/` is newer than the database (or if the database is missing). No manual `Rscript setup_db.R` step is needed in the normal workflow.
+
+To **force** a rebuild even when the mtime check would skip it (useful after deleting a file, or if you suspect the DB is out of sync):
 
 ```bash
-cd ~/injury_outcome_dashboard
+FORCE_DB_REBUILD=1 ./run.sh
+```
+
+You can still run the standalone script if you prefer:
+
+```bash
 module load Rgeospatial/4.5.1-2025-10-07
-Rscript setup_db.R && ./run.sh
+Rscript setup_db.R
 ```
 
 Inside `run.sh` is just:
@@ -346,7 +350,9 @@ On Great Lakes these are provided by the `Rgeospatial/4.5.1-2025-10-07` module; 
 ## 10. Troubleshooting
 
 **The new dropdown option doesn't appear after I added a file.**
-Did you re-run `Rscript setup_db.R`? The app reads the dropdown choices from the SQLite database, not directly from the filesystem. The DB only changes when the script is run.
+Restart the app with `./run.sh`. On startup it auto-rebuilds the SQLite DB from the files in `data/`, and the dropdowns are sourced from that DB. If you already restarted and the option is still missing, look at the boot output: a line like `overdose_by_state: ... rows written from N file(s)` confirms the file was picked up. If the line says fewer files than you expect, the path probably doesn't match `data/{level}/{injury_type}/{period}/{demographic}/<file>.txt` — see Section 3.1.
+
+If you suspect the DB is stale (for example, you previously deleted a file and the dashboard still shows it), force a clean rebuild with `FORCE_DB_REBUILD=1 ./run.sh`.
 
 **The map is blank and says "No data for the selected Injury Type / Period / Demographic combination."**
 You selected a combination that has no `.txt` file behind it. Pick a different combination, or add the missing file under `data/{level}/{injury_type}/{period}/{demographic}/`.
