@@ -35,7 +35,59 @@ server <- function(input, output, session) {
     )
     spatial_data
   }
-  
+
+  # Classify each polygon into a display category and build a binned colour palette.
+  # Returns list(data = d_with_RATE_DISPLAY, colors = named_char_vector).
+  classify_rates <- function(d) {
+    d$RATE_CATEGORY <- dplyr::case_when(
+      !is.na(d$CRUDE_RATE) & d$CRUDE_RATE == -1                      ~ "Unreliable (1–9 deaths)",
+      !is.na(d$DEATHS) & d$DEATHS == 0 &
+        !is.na(d$POPULATION) & d$POPULATION > 0                      ~ "Zero Deaths",
+      !is.na(d$CRUDE_RATE) & d$CRUDE_RATE > 0 &
+        !is.na(d$POPULATION) & d$POPULATION > 0                      ~ "Valid",
+      TRUE                                                            ~ "Not Available"
+    )
+
+    valid_idx   <- which(d$RATE_CATEGORY == "Valid")
+    valid_rates <- d$CRUDE_RATE[valid_idx]
+    bin_labels  <- character(0)
+    d$RATE_DISPLAY <- d$RATE_CATEGORY   # default label = category name
+
+    if (length(valid_rates) >= 5) {
+      breaks <- unique(quantile(valid_rates, probs = seq(0, 1, 0.2), na.rm = TRUE))
+      if (length(breaks) >= 3) {
+        bin_labels <- paste0(formatC(head(breaks, -1), format = "f", digits = 1),
+                             "–",
+                             formatC(tail(breaks, -1), format = "f", digits = 1))
+        bins <- cut(valid_rates, breaks = breaks, labels = bin_labels, include.lowest = TRUE)
+        d$RATE_DISPLAY[valid_idx] <- as.character(bins)
+      } else {
+        d$RATE_DISPLAY[valid_idx] <- as.character(round(valid_rates, 1))
+        bin_labels <- sort(unique(as.character(round(valid_rates, 1))))
+      }
+    } else if (length(valid_rates) > 0) {
+      d$RATE_DISPLAY[valid_idx] <- as.character(round(valid_rates, 1))
+      bin_labels <- sort(unique(as.character(round(valid_rates, 1))))
+    }
+
+    special_lvls    <- c("Zero Deaths", "Unreliable (1–9 deaths)", "Not Available")
+    present_bins    <- bin_labels[bin_labels %in% unique(d$RATE_DISPLAY)]
+    present_special <- special_lvls[special_lvls %in% unique(d$RATE_DISPLAY)]
+    all_levels      <- c(present_bins, present_special)
+
+    n_bins <- length(present_bins)
+    blues  <- if (n_bins > 0) colorRampPalette(c("#c6dbef", "#08306b"))(n_bins) else character(0)
+    spec_colors <- c(
+      "Zero Deaths"                  = "#f7f7f7",
+      "Unreliable (1–9 deaths)" = "#fed976",
+      "Not Available"                = "#bdbdbd"
+    )
+    all_colors <- c(setNames(blues, present_bins), spec_colors[present_special])
+
+    d$RATE_DISPLAY <- factor(d$RATE_DISPLAY, levels = all_levels)
+    list(data = d, colors = all_colors)
+  }
+
   # ------------------------------
   # Reactive data sources
   # ------------------------------
@@ -231,13 +283,15 @@ server <- function(input, output, session) {
             popup.vars = c("State" = "NAME", "Hotspot" = "hotspot_category")
           )
       } else {
+        cr <- classify_rates(d); d <- cr$data
         tm_shape(d) +
           tm_polygons(
-            fill = "CRUDE_RATE",
-            fill.scale = tm_scale_intervals(style = "quantile", values = "Blues"),
-            fill.legend = tm_legend(title = "Crude Rate"),
+            fill = "RATE_DISPLAY",
+            fill.scale = tm_scale_categorical(values = cr$colors),
+            fill.legend = tm_legend(title = "Crude Rate (per 100k)"),
             id = "NAME",
-            popup.vars = c("State" = "NAME", "Rate" = "CRUDE_RATE", "Deaths" = "DEATHS")
+            popup.vars = c("State" = "NAME", "Status" = "RATE_CATEGORY",
+                           "Rate" = "CRUDE_RATE", "Deaths" = "DEATHS")
           )
       }
 
@@ -257,13 +311,15 @@ server <- function(input, output, session) {
             popup.vars = c("County" = "NAME", "Hotspot" = "hotspot_category")
           )
       } else {
+        cr <- classify_rates(d); d <- cr$data
         tm_shape(d) +
           tm_polygons(
-            fill = "CRUDE_RATE",
-            fill.scale = tm_scale_intervals(style = "quantile", values = "Blues"),
-            fill.legend = tm_legend(title = "Crude Rate"),
+            fill = "RATE_DISPLAY",
+            fill.scale = tm_scale_categorical(values = cr$colors),
+            fill.legend = tm_legend(title = "Crude Rate (per 100k)"),
             id = "NAME",
-            popup.vars = c("County" = "NAME", "Rate" = "CRUDE_RATE", "Deaths" = "DEATHS")
+            popup.vars = c("County" = "NAME", "Status" = "RATE_CATEGORY",
+                           "Rate" = "CRUDE_RATE", "Deaths" = "DEATHS")
           )
       }
     }
@@ -284,9 +340,13 @@ server <- function(input, output, session) {
                     "Climate data not loaded. Run: ./fetch_env.sh"))
 
       injury <- sf::st_drop_geometry(states_sf()) %>%
-        select(GEOID, label = STATE, CRUDE_RATE) %>%
+        select(GEOID, label = STATE, CRUDE_RATE, POPULATION) %>%
         mutate(GEOID      = as.character(GEOID),
-               CRUDE_RATE = ifelse(CRUDE_RATE == -1.0, NA, CRUDE_RATE))
+               CRUDE_RATE = dplyr::case_when(
+                 CRUDE_RATE == -1                     ~ NA_real_,  # suppressed (1–9 deaths)
+                 is.na(POPULATION) | POPULATION == 0  ~ NA_real_,  # unknown population
+                 TRUE                                 ~ CRUDE_RATE  # valid (including 0)
+               ))
 
       env <- env_state %>%
         filter(YEAR == as.integer(input$selected_period)) %>%
@@ -304,9 +364,13 @@ server <- function(input, output, session) {
                     "Climate data not loaded. Run: ./fetch_env.sh"))
 
       injury <- sf::st_drop_geometry(counties_sf_filtered()) %>%
-        select(GEOID, label = NAME, CRUDE_RATE) %>%
+        select(GEOID, label = NAME, CRUDE_RATE, POPULATION) %>%
         mutate(GEOID      = as.character(GEOID),
-               CRUDE_RATE = ifelse(CRUDE_RATE == -1.0, NA, CRUDE_RATE))
+               CRUDE_RATE = dplyr::case_when(
+                 CRUDE_RATE == -1                     ~ NA_real_,  # suppressed (1–9 deaths)
+                 is.na(POPULATION) | POPULATION == 0  ~ NA_real_,  # unknown population
+                 TRUE                                 ~ CRUDE_RATE  # valid (including 0)
+               ))
 
       env <- env_county %>%
         filter(YEAR == as.integer(input$selected_period)) %>%

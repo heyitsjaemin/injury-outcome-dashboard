@@ -77,7 +77,8 @@ if (!is.null(db_con)) {
         DEATHS      = deaths,
         POPULATION  = population,
         CRUDE_RATE  = crude_rate
-      )
+      ) %>%
+      filter(STATE != "District of Columbia")
 
     overdose_county <- dbReadTable(db_con, "injury_by_county") %>%
       rename(
@@ -90,7 +91,8 @@ if (!is.null(db_con)) {
         DEATHS      = deaths,
         POPULATION  = population,
         CRUDE_RATE  = crude_rate
-      )
+      ) %>%
+      filter(STATE != "District of Columbia")
 
     message("Tables loaded — state rows: ", nrow(overdose_state),
             ", county rows: ", nrow(overdose_county))
@@ -130,7 +132,8 @@ usa_states   <- NULL
 usa_counties <- NULL
 tryCatch({
   message("Loading local shapefiles...")
-  usa_states   <- readRDS("data/usa_states_s.rds")
+  usa_states   <- readRDS("data/usa_states_s.rds") |>
+    dplyr::filter(as.character(GEOID) != "11")   # exclude DC — no injury data
   usa_counties <- readRDS("data/usa_counties_s.rds")
   message("Shapefiles loaded.")
 }, error = function(e) {
