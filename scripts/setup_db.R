@@ -69,8 +69,8 @@ discover_files <- function(level) {
 # ---- state ----
 state_manifest <- discover_files("state")
 if (is.null(state_manifest) || nrow(state_manifest) == 0) {
-  warning("No state files found under data/state/ — overdose_by_state will be empty.")
-  overdose_by_state <- data.frame(
+  warning("No state files found under data/state/ — injury_by_state will be empty.")
+  injury_by_state <- data.frame(
     injury_type = character(0), period = character(0), demographic = character(0),
     geoid = character(0), state_name = character(0),
     deaths = integer(0), population = integer(0), crude_rate = numeric(0),
@@ -93,18 +93,18 @@ if (is.null(state_manifest) || nrow(state_manifest) == 0) {
       stringsAsFactors = FALSE
     )
   })
-  overdose_by_state <- do.call(rbind, state_frames)
+  injury_by_state <- do.call(rbind, state_frames)
 }
 
-dbWriteTable(con, "overdose_by_state", overdose_by_state, overwrite = TRUE)
-message("overdose_by_state: ", nrow(overdose_by_state), " rows written from ",
+dbWriteTable(con, "injury_by_state", injury_by_state, overwrite = TRUE)
+message("injury_by_state: ", nrow(injury_by_state), " rows written from ",
         if (is.null(state_manifest)) 0 else nrow(state_manifest), " file(s)")
 
 # ---- county ----
 county_manifest <- discover_files("county")
 if (is.null(county_manifest) || nrow(county_manifest) == 0) {
-  warning("No county files found under data/county/ — overdose_by_county will be empty.")
-  overdose_by_county <- data.frame(
+  warning("No county files found under data/county/ — injury_by_county will be empty.")
+  injury_by_county <- data.frame(
     injury_type = character(0), period = character(0), demographic = character(0),
     geoid = character(0), state_name = character(0), county_name = character(0),
     deaths = integer(0), population = integer(0), crude_rate = numeric(0),
@@ -129,11 +129,11 @@ if (is.null(county_manifest) || nrow(county_manifest) == 0) {
       stringsAsFactors = FALSE
     )
   })
-  overdose_by_county <- do.call(rbind, county_frames)
+  injury_by_county <- do.call(rbind, county_frames)
 }
 
-dbWriteTable(con, "overdose_by_county", overdose_by_county, overwrite = TRUE)
-message("overdose_by_county: ", nrow(overdose_by_county), " rows written from ",
+dbWriteTable(con, "injury_by_county", injury_by_county, overwrite = TRUE)
+message("injury_by_county: ", nrow(injury_by_county), " rows written from ",
         if (is.null(county_manifest)) 0 else nrow(county_manifest), " file(s)")
 
 dbDisconnect(con)

@@ -67,7 +67,7 @@ if (!is.null(db_con)) {
   tryCatch({
     message("Loading overdose tables from SQLite...")
 
-    overdose_state <- dbReadTable(db_con, "overdose_by_state") %>%
+    overdose_state <- dbReadTable(db_con, "injury_by_state") %>%
       rename(
         INJURY_TYPE = injury_type,
         PERIOD      = period,
@@ -79,7 +79,7 @@ if (!is.null(db_con)) {
         CRUDE_RATE  = crude_rate
       )
 
-    overdose_county <- dbReadTable(db_con, "overdose_by_county") %>%
+    overdose_county <- dbReadTable(db_con, "injury_by_county") %>%
       rename(
         INJURY_TYPE = injury_type,
         PERIOD      = period,

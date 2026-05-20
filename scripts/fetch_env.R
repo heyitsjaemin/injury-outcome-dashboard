@@ -11,10 +11,15 @@
 #     pcpncy = county total precipitation (inches, monthly)
 #
 # File format (fixed-width, one row = one county × one year):
-#   chars 1-5  : 5-digit county FIPS  (first 2 = state FIPS)
-#   chars 6-7  : element code         (02 = temp, 01 = precip)
+#   chars 1-5  : 5-digit county ID  (first 2 = NOAA state code, NOT FIPS)
+#   chars 6-7  : element code       (02 = temp, 01 = precip)
 #   chars 8-11 : year
 #   chars 12+  : 12 monthly values, 7 chars each; -9999 = missing
+#
+# IMPORTANT: NOAA nClimDiv uses sequential state codes 01-48 for the 48
+# continental states. These differ from FIPS state codes. The mapping
+# NOAA_TO_FIPS below converts them so GEOIDs match the rest of the app.
+# County sub-codes (last 3 digits) are the same as standard FIPS county codes.
 #
 # Usage: Rscript fetch_env.R
 
@@ -27,6 +32,17 @@ BASE_URL    <- "https://www.ncei.noaa.gov/pub/data/cirs/climdiv"
 DB_PATH     <- "data/injury_outcomes.sqlite"
 VALID_YEARS <- 2019:2024
 MISSING_FLAG <- -9990  # values <= this are the -9999 sentinel
+
+# NOAA sequential state code → FIPS state code (48 continental states only)
+NOAA_TO_FIPS <- c(
+  "01"="01","02"="04","03"="05","04"="06","05"="08","06"="09","07"="10",
+  "08"="12","09"="13","10"="16","11"="17","12"="18","13"="19","14"="20",
+  "15"="21","16"="22","17"="23","18"="24","19"="25","20"="26","21"="27",
+  "22"="28","23"="29","24"="30","25"="31","26"="32","27"="33","28"="34",
+  "29"="35","30"="36","31"="37","32"="38","33"="39","34"="40","35"="41",
+  "36"="42","37"="44","38"="45","39"="46","40"="47","41"="48","42"="49",
+  "43"="50","44"="51","45"="53","46"="54","47"="55","48"="56"
+)
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -61,9 +77,13 @@ parse_county_file <- function(path) {
   lines <- readLines(path, warn = FALSE)
   lines <- lines[grepl("^[0-9]{5}", lines)]   # drop any header/blank lines
 
-  n       <- length(lines)
-  geoid   <- substr(lines, 1, 5)
-  year    <- as.integer(substr(lines, 8, 11))
+  n          <- length(lines)
+  noaa_geoid <- substr(lines, 1, 5)
+  fips_state <- NOAA_TO_FIPS[substr(noaa_geoid, 1, 2)]
+  geoid      <- ifelse(!is.na(fips_state),
+                       paste0(fips_state, substr(noaa_geoid, 3, 5)),
+                       NA_character_)
+  year       <- as.integer(substr(lines, 8, 11))
   monthly <- matrix(NA_real_, nrow = n, ncol = 12)
 
   for (m in seq_len(12)) {

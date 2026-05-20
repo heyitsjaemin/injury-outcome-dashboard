@@ -119,20 +119,19 @@ server <- function(input, output, session) {
   
   observeEvent(input$usa_map_shape_click, {
     id <- input$usa_map_shape_click$id
-    
+    # tmap v4 replaces spaces with underscores in leaflet layerIds
+    id_name <- gsub("_", " ", id)
+
     if (input$level == "state") {
       d  <- states_sf()
-      
-      # make sure columns are character
       d$GEOID <- as.character(d$GEOID)
       if ("NAME" %in% names(d)) d$NAME <- as.character(d$NAME)
-      
-      # id could be GEOID (if you set id="GEOID") or NAME (id="NAME")
+
       if (!is.null(id)) {
         if (id %in% d$GEOID) {
           selected_state_geoid(id)
-        } else if ("NAME" %in% names(d) && id %in% d$NAME) {
-          selected_state_geoid(d$GEOID[match(id, d$NAME)])
+        } else if ("NAME" %in% names(d) && id_name %in% d$NAME) {
+          selected_state_geoid(d$GEOID[match(id_name, d$NAME)])
         }
       }
     } else if (input$level == "county") {
@@ -142,8 +141,8 @@ server <- function(input, output, session) {
       if (!is.null(id)) {
         if (id %in% d$GEOID) {
           selected_county_geoid(id)
-        } else if (id %in% d$NAME) {
-          selected_county_geoid(d$GEOID[match(id, d$NAME)])
+        } else if (id_name %in% d$NAME) {
+          selected_county_geoid(d$GEOID[match(id_name, d$NAME)])
         }
       }
     }
@@ -278,22 +277,44 @@ server <- function(input, output, session) {
 
   # Join injury data for current filter to env data for the same year.
   scatter_data <- reactive({
-    req(input$level == "state", !is.null(input$scatter_var))
-    validate(need(!is.null(env_state),
-                  "Climate data not loaded. Run: Rscript fetch_env.R"))
+    req(!is.null(input$scatter_var))
 
-    injury <- sf::st_drop_geometry(states_sf()) %>%
-      select(GEOID, STATE, CRUDE_RATE) %>%
-      mutate(GEOID = as.character(GEOID))
+    if (input$level == "state") {
+      validate(need(!is.null(env_state),
+                    "Climate data not loaded. Run: ./fetch_env.sh"))
 
-    env <- env_state %>%
-      filter(YEAR == as.integer(input$selected_period)) %>%
-      mutate(GEOID = as.character(GEOID))
+      injury <- sf::st_drop_geometry(states_sf()) %>%
+        select(GEOID, label = STATE, CRUDE_RATE) %>%
+        mutate(GEOID      = as.character(GEOID),
+               CRUDE_RATE = ifelse(CRUDE_RATE == -1.0, NA, CRUDE_RATE))
 
-    merged <- left_join(injury, env, by = "GEOID")
-    validate(need(sum(!is.na(merged$MEAN_TEMP)) > 5,
-                  "Not enough climate data for the selected period."))
-    merged
+      env <- env_state %>%
+        filter(YEAR == as.integer(input$selected_period)) %>%
+        mutate(GEOID = as.character(GEOID))
+
+      merged <- left_join(injury, env, by = "GEOID")
+      validate(need(sum(!is.na(merged$MEAN_TEMP)) > 5,
+                    "Not enough climate data for the selected period."))
+      merged
+
+    } else {
+      validate(need(!is.null(env_county),
+                    "Climate data not loaded. Run: ./fetch_env.sh"))
+
+      injury <- sf::st_drop_geometry(counties_sf_filtered()) %>%
+        select(GEOID, label = NAME, CRUDE_RATE) %>%
+        mutate(GEOID      = as.character(GEOID),
+               CRUDE_RATE = ifelse(CRUDE_RATE == -1.0, NA, CRUDE_RATE))
+
+      env <- env_county %>%
+        filter(YEAR == as.integer(input$selected_period)) %>%
+        mutate(GEOID = as.character(GEOID))
+
+      merged <- left_join(injury, env, by = "GEOID")
+      validate(need(sum(!is.na(merged$MEAN_TEMP)) > 5,
+                    "Not enough climate data for the selected period."))
+      merged
+    }
   })
 
   output$scatter_stats <- renderUI({
@@ -350,8 +371,14 @@ server <- function(input, output, session) {
     injury_label <- prettify(input$var)
     period_label <- input$selected_period
 
+    point_subtitle <- if (input$level == "state")
+      "Each point = one state.  Line = OLS regression."
+    else
+      paste0("Each point = one county (", input$selected_state_on_county_level,
+             ").  Line = OLS regression.")
+
     plot_df <- data.frame(x = xvec, y = d$CRUDE_RATE,
-                          label = d$STATE, stringsAsFactors = FALSE)
+                          label = d$label, stringsAsFactors = FALSE)
 
     ggplot(plot_df, aes(x = x, y = y)) +
       geom_point(size = 3, alpha = 0.75, color = "#00274c") +
@@ -361,7 +388,7 @@ server <- function(input, output, session) {
                 color = "#444444", check_overlap = TRUE) +
       labs(
         title    = paste0(injury_label, " vs. ", input$scatter_var, " (", period_label, ")"),
-        subtitle = "Each point = one state.  Line = OLS regression.",
+        subtitle = point_subtitle,
         x        = x_label,
         y        = "Crude Death Rate (per 100,000)"
       ) +
