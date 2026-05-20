@@ -292,9 +292,11 @@ server <- function(input, output, session) {
         filter(YEAR == as.integer(input$selected_period)) %>%
         mutate(GEOID = as.character(GEOID))
 
-      merged <- left_join(injury, env, by = "GEOID")
-      validate(need(sum(!is.na(merged$MEAN_TEMP)) > 5,
-                    "Not enough climate data for the selected period."))
+      merged     <- left_join(injury, env, by = "GEOID")
+      xvar       <- switch(input$scatter_var, "Mean Temperature" = "MEAN_TEMP", "Precipitation" = "PRECIP")
+      n_complete <- sum(complete.cases(merged[[xvar]], merged$CRUDE_RATE))
+      validate(need(n_complete >= 5,
+                    paste0("Not enough complete data for this selection (n = ", n_complete, ").")))
       merged
 
     } else {
@@ -310,9 +312,14 @@ server <- function(input, output, session) {
         filter(YEAR == as.integer(input$selected_period)) %>%
         mutate(GEOID = as.character(GEOID))
 
-      merged <- left_join(injury, env, by = "GEOID")
-      validate(need(sum(!is.na(merged$MEAN_TEMP)) > 5,
-                    "Not enough climate data for the selected period."))
+      merged     <- left_join(injury, env, by = "GEOID")
+      xvar       <- switch(input$scatter_var, "Mean Temperature" = "MEAN_TEMP", "Precipitation" = "PRECIP")
+      n_complete <- sum(complete.cases(merged[[xvar]], merged$CRUDE_RATE))
+      validate(need(n_complete >= 5,
+                    paste0("Not enough data for scatter plot for ",
+                           input$selected_state_on_county_level,
+                           " with the selected filters (n = ", n_complete, "). ",
+                           "Try a different state, period, or demographic.")))
       merged
     }
   })
@@ -325,33 +332,136 @@ server <- function(input, output, session) {
                    "Precipitation"    = d$PRECIP)
     yvec <- d$CRUDE_RATE
 
-    complete <- complete.cases(xvec, yvec)
-    validate(need(sum(complete) > 3, "Not enough complete observations."))
+    complete      <- complete.cases(xvec, yvec)
+    n             <- sum(complete)
+    injury_label  <- prettify(input$var)
+    level_label   <- if (input$level == "state") "states" else
+                       paste0("counties in ", input$selected_state_on_county_level)
+    x_label       <- switch(input$scatter_var,
+                             "Mean Temperature" = "annual mean temperature",
+                             "Precipitation"    = "annual precipitation")
 
-    fit <- lm(yvec[complete] ~ xvec[complete])
-    r2  <- summary(fit)$r.squared
-    r   <- cor(xvec[complete], yvec[complete])
-    p   <- summary(fit)$coefficients[2, 4]
+    # Hard stop: n < 10 — insufficient for any regression inference
+    # Threshold per Cohen et al. (1988) and county-level epidemiology guidelines
+    if (n < 10) {
+      return(
+        tags$div(
+          style = "background:#f8d7da; border-left:4px solid #dc3545; padding:14px; border-radius:4px;",
+          tags$strong(paste0("Not enough data for meaningful statistical analysis (n = ", n, ")")),
+          tags$p(
+            style = "font-size:13px; margin:8px 0 0 0; color:#58151c; line-height:1.5;",
+            paste0(
+              "Only ", n, " ", level_label, " have both injury and climate data for this selection. ",
+              "A minimum of 10 observations is required to fit a regression line. ",
+              "Green (1991) recommends N ≥ 50 + 8m (m = predictors); with 1 environmental predictor, ",
+              "the recommended minimum is N ≥ 58. ",
+              "Try a different state, period, or demographic filter."
+            )
+          )
+        )
+      )
+    }
 
-    x_label <- switch(input$scatter_var,
-                      "Mean Temperature" = "Mean Temp (°F)",
-                      "Precipitation"    = "Annual Precip (in)")
+    fit   <- lm(yvec[complete] ~ xvec[complete])
+    r2    <- summary(fit)$r.squared
+    r     <- cor(xvec[complete], yvec[complete])
+    p     <- summary(fit)$coefficients[2, 4]
+    slope <- coef(fit)[2]
 
-    sig_label <- if (p < 0.001) "p < 0.001" else paste0("p = ", round(p, 3))
-    strength  <- if (abs(r) > 0.7) "Strong correlation."
-                 else if (abs(r) > 0.3) "Moderate correlation."
-                 else "Weak or no correlation."
+    # Data quality note based on n tier
+    data_note <- if (n < 30) {
+      tags$div(
+        style = "background:#fff3cd; border-left:4px solid #ffc107; padding:10px; border-radius:4px; margin-bottom:12px;",
+        tags$strong(paste0("Limited data (n = ", n, " ", level_label, ")")),
+        tags$p(
+          style = "font-size:12px; margin:4px 0 0 0; color:#664d03; line-height:1.4;",
+          "Fewer than 30 complete observations — estimates may be unstable. Results are exploratory; interpret with caution."
+        )
+      )
+    } else {
+      tags$p(
+        style = "font-size:12px; color:#666; margin-bottom:8px;",
+        paste0("n = ", n, " ", level_label)
+      )
+    }
+
+    slope_dir <- if (slope > 0) "increases" else "decreases"
+    dir_label <- if (r > 0) "positive" else "negative"
+
+    # Strength classification: Cohen (1988) benchmarks applied in ecological public health research
+    abs_r  <- abs(r)
+    strength_label <- if (abs_r >= 0.7) "very strong"
+                      else if (abs_r >= 0.5) "strong"
+                      else if (abs_r >= 0.3) "moderate"
+                      else if (abs_r >= 0.1) "weak"
+                      else "negligible"
+
+    sig_label  <- if (p < 0.001) "p < 0.001"
+                  else paste0("p = ", round(p, 3))
+    sig_detail <- if (p < 0.001)
+                    "Highly significant (≤0.1% probability this pattern is due to chance)."
+                  else if (p < 0.05)
+                    paste0("Statistically significant (p < 0.05) — less than 5% chance this is random variation.")
+                  else
+                    "Not statistically significant (p ≥ 0.05) — the relationship could plausibly be due to chance."
+
+    level_cap <- paste0(toupper(substr(level_label, 1, 1)), substr(level_label, 2, nchar(level_label)))
 
     tagList(
-      tags$p(HTML(paste0("<b>X axis:</b> ", x_label))),
-      tags$p(HTML(paste0("<b>Y axis:</b> Crude Death Rate (per 100k)"))),
-      tags$hr(),
-      tags$p(HTML(paste0("<b>Slope:</b> ",      round(coef(fit)[2], 4)))),
-      tags$p(HTML(paste0("<b>R²:</b> ",    round(r2, 4)))),
-      tags$p(HTML(paste0("<b>Pearson r:</b> ",  round(r,  4)))),
-      tags$p(HTML(paste0("<b>", sig_label, "</b>"))),
-      tags$hr(),
-      tags$p(strength)
+      data_note,
+      tags$hr(style = "margin:6px 0 12px 0;"),
+
+      # Slope
+      tags$div(style = "margin-bottom:14px;",
+        tags$p(style = "font-weight:bold; font-size:14px; margin-bottom:3px;",
+               HTML(paste0("Slope: ", round(slope, 4)))),
+        tags$p(style = "font-size:12px; color:#555; line-height:1.5; margin:0;",
+               paste0("For each 1-unit rise in ", x_label, ", the expected crude death rate for ",
+                      injury_label, " ", slope_dir, " by ", round(abs(slope), 4),
+                      " deaths per 100,000 people."))
+      ),
+
+      # R²
+      tags$div(style = "margin-bottom:14px;",
+        tags$p(style = "font-weight:bold; font-size:14px; margin-bottom:3px;",
+               HTML(paste0("R² = ", round(r2, 4)))),
+        tags$p(style = "font-size:12px; color:#555; line-height:1.5; margin:0;",
+               paste0(round(r2 * 100, 1), "% of the geographic variation in ", injury_label,
+                      " death rates across ", level_label, " is statistically accounted for by ",
+                      x_label, ". The remaining ", round((1 - r2) * 100, 1),
+                      "% is explained by other factors."))
+      ),
+
+      # Pearson r
+      tags$div(style = "margin-bottom:14px;",
+        tags$p(style = "font-weight:bold; font-size:14px; margin-bottom:3px;",
+               HTML(paste0("Pearson r = ", round(r, 4)))),
+        tags$p(style = "font-size:12px; color:#555; line-height:1.5; margin:0;",
+               paste0("A ", strength_label, " ", dir_label, " linear correlation. ",
+                      level_cap, " with higher ", x_label, " tend to have ",
+                      if (dir_label == "positive") "higher" else "lower",
+                      " ", injury_label, " crude death rates."))
+      ),
+
+      # p-value
+      tags$div(style = "margin-bottom:14px;",
+        tags$p(style = "font-weight:bold; font-size:14px; margin-bottom:3px;",
+               HTML(sig_label)),
+        tags$p(style = "font-size:12px; color:#555; line-height:1.5; margin:0;",
+               sig_detail)
+      ),
+
+      tags$hr(style = "margin:10px 0 8px 0;"),
+      tags$p(style = "font-size:11px; color:#888; font-style:italic; line-height:1.4;",
+             paste0("Ecological association: these patterns reflect aggregate trends across ",
+                    level_label, " and should not be interpreted as individual-level causal ",
+                    "effects (ecological fallacy).")),
+      tags$p(style = "font-size:11px; color:#aaa; line-height:1.4; margin-top:4px;",
+             "Data adequacy thresholds follow Green (1991, ",
+             tags$em("Multivariate Behavioral Research"),
+             ", 26(3), 499–510), who recommends N ≥ 50 + 8m, where m is the number of predictors. ",
+             "With m = 1 (one environmental variable), the recommended minimum is N ≥ 58. ",
+             "The n ≥ 30 warning threshold used here is conservative relative to this formula.")
     )
   })
 
@@ -371,19 +481,19 @@ server <- function(input, output, session) {
     injury_label <- prettify(input$var)
     period_label <- input$selected_period
 
+    plot_df    <- data.frame(x = xvec, y = d$CRUDE_RATE,
+                              label = d$label, stringsAsFactors = FALSE)
+    n_complete <- sum(complete.cases(plot_df$x, plot_df$y))
+
     point_subtitle <- if (input$level == "state")
-      "Each point = one state.  Line = OLS regression."
+      paste0("Each point = one state (n = ", n_complete, ").  Line = OLS regression.")
     else
-      paste0("Each point = one county (", input$selected_state_on_county_level,
-             ").  Line = OLS regression.")
+      paste0("Each point = one county in ", input$selected_state_on_county_level,
+             " (n = ", n_complete, ").",
+             if (n_complete >= 10) "  Line = OLS regression." else "  Too few points for regression line.")
 
-    plot_df <- data.frame(x = xvec, y = d$CRUDE_RATE,
-                          label = d$label, stringsAsFactors = FALSE)
-
-    ggplot(plot_df, aes(x = x, y = y)) +
+    p <- ggplot(plot_df, aes(x = x, y = y)) +
       geom_point(size = 3, alpha = 0.75, color = "#00274c") +
-      geom_smooth(method = "lm", se = TRUE, linetype = "dashed",
-                  color = "#ffcb05", fill = "#ffcb05", alpha = 0.2) +
       geom_text(aes(label = label), size = 2.5, vjust = -0.7,
                 color = "#444444", check_overlap = TRUE) +
       labs(
@@ -395,5 +505,11 @@ server <- function(input, output, session) {
       theme_minimal(base_size = 13) +
       theme(plot.title    = element_text(face = "bold", color = "#00274c"),
             plot.subtitle = element_text(color = "#666666", size = 10))
+
+    if (n_complete >= 10) {
+      p <- p + geom_smooth(method = "lm", se = TRUE, linetype = "dashed",
+                           color = "#ffcb05", fill = "#ffcb05", alpha = 0.2)
+    }
+    p
   })
 }

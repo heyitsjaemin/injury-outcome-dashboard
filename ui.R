@@ -60,19 +60,17 @@ ui <- fluidPage(
       .main-panel { padding-left:20px; }
       .main-content { margin-bottom:50px; }
 
-      .scatter-layout { display:flex; flex-direction:row; width:100%; }
-      .scatter-sidebar {
-        width:20%; padding:15px; background:#f8f9fa; border-right:2px solid #ddd; text-align:left;
+      .scatter-section { padding:30px 40px; background:#f8fbff; border-top:3px solid #00274c; margin-top:20px; }
+      .scatter-controls-row { display:flex; justify-content:center; margin-bottom:20px; }
+      .scatter-controls-row .shiny-input-container { min-width:300px; }
+      .scatter-body { display:flex; flex-direction:row; align-items:flex-start; justify-content:center; gap:30px; flex-wrap:wrap; }
+      .scatter-plot-wrap { flex:0 0 auto; }
+      .scatter-stats-wrap {
+        flex:1; min-width:280px; max-width:420px; padding:20px; background:#ffffff;
+        border-left:5px solid #0073e6; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,.1);
+        align-self:flex-start;
       }
-      .scatter-content { width:80%; padding:15px; text-align:center; }
-      .scatter-title { font-size:20px; font-weight:bold; text-align:center; margin-bottom:15px; }
-      .scatter-dropdown { margin-bottom:15px; }
-      .explanation-box {
-        padding:15px; background:#ffffff; border-left:5px solid #0073e6; border-radius:8px;
-        box-shadow:0 4px 8px rgba(0,0,0,.1);
-      }
-      .explanation-box h5 { font-size:18px; font-weight:bold; color:#0073e6; margin-bottom:10px; }
-      .explanation-box p { font-size:14px; line-height:1.6; color:#333; }
+      .scatter-stats-wrap h5 { font-size:16px; font-weight:bold; color:#0073e6; margin-bottom:12px; }
 
       .site-footer { background:#00274c; color:#fff; font-family:'Roboto', Arial, sans-serif; padding:40px 0; text-align:left; }
       .footer-container { display:flex; justify-content:space-between; max-width:1200px; margin:auto; padding:0 40px; }
@@ -184,9 +182,9 @@ ui <- fluidPage(
   ),
   
   # ---- SCATTER SECTION ----
-  div(class = "scatter-layout",
-      div(class = "scatter-sidebar",
-          div(class = "scatter-dropdown",
+  div(class = "scatter-section",
+      div(class = "scatter-controls-row",
+          div(style = "min-width:300px;",
               selectInput(
                 inputId  = "scatter_var",
                 label    = "Select Environmental Variable:",
@@ -194,16 +192,16 @@ ui <- fluidPage(
                              "Annual Precipitation (in)" = "Precipitation"),
                 selected = "Mean Temperature"
               )
-          ),
-          div(class = "explanation-box",
-              tags$h5("Regression Analysis"),
-              uiOutput("scatter_stats"),
-              tags$hr(),
-              tags$p("Hover over each metric to see what it means.")
           )
       ),
-      div(class = "scatter-content",
-          plotOutput("scatter_plot", height = "450px", width = "450px")
+      div(class = "scatter-body",
+          div(class = "scatter-plot-wrap",
+              plotOutput("scatter_plot", height = "450px", width = "450px")
+          ),
+          div(class = "scatter-stats-wrap",
+              tags$h5("Regression Analysis"),
+              uiOutput("scatter_stats")
+          )
       )
   ),
   
