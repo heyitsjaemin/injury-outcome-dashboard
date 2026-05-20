@@ -275,38 +275,98 @@ server <- function(input, output, session) {
   # ------------------------------
   # Scatter (state-level)
   # ------------------------------
-  output$scatter_stats <- renderUI({
+
+  # Join injury data for current filter to env data for the same year.
+  scatter_data <- reactive({
     req(input$level == "state", !is.null(input$scatter_var))
-    s <- sf::st_drop_geometry(states_sf())
+    validate(need(!is.null(env_state),
+                  "Climate data not loaded. Run: Rscript fetch_env.R"))
+
+    injury <- sf::st_drop_geometry(states_sf()) %>%
+      select(GEOID, STATE, CRUDE_RATE) %>%
+      mutate(GEOID = as.character(GEOID))
+
+    env <- env_state %>%
+      filter(YEAR == as.integer(input$selected_period)) %>%
+      mutate(GEOID = as.character(GEOID))
+
+    merged <- left_join(injury, env, by = "GEOID")
+    validate(need(sum(!is.na(merged$MEAN_TEMP)) > 5,
+                  "Not enough climate data for the selected period."))
+    merged
+  })
+
+  output$scatter_stats <- renderUI({
+    d <- scatter_data()
+
     xvec <- switch(input$scatter_var,
-                   "Mean Temperature" = s$POPULATION,   # placeholder
-                   "Precipitation"    = s$DEATHS)       # placeholder
-    fit <- lm(CRUDE_RATE ~ xvec, data = s)
+                   "Mean Temperature" = d$MEAN_TEMP,
+                   "Precipitation"    = d$PRECIP)
+    yvec <- d$CRUDE_RATE
+
+    complete <- complete.cases(xvec, yvec)
+    validate(need(sum(complete) > 3, "Not enough complete observations."))
+
+    fit <- lm(yvec[complete] ~ xvec[complete])
     r2  <- summary(fit)$r.squared
-    r   <- suppressWarnings(cor(xvec, s$CRUDE_RATE, use = "complete.obs"))
+    r   <- cor(xvec[complete], yvec[complete])
+    p   <- summary(fit)$coefficients[2, 4]
+
+    x_label <- switch(input$scatter_var,
+                      "Mean Temperature" = "Mean Temp (°F)",
+                      "Precipitation"    = "Annual Precip (in)")
+
+    sig_label <- if (p < 0.001) "p < 0.001" else paste0("p = ", round(p, 3))
+    strength  <- if (abs(r) > 0.7) "Strong correlation."
+                 else if (abs(r) > 0.3) "Moderate correlation."
+                 else "Weak or no correlation."
+
     tagList(
-      tags$p(HTML(paste0("<b>📈 Slope:</b> ", round(coef(fit)[2], 4)))),
-      tags$p(HTML(paste0("<b>📉 R-squared (R²):</b> ", round(r2, 4)))),
-      tags$p(HTML(paste0("<b>🔗 Pearson’s r:</b> ", round(r, 4)))),
-      tags$p(HTML(ifelse(abs(r) > .7, "Strong correlation.",
-                         ifelse(abs(r) > .3, "Moderate correlation.", "Weak or no correlation."))))
+      tags$p(HTML(paste0("<b>X axis:</b> ", x_label))),
+      tags$p(HTML(paste0("<b>Y axis:</b> Crude Death Rate (per 100k)"))),
+      tags$hr(),
+      tags$p(HTML(paste0("<b>Slope:</b> ",      round(coef(fit)[2], 4)))),
+      tags$p(HTML(paste0("<b>R²:</b> ",    round(r2, 4)))),
+      tags$p(HTML(paste0("<b>Pearson r:</b> ",  round(r,  4)))),
+      tags$p(HTML(paste0("<b>", sig_label, "</b>"))),
+      tags$hr(),
+      tags$p(strength)
     )
   })
-  
+
   output$scatter_plot <- renderPlot({
-    req(input$level == "state", !is.null(input$scatter_var))
-    s <- sf::st_drop_geometry(states_sf())
+    d <- scatter_data()
+
     xvec <- switch(input$scatter_var,
-                   "Mean Temperature" = s$POPULATION,   # placeholder
-                   "Precipitation"    = s$DEATHS,
+                   "Mean Temperature" = d$MEAN_TEMP,
+                   "Precipitation"    = d$PRECIP,
                    NULL)
-    validate(need(!is.null(xvec), "Invalid scatter variable"))
-    ggplot(s, aes(x = xvec, y = CRUDE_RATE)) +
-      geom_point(size = 3, alpha = .8) +
-      geom_smooth(method = "lm", linetype = "dashed") +
-      scale_x_log10() +
-      labs(title = paste("Crude Rate vs.", input$scatter_var, "(State Level)"),
-           x = paste(input$scatter_var, "(Log Scale)"), y = "Crude Rate") +
-      theme_minimal()
+    validate(need(!is.null(xvec), "Invalid scatter variable."))
+
+    x_label <- switch(input$scatter_var,
+                      "Mean Temperature" = "Annual Mean Temperature (°F)",
+                      "Precipitation"    = "Annual Total Precipitation (inches)")
+
+    injury_label <- prettify(input$var)
+    period_label <- input$selected_period
+
+    plot_df <- data.frame(x = xvec, y = d$CRUDE_RATE,
+                          label = d$STATE, stringsAsFactors = FALSE)
+
+    ggplot(plot_df, aes(x = x, y = y)) +
+      geom_point(size = 3, alpha = 0.75, color = "#00274c") +
+      geom_smooth(method = "lm", se = TRUE, linetype = "dashed",
+                  color = "#ffcb05", fill = "#ffcb05", alpha = 0.2) +
+      geom_text(aes(label = label), size = 2.5, vjust = -0.7,
+                color = "#444444", check_overlap = TRUE) +
+      labs(
+        title    = paste0(injury_label, " vs. ", input$scatter_var, " (", period_label, ")"),
+        subtitle = "Each point = one state.  Line = OLS regression.",
+        x        = x_label,
+        y        = "Crude Death Rate (per 100,000)"
+      ) +
+      theme_minimal(base_size = 13) +
+      theme(plot.title    = element_text(face = "bold", color = "#00274c"),
+            plot.subtitle = element_text(color = "#666666", size = 10))
   })
 }

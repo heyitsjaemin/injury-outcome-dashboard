@@ -111,31 +111,6 @@ ui <- fluidPage(
     "))
   ),
   
-  # ---- HEADER ----
-  # div(class = "header-container",
-  #     div(class = "top-bar",
-  #         tags$a(href = "https://injurycenter.umich.edu/about-us/membership/", "Become a Member"),
-  #         tags$a(href = "https://injurycenter.umich.edu/#", "Donate")
-  #     ),
-  #     div(class = "header",
-  #         # Put templogo.png inside ./www/image/templogo.png
-  #         tags$img(src = "image/templogo.png", class = "logo"),
-  #         div(class = "nav-links",
-  #             tags$a(href = "https://injurycenter.umich.edu/about-us/", "About"),
-  #             tags$a(href = "https://injurycenter.umich.edu/injury-focus-areas/", "Focus Areas"),
-  #             tags$a(href = "https://injurycenter.umich.edu/education/", "Education"),
-  #             tags$a(href = "https://injurycenter.umich.edu/research/", "Research"),
-  #             tags$a(href = "https://injurycenter.umich.edu/services-resources/", "Resources"),
-  #             tags$a(href = "https://injurycenter.umich.edu/events", "Events"),
-  #             tags$a(href = "https://injurycenter.umich.edu/about-us/contact-us/", "Contact Us")
-  #         )
-  #     )
-  # ),
-  # 
-  # # ---- TITLE / META ----
-  # div(class = "title-panel", "Injury Related Outcome Data"),
-  # div(class = "update-date", "Last Updated on Nov 09, 2025"),
-  
   # ---- CONTROLS ----
   div(class = "radio-toolbar",
       radioButtons(
@@ -214,9 +189,10 @@ ui <- fluidPage(
           div(class = "scatter-dropdown",
               selectInput(
                 inputId  = "scatter_var",
-                label    = "Select Variable to Compare with Crude Rate:",
-                choices  = c("Precipitation", "Mean Temperature"),
-                selected = "Precipitation"
+                label    = "Select Environmental Variable:",
+                choices  = c("Mean Temperature (deg F)" = "Mean Temperature",
+                             "Annual Precipitation (in)" = "Precipitation"),
+                selected = "Mean Temperature"
               )
           ),
           div(class = "explanation-box",
@@ -337,61 +313,12 @@ ui <- fluidPage(
 
       tags$p(class = "data-sources-note",
              "Rates are crude death rates per 100,000 population. ",
-             "Counts of 1–9 deaths in a county or state are suppressed per NCHS confidentiality standards and shown as \"Unreliable\". ",
+             "Counts of 1-9 deaths in a county or state are suppressed per NCHS confidentiality standards and shown as \"Unreliable\". ",
              "Drug overdose data carry an approximate 6-month reporting lag; ",
              "suicide, homicide, and firearm data carry an approximate 4-month lag.")
-  ),
+  )
 
-  # ---- FOOTER ----
-  # tags$footer(
-  #   class = "site-footer",
-  #   div(class = "footer-container",
-  #       div(class = "footer-column",
-  #           h3("Contact Us"),
-  #           p("734-936-9312"),
-  #           p("2800 Plymouth Road, Suite B10-G080"),
-  #           p("Ann Arbor, MI 48109-2800"),
-  #           tags$a(
-  #             href   = "https://injurycenter.umich.edu/about-us/contact-us/",
-  #             target = "_blank",
-  #             class  = "contact-btn",
-  #             "CONTACT FORM"
-  #           ),
-  #           h3("Follow Us"),
-  #           div(class = "social-icons",
-  #               tags$a(href = "#", tags$i(class = "fa fa-facebook")),
-  #               tags$a(href = "#", tags$i(class = "fa fa-twitter"))
-  #           )
-  #       ),
-  #       div(class = "footer-column",
-  #           h3("Make a Donation"),
-  #           p("If you share our passion for reducing injury in our state, region, and beyond, let’s talk."),
-  #           tags$a(
-  #             href  = "https://leadersandbest.umich.edu/find/#!/give/basket/fund/322195",
-  #             class = "donate-btn",
-  #             "DONATE"
-  #           )
-  #       ),
-  #       div(class = "footer-column",
-  #           h3("Become A Member"),
-  #           p("We warmly invite all interested in injury prevention to become a member."),
-  #           tags$a(
-  #             href  = "https://injurycenter.umich.edu/about-us/membership/becoming-a-member/",
-  #             class = "membership-btn",
-  #             "LEARN ABOUT MEMBERSHIP"
-  #           )
-  #       )
-  #   ),
-  #   hr(class = "footer-line"),
-  #   div(class = "footer-bottom",
-  #       p(
-  #         "Copyright © 2025 ",
-  #         tags$a(href = "https://regents.umich.edu/", "Regents of the University of Michigan"), " — ",
-  #         tags$a(href = "https://umich.edu/", "U-M Gateway"), " — ",
-  #         tags$a(href = "https://ecrt.umich.edu/", "Non-Discrimination Policy"), " — ",
-  #         tags$a(href = "https://procurement.umich.edu/suppliers/boxcar-studio/", "Michigan Web Design"),
-  #         " by Boxcar Studio"
-  #       )
-  #   )
-  # )
+  # ---- FOOTER (commented out — restore when header/nav is re-enabled) ----
+  # tags$footer(class = "site-footer", ...)
+
 )

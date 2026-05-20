@@ -37,7 +37,7 @@ if (force_rebuild || data_changed_since_db(db_path)) {
   message(if (force_rebuild) "FORCE_DB_REBUILD set — rebuilding SQLite..."
           else                 "Data changes detected (or DB missing) — rebuilding SQLite from data/ ...")
   tryCatch(
-    source("setup_db.R", local = TRUE),
+    source("scripts/setup_db.R", local = TRUE),
     error = function(e) {
       warning("Auto-rebuild via setup_db.R failed: ", e$message,
               "\nFalling back to existing DB (if any).")
@@ -99,7 +99,33 @@ if (!is.null(db_con)) {
   })
 }
 
-# ---- 5. Load shapefiles ----
+# ---- 5. Load environmental data (written by fetch_env.R) ----
+env_state  <- NULL
+env_county <- NULL
+
+if (!is.null(db_con)) {
+  tryCatch({
+    tables <- dbListTables(db_con)
+    if ("env_by_state" %in% tables) {
+      env_state <- dbReadTable(db_con, "env_by_state") %>%
+        rename(GEOID = geoid, YEAR = year, MEAN_TEMP = mean_temp, PRECIP = precip)
+      env_state$GEOID <- formatC(as.integer(env_state$GEOID), width = 2, flag = "0")
+      message("env_by_state loaded: ", nrow(env_state), " rows")
+    } else {
+      message("env_by_state not found — run fetch_env.R to load climate data")
+    }
+    if ("env_by_county" %in% tables) {
+      env_county <- dbReadTable(db_con, "env_by_county") %>%
+        rename(GEOID = geoid, STATE_GEOID = state_geoid,
+               YEAR = year, MEAN_TEMP = mean_temp, PRECIP = precip)
+      message("env_by_county loaded: ", nrow(env_county), " rows")
+    }
+  }, error = function(e) {
+    warning("Could not load environmental tables: ", e$message)
+  })
+}
+
+# ---- 6. Load shapefiles ----
 usa_states   <- NULL
 usa_counties <- NULL
 tryCatch({
@@ -111,7 +137,7 @@ tryCatch({
   warning("Could not read shapefiles: ", e$message)
 })
 
-# ---- 6. Build filter-option lists for the UI ----
+# ---- 7. Build filter-option lists for the UI ----
 # prettify("unintentional_drug_overdose") -> "Unintentional Drug Overdose"
 prettify <- function(s) {
   if (length(s) == 0) return(character(0))
@@ -139,7 +165,7 @@ message("Available filters — injury_types: ", length(available_options$injury_
         ", periods: ", length(available_options$periods),
         ", demographics: ", length(available_options$demographics))
 
-# ---- 7. Helper used by server ----
+# ---- 8. Helper used by server ----
 compute_hotspot <- function(spatial_data) {
   stopifnot("CRUDE_RATE" %in% names(spatial_data))
   coords <- sf::st_coordinates(sf::st_centroid(spatial_data))
@@ -154,7 +180,7 @@ compute_hotspot <- function(spatial_data) {
   return(spatial_data)
 }
 
-# ---- 8. Clean up connection on app stop ----
+# ---- 9. Clean up connection on app stop ----
 onStop(function() {
   if (!is.null(db_con)) {
     message("Closing SQLite connection...")
