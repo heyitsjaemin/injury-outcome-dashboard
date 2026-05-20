@@ -89,6 +89,25 @@ ui <- fluidPage(
       .footer-bottom { text-align:center; font-size:12px; color:#ccc; }
       .footer-bottom a { color:#ffcb05; text-decoration:none; }
       .footer-bottom a:hover { text-decoration:underline; }
+
+      .data-sources-section {
+        background:#f5f7fa; border-top:3px solid #00274c; padding:30px 40px; margin-top:30px;
+      }
+      .data-sources-section h4 {
+        color:#00274c; font-size:18px; font-weight:bold; margin-bottom:16px;
+      }
+      .data-source-entry {
+        margin-bottom:14px; padding:14px 16px; background:#ffffff;
+        border-left:4px solid #ffcb05; border-radius:4px;
+        box-shadow:0 1px 3px rgba(0,0,0,.08);
+      }
+      .data-source-entry p { margin:3px 0; font-size:13px; color:#444; line-height:1.5; }
+      .data-source-entry strong { color:#00274c; }
+      .data-source-entry a { color:#0073e6; text-decoration:none; }
+      .data-source-entry a:hover { text-decoration:underline; }
+      .data-sources-note {
+        margin-top:14px; font-size:12px; color:#777; font-style:italic;
+      }
     "))
   ),
   
@@ -212,6 +231,117 @@ ui <- fluidPage(
       )
   ),
   
+  # ---- DATA SOURCES ----
+  div(class = "data-sources-section",
+      tags$h4("About the Data"),
+
+      div(class = "data-source-entry",
+          tags$p(tags$strong("Source: CDC Mapping Injury, Overdose, and Violence Dashboard")),
+          tags$p(
+            "Centers for Disease Control and Prevention, National Center for Injury Prevention ",
+            "and Control (NCIPC), based on National Center for Health Statistics (NCHS) ",
+            "National Vital Statistics System (NVSS) data. ",
+            "Coverage: 2019–present, updated monthly."
+          ),
+          tags$p(
+            tags$a(
+              href = "https://www.cdc.gov/injury-violence-data/data-vis/index.html",
+              target = "_blank",
+              "www.cdc.gov/injury-violence-data/data-vis/index.html"
+            ),
+            HTML("&nbsp;|&nbsp;"),
+            "State dataset: ",
+            tags$a(href = "https://data.cdc.gov/d/fpsi-y8tj", target = "_blank", "data.cdc.gov/d/fpsi-y8tj"),
+            HTML("&nbsp;|&nbsp;"),
+            "County dataset: ",
+            tags$a(href = "https://data.cdc.gov/d/psx4-wq38", target = "_blank", "data.cdc.gov/d/psx4-wq38")
+          ),
+          tags$p(
+            tags$em(
+              "Suggested citation: Centers for Disease Control and Prevention, National Center for ",
+              "Injury Prevention and Control, Mapping Injury, Overdose, and Violence Dashboard. ",
+              "Available at: https://www.cdc.gov/injury-violence-data/data-vis/index.html"
+            )
+          )
+      ),
+
+      tags$h4("Injury Category Definitions"),
+      tags$p(
+        style = "font-size:13px; color:#555; margin-bottom:12px;",
+        "Definitions below are quoted directly from the ",
+        tags$a(
+          href   = "https://data.cdc.gov/api/views/fpsi-y8tj/files/165ef96f-aac7-4677-835d-7c7a809a51ff",
+          target = "_blank",
+          "CDC Injury Data Dictionary"
+        ), "."
+      ),
+      tags$table(
+        style = "width:100%; border-collapse:collapse; font-size:13px;",
+        tags$thead(
+          tags$tr(
+            tags$th(style = "text-align:left; padding:8px 12px; background:#00274c; color:#fff; width:22%;",
+                    "Category (dropdown label)"),
+            tags$th(style = "text-align:left; padding:8px 12px; background:#00274c; color:#fff;",
+                    "Definition")
+          )
+        ),
+        tags$tbody(
+          tags$tr(
+            style = "background:#fff;",
+            tags$td(style = "padding:8px 12px; font-weight:bold; border-bottom:1px solid #e0e0e0; vertical-align:top;",
+                    "Drug Overdose"),
+            tags$td(style = "padding:8px 12px; border-bottom:1px solid #e0e0e0; color:#333;",
+                    "Deaths from ", tags$strong("unintentional or undetermined intent"), " drug overdose.")
+          ),
+          tags$tr(
+            style = "background:#f9f9f9;",
+            tags$td(style = "padding:8px 12px; font-weight:bold; border-bottom:1px solid #e0e0e0; vertical-align:top;",
+                    "All Homicide"),
+            tags$td(style = "padding:8px 12px; border-bottom:1px solid #e0e0e0; color:#333;",
+                    "Deaths from homicide, including ", tags$em("any"),
+                    " mechanism: firearm, cut/pierce, suffocation, blunt force, poisoning, and all other methods.")
+          ),
+          tags$tr(
+            style = "background:#fff;",
+            tags$td(style = "padding:8px 12px; font-weight:bold; border-bottom:1px solid #e0e0e0; vertical-align:top;",
+                    "All Suicide"),
+            tags$td(style = "padding:8px 12px; border-bottom:1px solid #e0e0e0; color:#333;",
+                    "Deaths from suicide, including ", tags$em("any"),
+                    " mechanism: firearm, poisoning, suffocation, falls, cut/pierce, and all other methods.")
+          ),
+          tags$tr(
+            style = "background:#f9f9f9;",
+            tags$td(style = "padding:8px 12px; font-weight:bold; border-bottom:1px solid #e0e0e0; vertical-align:top;",
+                    "Firearm Deaths"),
+            tags$td(style = "padding:8px 12px; border-bottom:1px solid #e0e0e0; color:#333;",
+                    "Deaths from ", tags$em("any"),
+                    " type of firearm injury, including suicide, homicide, unintentional injury, ",
+                    "legal intervention, and undetermined intent.")
+          ),
+          tags$tr(
+            style = "background:#fff;",
+            tags$td(style = "padding:8px 12px; font-weight:bold; border-bottom:1px solid #e0e0e0; vertical-align:top;",
+                    "Firearm Homicide"),
+            tags$td(style = "padding:8px 12px; border-bottom:1px solid #e0e0e0; color:#333;",
+                    "Deaths from firearm homicide only (subset of All Homicide and Firearm Deaths).")
+          ),
+          tags$tr(
+            style = "background:#f9f9f9;",
+            tags$td(style = "padding:8px 12px; font-weight:bold; vertical-align:top;",
+                    "Firearm Suicide"),
+            tags$td(style = "padding:8px 12px; color:#333;",
+                    "Deaths from firearm suicide only (subset of All Suicide and Firearm Deaths).")
+          )
+        )
+      ),
+
+      tags$p(class = "data-sources-note",
+             "Rates are crude death rates per 100,000 population. ",
+             "Counts of 1–9 deaths in a county or state are suppressed per NCHS confidentiality standards and shown as \"Unreliable\". ",
+             "Drug overdose data carry an approximate 6-month reporting lag; ",
+             "suicide, homicide, and firearm data carry an approximate 4-month lag.")
+  ),
+
   # ---- FOOTER ----
   # tags$footer(
   #   class = "site-footer",

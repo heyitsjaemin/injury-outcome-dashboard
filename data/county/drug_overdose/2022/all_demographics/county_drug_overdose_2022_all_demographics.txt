@@ -1,0 +1,3144 @@
+"Notes"	"State"	"State Code"	"County"	"County Code"	Deaths	Population	Crude Rate
+	"Illinois"	"17"	"Wabash County, IL"	"17185"	0		0
+	"Idaho"	"16"	"Boise County, ID"	"16015"	0		0
+	"Colorado"	"08"	"Yuma County, CO"	"08125"	0		0
+	"Maryland"	"24"	"Carroll County, MD"	"24013"	52	175676	29.6
+	"Maryland"	"24"	"Harford County, MD"	"24025"	112	263529	42.5
+	"Michigan"	"26"	"Oscoda County, MI"	"26135"	0		0
+	"Minnesota"	"27"	"Anoka County, MN"	"27003"	73	368687	19.8
+	"Minnesota"	"27"	"Houston County, MN"	"27055"			Unreliable
+	"Minnesota"	"27"	"Lyon County, MN"	"27083"			Unreliable
+	"Minnesota"	"27"	"Pine County, MN"	"27115"			Unreliable
+	"Minnesota"	"27"	"Redwood County, MN"	"27127"			Unreliable
+	"Minnesota"	"27"	"Traverse County, MN"	"27155"	0		0
+	"Mississippi"	"28"	"Claiborne County, MS"	"28021"			Unreliable
+	"Mississippi"	"28"	"Issaquena County, MS"	"28055"	0		0
+	"Mississippi"	"28"	"Itawamba County, MS"	"28057"			Unreliable
+	"Mississippi"	"28"	"Quitman County, MS"	"28119"	0		0
+	"Missouri"	"29"	"Bollinger County, MO"	"29017"			Unreliable
+	"Missouri"	"29"	"Caldwell County, MO"	"29025"			Unreliable
+	"Missouri"	"29"	"Gentry County, MO"	"29075"	0		0
+	"Missouri"	"29"	"Howard County, MO"	"29089"			Unreliable
+	"Missouri"	"29"	"Macon County, MO"	"29121"			Unreliable
+	"Missouri"	"29"	"St. Francois County, MO"	"29187"	40	66890	59.8
+	"Missouri"	"29"	"Scott County, MO"	"29201"			Unreliable
+	"Missouri"	"29"	"Stone County, MO"	"29209"			Unreliable
+	"Missouri"	"29"	"Vernon County, MO"	"29217"			Unreliable
+	"Montana"	"30"	"Carbon County, MT"	"30009"			Unreliable
+	"Montana"	"30"	"Gallatin County, MT"	"30031"	12	125000	9.6
+	"Montana"	"30"	"Garfield County, MT"	"30033"	0		0
+	"Montana"	"30"	"Madison County, MT"	"30057"			Unreliable
+	"Nebraska"	"31"	"Custer County, NE"	"31041"			Unreliable
+	"Nebraska"	"31"	"Dundy County, NE"	"31057"	0		0
+	"Nebraska"	"31"	"Fillmore County, NE"	"31059"	0		0
+	"Nebraska"	"31"	"Kearney County, NE"	"31099"	0		0
+	"Nebraska"	"31"	"Lancaster County, NE"	"31109"	31	322917	9.6
+	"Minnesota"	"27"	"Blue Earth County, MN"	"27013"	10	69444	14.4
+	"Minnesota"	"27"	"Chippewa County, MN"	"27023"			Unreliable
+	"Minnesota"	"27"	"Grant County, MN"	"27051"			Unreliable
+	"Minnesota"	"27"	"Lake County, MN"	"27075"			Unreliable
+	"Minnesota"	"27"	"Roseau County, MN"	"27135"	0		0
+	"Mississippi"	"28"	"Attala County, MS"	"28007"			Unreliable
+	"Mississippi"	"28"	"Greene County, MS"	"28041"			Unreliable
+	"Mississippi"	"28"	"Harrison County, MS"	"28047"	77	210383	36.6
+	"Mississippi"	"28"	"Clarke County, MS"	"28023"			Unreliable
+	"Mississippi"	"28"	"Hinds County, MS"	"28049"	61	217857	28
+	"Mississippi"	"28"	"Jasper County, MS"	"28061"			Unreliable
+	"Mississippi"	"28"	"Lafayette County, MS"	"28071"			Unreliable
+	"Mississippi"	"28"	"Lowndes County, MS"	"28087"			Unreliable
+	"Mississippi"	"28"	"Montgomery County, MS"	"28097"			Unreliable
+	"Mississippi"	"28"	"Tate County, MS"	"28137"			Unreliable
+	"Missouri"	"29"	"Barton County, MO"	"29011"			Unreliable
+	"Missouri"	"29"	"Cape Girardeau County, MO"	"29031"			Unreliable
+	"Missouri"	"29"	"Lafayette County, MO"	"29107"			Unreliable
+	"Missouri"	"29"	"Mercer County, MO"	"29129"			Unreliable
+	"Missouri"	"29"	"Moniteau County, MO"	"29135"	0		0
+	"Missouri"	"29"	"Putnam County, MO"	"29171"			Unreliable
+	"Montana"	"30"	"Jefferson County, MT"	"30043"			Unreliable
+	"Montana"	"30"	"Powell County, MT"	"30077"			Unreliable
+	"Missouri"	"29"	"Douglas County, MO"	"29067"			Unreliable
+	"Missouri"	"29"	"Grundy County, MO"	"29079"			Unreliable
+	"Missouri"	"29"	"Marion County, MO"	"29127"			Unreliable
+	"Missouri"	"29"	"Monroe County, MO"	"29137"			Unreliable
+	"Missouri"	"29"	"Pettis County, MO"	"29159"			Unreliable
+	"Missouri"	"29"	"Worth County, MO"	"29227"			Unreliable
+	"Montana"	"30"	"Broadwater County, MT"	"30007"			Unreliable
+	"Montana"	"30"	"Cascade County, MT"	"30013"	15	85227	17.6
+	"Montana"	"30"	"Granite County, MT"	"30039"			Unreliable
+	"Montana"	"30"	"Petroleum County, MT"	"30069"	0		0
+	"Nebraska"	"31"	"Blaine County, NE"	"31009"	0		0
+	"Nebraska"	"31"	"Cheyenne County, NE"	"31033"	0		0
+	"Nebraska"	"31"	"Douglas County, NE"	"31055"	109	586022	18.6
+	"Nebraska"	"31"	"Franklin County, NE"	"31061"	0		0
+	"Nebraska"	"31"	"Furnas County, NE"	"31065"	0		0
+	"Nebraska"	"31"	"Johnson County, NE"	"31097"	0		0
+	"Nebraska"	"31"	"McPherson County, NE"	"31117"	0		0
+	"Nebraska"	"31"	"Phelps County, NE"	"31137"			Unreliable
+	"Nebraska"	"31"	"Polk County, NE"	"31143"	0		0
+	"Nebraska"	"31"	"York County, NE"	"31185"	0		0
+	"New Hampshire"	"33"	"Grafton County, NH"	"33009"	20	93023	21.5
+	"New Mexico"	"35"	"Luna County, NM"	"35029"			Unreliable
+	"New York"	"36"	"Bronx County, NY"	"36005"	860	1382637	62.2
+	"New York"	"36"	"Chemung County, NY"	"36015"	35	81585	42.9
+	"New York"	"36"	"Steuben County, NY"	"36101"	29	92652	31.3
+	"New York"	"36"	"Warren County, NY"	"36113"			Unreliable
+	"North Carolina"	"37"	"Lenoir County, NC"	"37107"	21	54545	38.5
+	"North Carolina"	"37"	"Moore County, NC"	"37125"	50	105485	47.4
+	"North Carolina"	"37"	"Pasquotank County, NC"	"37139"	13	41139	31.6
+	"North Dakota"	"38"	"Divide County, ND"	"38023"	0		0
+	"North Dakota"	"38"	"McLean County, ND"	"38055"	0		0
+	"North Dakota"	"38"	"Mountrail County, ND"	"38061"			Unreliable
+	"North Dakota"	"38"	"Ransom County, ND"	"38073"	0		0
+	"Nebraska"	"31"	"Richardson County, NE"	"31147"	0		0
+	"Nevada"	"32"	"Washoe County, NV"	"32031"	192	497409	38.6
+	"New Hampshire"	"33"	"Strafford County, NH"	"33017"	53	132500	40
+	"New Jersey"	"34"	"Atlantic County, NJ"	"34001"	192	275466	69.7
+	"New Jersey"	"34"	"Morris County, NJ"	"34027"	78	509804	15.3
+	"New Mexico"	"35"	"Cibola County, NM"	"35006"	12	26846	44.7
+	"New Mexico"	"35"	"Otero County, NM"	"35035"	19	68592	27.7
+	"New York"	"36"	"Chenango County, NY"	"36017"	18	46272	38.9
+	"Nebraska"	"31"	"Lincoln County, NE"	"31111"			Unreliable
+	"Nebraska"	"31"	"Loup County, NE"	"31115"	0		0
+	"South Dakota"	"46"	"Haakon County, SD"	"46055"	0		0
+	"New Hampshire"	"33"	"Cheshire County, NH"	"33005"	23	77441	29.7
+	"New Jersey"	"34"	"Burlington County, NJ"	"34005"	127	466912	27.2
+	"New York"	"36"	"Fulton County, NY"	"36035"	19	52198	36.4
+	"New York"	"36"	"Herkimer County, NY"	"36043"	16	59480	26.9
+	"New York"	"36"	"Oswego County, NY"	"36075"	37	118211	31.3
+	"Ohio"	"39"	"Jefferson County, OH"	"39081"	44	64234	68.5
+	"North Carolina"	"37"	"Caswell County, NC"	"37033"			Unreliable
+	"North Carolina"	"37"	"Chowan County, NC"	"37041"			Unreliable
+	"Pennsylvania"	"42"	"Juniata County, PA"	"42067"			Unreliable
+	"Pennsylvania"	"42"	"Lycoming County, PA"	"42081"	17	113333	15
+	"Pennsylvania"	"42"	"Pike County, PA"	"42103"	13	60465	21.5
+	"Pennsylvania"	"42"	"Wyoming County, PA"	"42131"			Unreliable
+	"South Carolina"	"45"	"Hampton County, SC"	"45049"			Unreliable
+	"South Carolina"	"45"	"Laurens County, SC"	"45059"	31	67982	45.6
+	"North Carolina"	"37"	"New Hanover County, NC"	"37129"	88	235925	37.3
+	"North Carolina"	"37"	"Rockingham County, NC"	"37157"	67	91907	72.9
+	"North Carolina"	"37"	"Yadkin County, NC"	"37197"	18	37500	48
+	"North Dakota"	"38"	"Foster County, ND"	"38031"			Unreliable
+	"North Dakota"	"38"	"Griggs County, ND"	"38039"	0		0
+	"North Dakota"	"38"	"Slope County, ND"	"38087"	0		0
+	"South Dakota"	"46"	"Meade County, SD"	"46093"			Unreliable
+	"South Dakota"	"46"	"Miner County, SD"	"46097"	0		0
+	"Tennessee"	"47"	"Cheatham County, TN"	"47021"	42	41750	100.6
+	"Tennessee"	"47"	"DeKalb County, TN"	"47041"	10	21008	47.6
+	"Tennessee"	"47"	"Hancock County, TN"	"47067"			Unreliable
+	"Tennessee"	"47"	"Houston County, TN"	"47083"			Unreliable
+	"Ohio"	"39"	"Columbiana County, OH"	"39029"	32	100629	31.8
+	"Ohio"	"39"	"Franklin County, OH"	"39049"	761	1321181	57.6
+	"Ohio"	"39"	"Lucas County, OH"	"39095"	228	426966	53.4
+	"Ohio"	"39"	"Noble County, OH"	"39121"			Unreliable
+	"Ohio"	"39"	"Preble County, OH"	"39135"	17	40573	41.9
+	"Oklahoma"	"40"	"Alfalfa County, OK"	"40003"	0		0
+	"Oklahoma"	"40"	"Grady County, OK"	"40051"	12	56604	21.2
+	"Tennessee"	"47"	"Unicoi County, TN"	"47171"			Unreliable
+	"Tennessee"	"47"	"Union County, TN"	"47173"	16	20460	78.2
+	"Texas"	"48"	"Camp County, TX"	"48063"			Unreliable
+	"Oregon"	"41"	"Hood River County, OR"	"41027"			Unreliable
+	"Oregon"	"41"	"Multnomah County, OR"	"41051"	401	794059	50.5
+	"Oregon"	"41"	"Wallowa County, OR"	"41063"			Unreliable
+	"Pennsylvania"	"42"	"Allegheny County, PA"	"42003"	616	1232000	50
+	"Pennsylvania"	"42"	"Delaware County, PA"	"42045"	161	575000	28
+	"Texas"	"48"	"Briscoe County, TX"	"48045"	0		0
+	"Texas"	"48"	"Colorado County, TX"	"48089"			Unreliable
+	"Texas"	"48"	"Edwards County, TX"	"48137"	0		0
+	"Texas"	"48"	"Erath County, TX"	"48143"			Unreliable
+	"Texas"	"48"	"Gaines County, TX"	"48165"			Unreliable
+	"Texas"	"48"	"Hall County, TX"	"48191"	0		0
+	"Texas"	"48"	"Howard County, TX"	"48227"			Unreliable
+	"Oklahoma"	"40"	"Garfield County, OK"	"40047"	16	62016	25.8
+	"Oregon"	"41"	"Columbia County, OR"	"41009"	13	53498	24.3
+	"Texas"	"48"	"Jeff Davis County, TX"	"48243"	0		0
+	"Texas"	"48"	"King County, TX"	"48269"	0		0
+	"Texas"	"48"	"Lee County, TX"	"48287"			Unreliable
+	"Texas"	"48"	"Lynn County, TX"	"48305"	0		0
+	"Texas"	"48"	"Polk County, TX"	"48373"	10	53191	18.8
+	"Texas"	"48"	"Starr County, TX"	"48427"			Unreliable
+	"Texas"	"48"	"Sutton County, TX"	"48435"	0		0
+	"Pennsylvania"	"42"	"Armstrong County, PA"	"42005"	21	64615	32.5
+	"Pennsylvania"	"42"	"Blair County, PA"	"42013"	59	120654	48.9
+	"Pennsylvania"	"42"	"Carbon County, PA"	"42025"	38	65517	58
+	"South Carolina"	"45"	"Calhoun County, SC"	"45017"			Unreliable
+	"South Dakota"	"46"	"Aurora County, SD"	"46003"	0		0
+	"South Dakota"	"46"	"Buffalo County, SD"	"46017"			Unreliable
+	"South Dakota"	"46"	"Corson County, SD"	"46031"			Unreliable
+	"South Dakota"	"46"	"Deuel County, SD"	"46039"	0		0
+	"South Dakota"	"46"	"Jackson County, SD"	"46071"	0		0
+	"South Dakota"	"46"	"Kingsbury County, SD"	"46077"	0		0
+	"South Dakota"	"46"	"Lawrence County, SD"	"46081"			Unreliable
+	"South Dakota"	"46"	"Pennington County, SD"	"46103"	19	114458	16.6
+	"South Dakota"	"46"	"Potter County, SD"	"46107"	0		0
+	"South Dakota"	"46"	"Tripp County, SD"	"46123"	0		0
+	"Tennessee"	"47"	"Davidson County, TN"	"47037"	525	707547	74.2
+	"Virginia"	"51"	"Essex County, VA"	"51057"			Unreliable
+	"Virginia"	"51"	"Nottoway County, VA"	"51135"			Unreliable
+	"Virginia"	"51"	"Fredericksburg city, VA"	"51630"	13	28634	45.4
+	"Alabama"	"01"	"Conecuh County, AL"	"01035"			Unreliable
+	"Alabama"	"01"	"Mobile County, AL"	"01097"	116	411348	28.2
+	"Alaska"	"02"	"Kenai Peninsula Borough, AK"	"02122"	15	60729	24.7
+	"Alaska"	"02"	"Kusilvak Census Area, AK"	"02158"	0		0
+	"Alaska"	"02"	"Lake and Peninsula Borough, AK"	"02164"	0		0
+	"Alaska"	"02"	"Prince of Wales-Hyder Census Area, AK"	"02198"	0		0
+	"Alaska"	"02"	"Sitka City and Borough, AK"	"02220"	0		0
+	"Alaska"	"02"	"Yakutat City and Borough, AK"	"02282"	0		0
+	"Arizona"	"04"	"Apache County, AZ"	"04001"	30	65502	45.8
+	"Arizona"	"04"	"La Paz County, AZ"	"04012"	14	16529	84.7
+	"Arizona"	"04"	"Maricopa County, AZ"	"04013"	1566	4552326	34.4
+	"Arizona"	"04"	"Pima County, AZ"	"04019"	426	1057072	40.3
+	"Arkansas"	"05"	"Arkansas County, AR"	"05001"	0		0
+	"Alabama"	"01"	"Greene County, AL"	"01063"	0		0
+	"Alaska"	"02"	"Kodiak Island Borough, AK"	"02150"			Unreliable
+	"Virginia"	"51"	"Westmoreland County, VA"	"51193"			Unreliable
+	"Virginia"	"51"	"Wise County, VA"	"51195"			Unreliable
+	"Arkansas"	"05"	"Garland County, AR"	"05051"	36	1e+05	36
+	"Virginia"	"51"	"Colonial Heights city, VA"	"51570"	10	18282	54.7
+	"Virginia"	"51"	"Martinsville city, VA"	"51690"	10	13699	73
+	"Washington"	"53"	"Cowlitz County, WA"	"53015"	37	112121	33
+	"Washington"	"53"	"Douglas County, WA"	"53017"			Unreliable
+	"Washington"	"53"	"Lincoln County, WA"	"53043"			Unreliable
+	"Washington"	"53"	"Okanogan County, WA"	"53047"	19	43478	43.7
+	"Washington"	"53"	"Skagit County, WA"	"53057"	33	131474	25.1
+	"Washington"	"53"	"Snohomish County, WA"	"53061"	250	841751	29.7
+	"West Virginia"	"54"	"Boone County, WV"	"54005"	25	20903	119.6
+	"Texas"	"48"	"Fannin County, TX"	"48147"			Unreliable
+	"Texas"	"48"	"Fort Bend County, TX"	"48157"	106	890756	11.9
+	"Texas"	"48"	"Grayson County, TX"	"48181"	20	142857	14
+	"Texas"	"48"	"Haskell County, TX"	"48207"	0		0
+	"Texas"	"48"	"Kerr County, TX"	"48265"			Unreliable
+	"Texas"	"48"	"Mills County, TX"	"48333"	0		0
+	"Texas"	"48"	"Moore County, TX"	"48341"			Unreliable
+	"Texas"	"48"	"Motley County, TX"	"48345"	0		0
+	"Arkansas"	"05"	"Cleveland County, AR"	"05025"			Unreliable
+	"Arkansas"	"05"	"Craighead County, AR"	"05031"	17	112583	15.1
+	"Arkansas"	"05"	"Dallas County, AR"	"05039"	0		0
+	"Arkansas"	"05"	"Fulton County, AR"	"05049"			Unreliable
+	"Arkansas"	"05"	"Greene County, AR"	"05055"			Unreliable
+	"Arkansas"	"05"	"White County, AR"	"05145"	19	77551	24.5
+	"California"	"06"	"Imperial County, CA"	"06025"	31	179191	17.3
+	"California"	"06"	"San Benito County, CA"	"06069"	16	67511	23.7
+	"Arkansas"	"05"	"Boone County, AR"	"05009"			Unreliable
+	"Arkansas"	"05"	"Carroll County, AR"	"05015"			Unreliable
+	"Arkansas"	"05"	"Columbia County, AR"	"05027"			Unreliable
+	"Arkansas"	"05"	"Izard County, AR"	"05065"			Unreliable
+	"Arkansas"	"05"	"Johnson County, AR"	"05071"			Unreliable
+	"Arkansas"	"05"	"Logan County, AR"	"05083"			Unreliable
+	"Arkansas"	"05"	"Poinsett County, AR"	"05111"			Unreliable
+	"Arkansas"	"05"	"St. Francis County, AR"	"05123"			Unreliable
+	"West Virginia"	"54"	"Pendleton County, WV"	"54071"			Unreliable
+	"West Virginia"	"54"	"Wyoming County, WV"	"54109"	26	20570	126.4
+	"Wisconsin"	"55"	"Juneau County, WI"	"55057"			Unreliable
+	"Colorado"	"08"	"Custer County, CO"	"08027"	0		0
+	"Florida"	"12"	"Alachua County, FL"	"12001"	58	284314	20.4
+	"California"	"06"	"San Bernardino County, CA"	"06071"	497	2199115	22.6
+	"California"	"06"	"Santa Cruz County, CA"	"06087"	86	264615	32.5
+	"California"	"06"	"Stanislaus County, CA"	"06099"	175	552050	31.7
+	"California"	"06"	"Sutter County, CA"	"06101"	37	98667	37.5
+	"California"	"06"	"Tulare County, CA"	"06107"	102	478873	21.3
+	"Colorado"	"08"	"Garfield County, CO"	"08045"	11	62147	17.7
+	"Colorado"	"08"	"Pueblo County, CO"	"08101"	73	169374	43.1
+	"Colorado"	"08"	"Routt County, CO"	"08107"			Unreliable
+	"Virginia"	"51"	"Orange County, VA"	"51137"	15	38071	39.4
+	"Virginia"	"51"	"Page County, VA"	"51139"			Unreliable
+	"Washington"	"53"	"Lewis County, WA"	"53041"	38	85393	44.5
+	"Washington"	"53"	"Pacific County, WA"	"53049"			Unreliable
+	"Washington"	"53"	"Whitman County, WA"	"53075"			Unreliable
+	"Florida"	"12"	"DeSoto County, FL"	"12027"			Unreliable
+	"Florida"	"12"	"Palm Beach County, FL"	"12099"	466	1517915	30.7
+	"Florida"	"12"	"Sumter County, FL"	"12119"	33	144737	22.8
+	"Georgia"	"13"	"Berrien County, GA"	"13019"			Unreliable
+	"Georgia"	"13"	"Brantley County, GA"	"13025"			Unreliable
+	"Georgia"	"13"	"Burke County, GA"	"13033"			Unreliable
+	"Georgia"	"13"	"Crawford County, GA"	"13079"			Unreliable
+	"Florida"	"12"	"Pinellas County, FL"	"12103"	517	960967	53.8
+	"Florida"	"12"	"St. Johns County, FL"	"12109"	56	307692	18.2
+	"Florida"	"12"	"Volusia County, FL"	"12127"	307	579245	53
+	"Georgia"	"13"	"Candler County, GA"	"13043"			Unreliable
+	"Georgia"	"13"	"Catoosa County, GA"	"13047"	23	68862	33.4
+	"Georgia"	"13"	"Colquitt County, GA"	"13071"			Unreliable
+	"Georgia"	"13"	"Echols County, GA"	"13101"			Unreliable
+	"West Virginia"	"54"	"Grant County, WV"	"54023"			Unreliable
+	"West Virginia"	"54"	"Lewis County, WV"	"54041"			Unreliable
+	"West Virginia"	"54"	"Pleasants County, WV"	"54073"			Unreliable
+	"Wisconsin"	"55"	"Barron County, WI"	"55005"			Unreliable
+	"Wisconsin"	"55"	"Burnett County, WI"	"55013"			Unreliable
+	"Wisconsin"	"55"	"Green County, WI"	"55045"			Unreliable
+	"Wisconsin"	"55"	"Green Lake County, WI"	"55047"			Unreliable
+	"Wisconsin"	"55"	"Lafayette County, WI"	"55065"			Unreliable
+	"Wisconsin"	"55"	"Oneida County, WI"	"55085"			Unreliable
+	"Wisconsin"	"55"	"Sheboygan County, WI"	"55117"	34	117647	28.9
+	"Wisconsin"	"55"	"Trempealeau County, WI"	"55121"			Unreliable
+	"Wisconsin"	"55"	"Vilas County, WI"	"55125"			Unreliable
+	"Georgia"	"13"	"Fulton County, GA"	"13121"	278	1073359	25.9
+	"Georgia"	"13"	"Hancock County, GA"	"13141"			Unreliable
+	"Georgia"	"13"	"Houston County, GA"	"13153"	39	169565	23
+	"Georgia"	"13"	"Jones County, GA"	"13169"			Unreliable
+	"Georgia"	"13"	"Lamar County, GA"	"13171"			Unreliable
+	"Georgia"	"13"	"McDuffie County, GA"	"13189"			Unreliable
+	"Georgia"	"13"	"Screven County, GA"	"13251"			Unreliable
+	"Georgia"	"13"	"Tattnall County, GA"	"13267"			Unreliable
+	"Georgia"	"13"	"Walton County, GA"	"13297"	21	102941	20.4
+	"Idaho"	"16"	"Ada County, ID"	"16001"	101	517949	19.5
+	"Idaho"	"16"	"Adams County, ID"	"16003"			Unreliable
+	"Idaho"	"16"	"Blaine County, ID"	"16013"			Unreliable
+	"Idaho"	"16"	"Canyon County, ID"	"16027"	44	251429	17.5
+	"Idaho"	"16"	"Cassia County, ID"	"16031"			Unreliable
+	"Idaho"	"16"	"Gooding County, ID"	"16047"			Unreliable
+	"Idaho"	"16"	"Oneida County, ID"	"16071"			Unreliable
+	"Idaho"	"16"	"Shoshone County, ID"	"16079"			Unreliable
+	"Idaho"	"16"	"Twin Falls County, ID"	"16083"	14	93960	14.9
+	"Illinois"	"17"	"Adams County, IL"	"17001"			Unreliable
+	"Illinois"	"17"	"Bond County, IL"	"17005"			Unreliable
+	"Illinois"	"17"	"Cass County, IL"	"17017"			Unreliable
+	"Illinois"	"17"	"DeKalb County, IL"	"17037"	20	1e+05	20
+	"Illinois"	"17"	"Edwards County, IL"	"17047"			Unreliable
+	"Illinois"	"17"	"Henderson County, IL"	"17071"	0		0
+	"Illinois"	"17"	"Jefferson County, IL"	"17081"	11	36424	30.2
+	"Texas"	"48"	"Kaufman County, TX"	"48257"	23	172932	13.3
+	"Texas"	"48"	"Kenedy County, TX"	"48261"	0		0
+	"Texas"	"48"	"McCulloch County, TX"	"48307"	0		0
+	"Texas"	"48"	"Madison County, TX"	"48313"			Unreliable
+	"Texas"	"48"	"Newton County, TX"	"48351"			Unreliable
+	"Texas"	"48"	"Shelby County, TX"	"48419"			Unreliable
+	"Texas"	"48"	"Travis County, TX"	"48453"	318	1325000	24
+	"West Virginia"	"54"	"Fayette County, WV"	"54019"	48	39377	121.9
+	"West Virginia"	"54"	"Hardy County, WV"	"54031"			Unreliable
+	"Wisconsin"	"55"	"Columbia County, WI"	"55021"	15	58140	25.8
+	"Wisconsin"	"55"	"Dane County, WI"	"55025"	129	568282	22.7
+	"Wisconsin"	"55"	"Douglas County, WI"	"55031"	15	44248	33.9
+	"Wisconsin"	"55"	"Florence County, WI"	"55037"			Unreliable
+	"Wisconsin"	"55"	"Jackson County, WI"	"55053"			Unreliable
+	"Wisconsin"	"55"	"Kenosha County, WI"	"55059"	52	167742	31
+	"Wisconsin"	"55"	"Lincoln County, WI"	"55069"			Unreliable
+	"Wisconsin"	"55"	"Monroe County, WI"	"55081"	15	45872	32.7
+	"Idaho"	"16"	"Nez Perce County, ID"	"16069"	15	42857	35
+	"Illinois"	"17"	"Marshall County, IL"	"17123"			Unreliable
+	"Idaho"	"16"	"Clearwater County, ID"	"16035"			Unreliable
+	"Idaho"	"16"	"Lemhi County, ID"	"16059"	0		0
+	"Illinois"	"17"	"Boone County, IL"	"17007"	11	53140	20.7
+	"Illinois"	"17"	"Jersey County, IL"	"17083"			Unreliable
+	"Illinois"	"17"	"Lawrence County, IL"	"17101"			Unreliable
+	"Illinois"	"17"	"Lee County, IL"	"17103"			Unreliable
+	"Illinois"	"17"	"Logan County, IL"	"17107"			Unreliable
+	"Illinois"	"17"	"Massac County, IL"	"17127"			Unreliable
+	"Illinois"	"17"	"Menard County, IL"	"17129"	0		0
+	"Indiana"	"18"	"Bartholomew County, IN"	"18005"	47	83333	56.4
+	"Indiana"	"18"	"Hamilton County, IN"	"18057"	52	366197	14.2
+	"Indiana"	"18"	"Jennings County, IN"	"18079"	20	27473	72.8
+	"Indiana"	"18"	"Lawrence County, IN"	"18093"	15	45181	33.2
+	"Indiana"	"18"	"Porter County, IN"	"18127"	44	174603	25.2
+	"Indiana"	"18"	"Posey County, IN"	"18129"			Unreliable
+	"Indiana"	"18"	"Boone County, IN"	"18011"	13	74286	17.5
+	"Indiana"	"18"	"Miami County, IN"	"18103"	14	35533	39.4
+	"Indiana"	"18"	"Monroe County, IN"	"18105"	58	139759	41.5
+	"California"	"06"	"Lake County, CA"	"06033"	60	68182	88
+	"Iowa"	"19"	"Adams County, IA"	"19003"	0		0
+	"Iowa"	"19"	"Boone County, IA"	"19015"			Unreliable
+	"Iowa"	"19"	"Butler County, IA"	"19023"	0		0
+	"Iowa"	"19"	"Grundy County, IA"	"19075"			Unreliable
+	"Iowa"	"19"	"Lyon County, IA"	"19119"	0		0
+	"Iowa"	"19"	"O'Brien County, IA"	"19141"	0		0
+	"Kansas"	"20"	"Allen County, KS"	"20001"			Unreliable
+	"Wyoming"	"56"	"Big Horn County, WY"	"56003"			Unreliable
+	"Wyoming"	"56"	"Laramie County, WY"	"56021"	24	100840	23.8
+	"Wyoming"	"56"	"Natrona County, WY"	"56025"	14	79545	17.6
+	"Wyoming"	"56"	"Platte County, WY"	"56031"	0		0
+	"Wyoming"	"56"	"Sweetwater County, WY"	"56037"	17	41363	41.1
+	"Illinois"	"17"	"Tazewell County, IL"	"17179"	33	129412	25.5
+	"Indiana"	"18"	"Clay County, IN"	"18021"			Unreliable
+	"Indiana"	"18"	"Jefferson County, IN"	"18077"	10	32895	30.4
+	"Indiana"	"18"	"Kosciusko County, IN"	"18085"	21	80460	26.1
+	"Wisconsin"	"55"	"Iowa County, WI"	"55049"			Unreliable
+	"Wyoming"	"56"	"Park County, WY"	"56029"			Unreliable
+	"Wyoming"	"56"	"Weston County, WY"	"56045"	0		0
+	"Indiana"	"18"	"Newton County, IN"	"18111"			Unreliable
+	"Indiana"	"18"	"Owen County, IN"	"18119"			Unreliable
+	"Iowa"	"19"	"Benton County, IA"	"19011"			Unreliable
+	"Iowa"	"19"	"Linn County, IA"	"19113"	39	229412	17
+	"Iowa"	"19"	"Pocahontas County, IA"	"19151"	0		0
+	"Kentucky"	"21"	"Cumberland County, KY"	"21057"			Unreliable
+	"Kentucky"	"21"	"Grant County, KY"	"21081"	19	25469	74.6
+	"Kentucky"	"21"	"Larue County, KY"	"21123"			Unreliable
+	"Kentucky"	"21"	"Logan County, KY"	"21141"			Unreliable
+	"Kentucky"	"21"	"Oldham County, KY"	"21185"	11	69620	15.8
+	"Kentucky"	"21"	"Simpson County, KY"	"21213"			Unreliable
+	"Kentucky"	"21"	"Washington County, KY"	"21229"			Unreliable
+	"Louisiana"	"22"	"East Baton Rouge Parish, LA"	"22033"	276	450245	61.3
+	"Louisiana"	"22"	"Lincoln Parish, LA"	"22061"			Unreliable
+	"Louisiana"	"22"	"Webster Parish, LA"	"22119"			Unreliable
+	"Kentucky"	"21"	"Union County, KY"	"21225"			Unreliable
+	"Louisiana"	"22"	"Franklin Parish, LA"	"22041"			Unreliable
+	"Louisiana"	"22"	"Lafourche Parish, LA"	"22057"	39	95823	40.7
+	"Louisiana"	"22"	"Terrebonne Parish, LA"	"22109"	71	104566	67.9
+	"Louisiana"	"22"	"Washington Parish, LA"	"22117"	34	44974	75.6
+	"Maine"	"23"	"Cumberland County, ME"	"23005"	116	308511	37.6
+	"Maryland"	"24"	"Caroline County, MD"	"24011"	12	33426	35.9
+	"Maryland"	"24"	"Washington County, MD"	"24043"	98	155309	63.1
+	"Michigan"	"26"	"Mason County, MI"	"26105"			Unreliable
+	"Michigan"	"26"	"Kalamazoo County, MI"	"26077"	36	260870	13.8
+	"Michigan"	"26"	"Kalkaska County, MI"	"26079"			Unreliable
+	"Michigan"	"26"	"Keweenaw County, MI"	"26083"			Unreliable
+	"Maryland"	"24"	"Wicomico County, MD"	"24045"	32	104575	30.6
+	"Massachusetts"	"25"	"Nantucket County, MA"	"25019"			Unreliable
+	"Michigan"	"26"	"Calhoun County, MI"	"26025"	47	133523	35.2
+	"Michigan"	"26"	"Clare County, MI"	"26035"			Unreliable
+	"Michigan"	"26"	"Emmet County, MI"	"26047"			Unreliable
+	"Michigan"	"26"	"Huron County, MI"	"26063"			Unreliable
+	"Louisiana"	"22"	"Iberia Parish, LA"	"22045"	24	68376	35.1
+	"Louisiana"	"22"	"Jackson Parish, LA"	"22049"			Unreliable
+	"Louisiana"	"22"	"Union Parish, LA"	"22111"			Unreliable
+	"Louisiana"	"22"	"West Baton Rouge Parish, LA"	"22121"			Unreliable
+	"Maine"	"23"	"Androscoggin County, ME"	"23001"	64	113274	56.5
+	"Maine"	"23"	"Piscataquis County, ME"	"23021"			Unreliable
+	"Maryland"	"24"	"Anne Arundel County, MD"	"24003"	203	593567	34.2
+	"Arkansas"	"05"	"Drew County, AR"	"05043"			Unreliable
+	"Arkansas"	"05"	"Lafayette County, AR"	"05073"	0		0
+	"Arkansas"	"05"	"Monroe County, AR"	"05095"			Unreliable
+	"Arkansas"	"05"	"Prairie County, AR"	"05117"			Unreliable
+	"Arkansas"	"05"	"Randolph County, AR"	"05121"			Unreliable
+	"Arkansas"	"05"	"Stone County, AR"	"05137"			Unreliable
+	"California"	"06"	"Alpine County, CA"	"06003"			Unreliable
+	"California"	"06"	"Marin County, CA"	"06041"	54	255924	21.1
+	"California"	"06"	"Merced County, CA"	"06047"	66	290749	22.7
+	"California"	"06"	"Napa County, CA"	"06055"	33	134146	24.6
+	"Arkansas"	"05"	"Howard County, AR"	"05061"			Unreliable
+	"Arkansas"	"05"	"Jefferson County, AR"	"05069"	15	64378	23.3
+	"Arkansas"	"05"	"Lee County, AR"	"05077"			Unreliable
+	"California"	"06"	"Amador County, CA"	"06005"			Unreliable
+	"California"	"06"	"Colusa County, CA"	"06011"			Unreliable
+	"California"	"06"	"El Dorado County, CA"	"06017"	44	192982	22.8
+	"California"	"06"	"Ventura County, CA"	"06111"	228	832117	27.4
+	"Texas"	"48"	"Presidio County, TX"	"48377"	0		0
+	"Texas"	"48"	"Reagan County, TX"	"48383"	0		0
+	"Texas"	"48"	"Smith County, TX"	"48423"	26	242991	10.7
+	"Texas"	"48"	"Trinity County, TX"	"48455"			Unreliable
+	"Texas"	"48"	"Tyler County, TX"	"48457"			Unreliable
+	"Texas"	"48"	"Wise County, TX"	"48497"			Unreliable
+	"Utah"	"49"	"Box Elder County, UT"	"49003"	13	61611	21.1
+	"Utah"	"49"	"Carbon County, UT"	"49007"			Unreliable
+	"Utah"	"49"	"Rich County, UT"	"49033"	0		0
+	"Utah"	"49"	"Summit County, UT"	"49043"			Unreliable
+	"California"	"06"	"Sierra County, CA"	"06091"	0		0
+	"Colorado"	"08"	"Alamosa County, CO"	"08003"			Unreliable
+	"Colorado"	"08"	"Broomfield County, CO"	"08014"	12	76433	15.7
+	"Colorado"	"08"	"Larimer County, CO"	"08069"	59	366460	16.1
+	"Connecticut"	"09"	"Middlesex County, CT"	"09007"	38	164502	23.1
+	"Florida"	"12"	"Charlotte County, FL"	"12015"	54	202247	26.7
+	"Texas"	"48"	"Dickens County, TX"	"48125"	0		0
+	"Colorado"	"08"	"Eagle County, CO"	"08037"			Unreliable
+	"Colorado"	"08"	"Gunnison County, CO"	"08051"			Unreliable
+	"Florida"	"12"	"Bradford County, FL"	"12007"			Unreliable
+	"Florida"	"12"	"Glades County, FL"	"12043"			Unreliable
+	"Georgia"	"13"	"Baker County, GA"	"13007"			Unreliable
+	"Georgia"	"13"	"DeKalb County, GA"	"13089"	163	761682	21.4
+	"Florida"	"12"	"Hardee County, FL"	"12049"			Unreliable
+	"Florida"	"12"	"Marion County, FL"	"12083"	199	396414	50.2
+	"Florida"	"12"	"Nassau County, FL"	"12089"	38	97938	38.8
+	"Florida"	"12"	"Union County, FL"	"12125"			Unreliable
+	"Florida"	"12"	"Washington County, FL"	"12133"			Unreliable
+	"Georgia"	"13"	"Charlton County, GA"	"13049"			Unreliable
+	"Georgia"	"13"	"Fannin County, GA"	"13111"	10	25707	38.9
+	"West Virginia"	"54"	"Gilmer County, WV"	"54021"			Unreliable
+	"West Virginia"	"54"	"Summers County, WV"	"54089"			Unreliable
+	"West Virginia"	"54"	"Tucker County, WV"	"54093"			Unreliable
+	"Wisconsin"	"55"	"Dodge County, WI"	"55027"	24	88235	27.2
+	"Wisconsin"	"55"	"Fond du Lac County, WI"	"55039"	23	103604	22.2
+	"Georgia"	"13"	"Fayette County, GA"	"13113"	12	122449	9.8
+	"Georgia"	"13"	"Macon County, GA"	"13193"			Unreliable
+	"Georgia"	"13"	"Quitman County, GA"	"13239"	0		0
+	"Georgia"	"13"	"Greene County, GA"	"13133"			Unreliable
+	"Georgia"	"13"	"Hart County, GA"	"13147"			Unreliable
+	"Georgia"	"13"	"Irwin County, GA"	"13155"			Unreliable
+	"Georgia"	"13"	"Lanier County, GA"	"13173"			Unreliable
+	"Georgia"	"13"	"Monroe County, GA"	"13207"			Unreliable
+	"Georgia"	"13"	"Muscogee County, GA"	"13215"	40	202020	19.8
+	"Georgia"	"13"	"Peach County, GA"	"13225"			Unreliable
+	"Georgia"	"13"	"Pickens County, GA"	"13227"	18	34816	51.7
+	"Georgia"	"13"	"Rabun County, GA"	"13241"			Unreliable
+	"Georgia"	"13"	"Tift County, GA"	"13277"	13	41270	31.5
+	"Georgia"	"13"	"Webster County, GA"	"13307"			Unreliable
+	"Texas"	"48"	"Childress County, TX"	"48075"			Unreliable
+	"Texas"	"48"	"Cochran County, TX"	"48079"	0		0
+	"Texas"	"48"	"Crosby County, TX"	"48107"	0		0
+	"Texas"	"48"	"Ellis County, TX"	"48139"	24	212389	11.3
+	"Texas"	"48"	"Fayette County, TX"	"48149"			Unreliable
+	"Texas"	"48"	"Gillespie County, TX"	"48171"			Unreliable
+	"Texas"	"48"	"Hamilton County, TX"	"48193"			Unreliable
+	"Texas"	"48"	"Hood County, TX"	"48221"	12	66298	18.1
+	"Texas"	"48"	"Jackson County, TX"	"48239"			Unreliable
+	"Texas"	"48"	"Jefferson County, TX"	"48245"	64	251969	25.4
+	"Texas"	"48"	"Jim Wells County, TX"	"48249"	12	38710	31
+	"Wisconsin"	"55"	"Washburn County, WI"	"55129"			Unreliable
+	"Wyoming"	"56"	"Goshen County, WY"	"56015"			Unreliable
+	"Illinois"	"17"	"Calhoun County, IL"	"17013"			Unreliable
+	"Illinois"	"17"	"Edgar County, IL"	"17045"			Unreliable
+	"Illinois"	"17"	"Effingham County, IL"	"17049"			Unreliable
+	"Illinois"	"17"	"Hancock County, IL"	"17067"	0		0
+	"Illinois"	"17"	"Hardin County, IL"	"17069"	0		0
+	"Illinois"	"17"	"Johnson County, IL"	"17087"			Unreliable
+	"Illinois"	"17"	"Piatt County, IL"	"17147"			Unreliable
+	"Georgia"	"13"	"Long County, GA"	"13183"			Unreliable
+	"Georgia"	"13"	"Lowndes County, GA"	"13185"			Unreliable
+	"Georgia"	"13"	"McIntosh County, GA"	"13191"			Unreliable
+	"Georgia"	"13"	"Mitchell County, GA"	"13205"			Unreliable
+	"Georgia"	"13"	"Montgomery County, GA"	"13209"			Unreliable
+	"Georgia"	"13"	"Randolph County, GA"	"13243"			Unreliable
+	"Georgia"	"13"	"Sumter County, GA"	"13261"			Unreliable
+	"Georgia"	"13"	"Terrell County, GA"	"13273"			Unreliable
+	"Georgia"	"13"	"Union County, GA"	"13291"			Unreliable
+	"Illinois"	"17"	"Saline County, IL"	"17165"			Unreliable
+	"Illinois"	"17"	"Stark County, IL"	"17175"			Unreliable
+	"Indiana"	"18"	"Brown County, IN"	"18013"			Unreliable
+	"Indiana"	"18"	"Clark County, IN"	"18019"	60	124224	48.3
+	"Indiana"	"18"	"Dearborn County, IN"	"18029"	18	50847	35.4
+	"Indiana"	"18"	"Johnson County, IN"	"18081"	61	165761	36.8
+	"Indiana"	"18"	"Scott County, IN"	"18143"	13	24482	53.1
+	"Idaho"	"16"	"Butte County, ID"	"16023"	0		0
+	"Idaho"	"16"	"Lewis County, ID"	"16061"			Unreliable
+	"Idaho"	"16"	"Lincoln County, ID"	"16063"	0		0
+	"Illinois"	"17"	"Champaign County, IL"	"17019"	53	206226	25.7
+	"Illinois"	"17"	"Clay County, IL"	"17025"			Unreliable
+	"Illinois"	"17"	"Clinton County, IL"	"17027"	0		0
+	"Illinois"	"17"	"Gallatin County, IL"	"17059"			Unreliable
+	"Texas"	"48"	"Webb County, TX"	"48479"	55	266990	20.6
+	"Vermont"	"50"	"Bennington County, VT"	"50003"	19	37328	50.9
+	"Virginia"	"51"	"Bedford County, VA"	"51019"	28	80692	34.7
+	"Virginia"	"51"	"Campbell County, VA"	"51031"			Unreliable
+	"Virginia"	"51"	"Frederick County, VA"	"51069"	17	94972	17.9
+	"Virginia"	"51"	"Greene County, VA"	"51079"			Unreliable
+	"Virginia"	"51"	"James City County, VA"	"51095"	12	81633	14.7
+	"Indiana"	"18"	"Wabash County, IN"	"18169"	11	30812	35.7
+	"Indiana"	"18"	"Whitley County, IN"	"18183"			Unreliable
+	"Iowa"	"19"	"Calhoun County, IA"	"19025"			Unreliable
+	"Iowa"	"19"	"Cherokee County, IA"	"19035"	0		0
+	"Iowa"	"19"	"Crawford County, IA"	"19047"			Unreliable
+	"Iowa"	"19"	"Fayette County, IA"	"19065"			Unreliable
+	"Iowa"	"19"	"Franklin County, IA"	"19069"	0		0
+	"Iowa"	"19"	"Mitchell County, IA"	"19131"	0		0
+	"Illinois"	"17"	"Moultrie County, IL"	"17139"			Unreliable
+	"Illinois"	"17"	"Sangamon County, IL"	"17167"	61	194268	31.4
+	"Illinois"	"17"	"Vermilion County, IL"	"17183"	28	72165	38.8
+	"Illinois"	"17"	"Woodford County, IL"	"17203"			Unreliable
+	"Indiana"	"18"	"Allen County, IN"	"18003"	132	391691	33.7
+	"Indiana"	"18"	"Benton County, IN"	"18007"	0		0
+	"Indiana"	"18"	"Clinton County, IN"	"18023"	15	32751	45.8
+	"Indiana"	"18"	"Dubois County, IN"	"18037"			Unreliable
+	"Indiana"	"18"	"Noble County, IN"	"18113"	10	47170	21.2
+	"Iowa"	"19"	"Humboldt County, IA"	"19091"			Unreliable
+	"Iowa"	"19"	"Marion County, IA"	"19125"			Unreliable
+	"Iowa"	"19"	"Plymouth County, IA"	"19149"			Unreliable
+	"Kansas"	"20"	"Woodson County, KS"	"20207"	0		0
+	"Kentucky"	"21"	"Edmonson County, KY"	"21061"			Unreliable
+	"Kentucky"	"21"	"Garrard County, KY"	"21079"			Unreliable
+	"Kentucky"	"21"	"Jessamine County, KY"	"21113"	41	54233	75.6
+	"Kentucky"	"21"	"Kenton County, KY"	"21117"	71	170264	41.7
+	"Kentucky"	"21"	"Knott County, KY"	"21119"	15	13850	108.3
+	"Kentucky"	"21"	"McCracken County, KY"	"21145"	15	67265	22.3
+	"Kentucky"	"21"	"Marshall County, KY"	"21157"			Unreliable
+	"Kentucky"	"21"	"Martin County, KY"	"21159"			Unreliable
+	"Kentucky"	"21"	"Montgomery County, KY"	"21173"	22	28351	77.6
+	"Kentucky"	"21"	"Powell County, KY"	"21197"			Unreliable
+	"Kentucky"	"21"	"Robertson County, KY"	"21201"	0		0
+	"Kentucky"	"21"	"Taylor County, KY"	"21217"	21	26382	79.6
+	"Kentucky"	"21"	"Trimble County, KY"	"21223"			Unreliable
+	"Louisiana"	"22"	"Assumption Parish, LA"	"22007"			Unreliable
+	"Louisiana"	"22"	"Bossier Parish, LA"	"22015"	16	129032	12.4
+	"Louisiana"	"22"	"Jefferson Davis Parish, LA"	"22053"	21	31915	65.8
+	"Louisiana"	"22"	"Plaquemines Parish, LA"	"22075"			Unreliable
+	"Louisiana"	"22"	"St. James Parish, LA"	"22093"	10	19380	51.6
+	"Kansas"	"20"	"Butler County, KS"	"20015"	14	68293	20.5
+	"Kansas"	"20"	"Coffey County, KS"	"20031"			Unreliable
+	"Kansas"	"20"	"Geary County, KS"	"20061"	10	35587	28.1
+	"Kansas"	"20"	"Grant County, KS"	"20067"	0		0
+	"Kansas"	"20"	"Harvey County, KS"	"20079"			Unreliable
+	"Kansas"	"20"	"Kiowa County, KS"	"20097"	0		0
+	"Kansas"	"20"	"Seward County, KS"	"20175"			Unreliable
+	"Kentucky"	"21"	"Bullitt County, KY"	"21029"	42	83832	50.1
+	"Kentucky"	"21"	"Campbell County, KY"	"21037"	44	93220	47.2
+	"Kentucky"	"21"	"Hardin County, KY"	"21093"	46	111650	41.2
+	"Kentucky"	"21"	"Harlan County, KY"	"21095"	13	25641	50.7
+	"Kentucky"	"21"	"Hopkins County, KY"	"21107"			Unreliable
+	"Kentucky"	"21"	"Laurel County, KY"	"21125"	24	62827	38.2
+	"Kentucky"	"21"	"Perry County, KY"	"21193"	22	27363	80.4
+	"Kentucky"	"21"	"Rowan County, KY"	"21205"	16	24390	65.6
+	"Kentucky"	"21"	"Shelby County, KY"	"21211"	30	48860	61.4
+	"Kentucky"	"21"	"Christian County, KY"	"21047"	31	72261	42.9
+	"Kentucky"	"21"	"Madison County, KY"	"21151"	65	95168	68.3
+	"Kentucky"	"21"	"Metcalfe County, KY"	"21169"			Unreliable
+	"Kentucky"	"21"	"Todd County, KY"	"21219"			Unreliable
+	"Kentucky"	"21"	"Wolfe County, KY"	"21237"			Unreliable
+	"Kentucky"	"21"	"Woodford County, KY"	"21239"			Unreliable
+	"Louisiana"	"22"	"St. Bernard Parish, LA"	"22087"	36	44444	81
+	"Louisiana"	"22"	"St. Charles Parish, LA"	"22089"	29	51056	56.8
+	"Louisiana"	"22"	"West Carroll Parish, LA"	"22123"			Unreliable
+	"Maine"	"23"	"Aroostook County, ME"	"23003"	41	67323	60.9
+	"Maine"	"23"	"Sagadahoc County, ME"	"23023"	10	37313	26.8
+	"Maine"	"23"	"Washington County, ME"	"23029"	24	31537	76.1
+	"Maine"	"23"	"York County, ME"	"23031"	103	216842	47.5
+	"Massachusetts"	"25"	"Barnstable County, MA"	"25001"	91	232143	39.2
+	"Massachusetts"	"25"	"Dukes County, MA"	"25007"			Unreliable
+	"Michigan"	"26"	"Benzie County, MI"	"26019"			Unreliable
+	"Michigan"	"26"	"Berrien County, MI"	"26021"	47	152597	30.8
+	"Michigan"	"26"	"Gratiot County, MI"	"26057"			Unreliable
+	"Minnesota"	"27"	"Becker County, MN"	"27005"			Unreliable
+	"Minnesota"	"27"	"Faribault County, MN"	"27043"			Unreliable
+	"Minnesota"	"27"	"Goodhue County, MN"	"27049"			Unreliable
+	"Minnesota"	"27"	"Mille Lacs County, MN"	"27095"	11	27295	40.3
+	"Minnesota"	"27"	"Wadena County, MN"	"27159"	0		0
+	"Minnesota"	"27"	"Aitkin County, MN"	"27001"			Unreliable
+	"Minnesota"	"27"	"Mower County, MN"	"27099"	11	40000	27.5
+	"Minnesota"	"27"	"Nicollet County, MN"	"27103"			Unreliable
+	"Minnesota"	"27"	"Rice County, MN"	"27131"			Unreliable
+	"Minnesota"	"27"	"Todd County, MN"	"27153"			Unreliable
+	"Minnesota"	"27"	"Washington County, MN"	"27163"	28	277228	10.1
+	"Mississippi"	"28"	"Lawrence County, MS"	"28077"			Unreliable
+	"Mississippi"	"28"	"Leflore County, MS"	"28083"			Unreliable
+	"Missouri"	"29"	"Cass County, MO"	"29037"	25	110132	22.7
+	"Missouri"	"29"	"Clinton County, MO"	"29049"			Unreliable
+	"Missouri"	"29"	"Franklin County, MO"	"29071"	49	105832	46.3
+	"Missouri"	"29"	"Holt County, MO"	"29087"	0		0
+	"Missouri"	"29"	"Iron County, MO"	"29093"			Unreliable
+	"Missouri"	"29"	"Jackson County, MO"	"29095"	290	716049	40.5
+	"Missouri"	"29"	"Laclede County, MO"	"29105"			Unreliable
+	"Missouri"	"29"	"Ste. Genevieve County, MO"	"29186"	11	18613	59.1
+	"Missouri"	"29"	"Washington County, MO"	"29221"	10	23419	42.7
+	"Montana"	"30"	"Blaine County, MT"	"30005"			Unreliable
+	"Minnesota"	"27"	"Dodge County, MN"	"27039"			Unreliable
+	"Minnesota"	"27"	"Marshall County, MN"	"27089"	0		0
+	"Minnesota"	"27"	"Morrison County, MN"	"27097"	11	34268	32.1
+	"Minnesota"	"27"	"Pennington County, MN"	"27113"			Unreliable
+	"Minnesota"	"27"	"Pipestone County, MN"	"27117"			Unreliable
+	"Minnesota"	"27"	"Polk County, MN"	"27119"			Unreliable
+	"Minnesota"	"27"	"Swift County, MN"	"27151"	0		0
+	"Mississippi"	"28"	"Benton County, MS"	"28009"			Unreliable
+	"Mississippi"	"28"	"Forrest County, MS"	"28035"	14	77778	18
+	"Mississippi"	"28"	"Kemper County, MS"	"28069"	0		0
+	"Mississippi"	"28"	"Perry County, MS"	"28111"			Unreliable
+	"Mississippi"	"28"	"Winston County, MS"	"28159"			Unreliable
+	"Mississippi"	"28"	"Yalobusha County, MS"	"28161"			Unreliable
+	"Missouri"	"29"	"Barry County, MO"	"29009"			Unreliable
+	"Missouri"	"29"	"Benton County, MO"	"29015"			Unreliable
+	"Missouri"	"29"	"Mississippi County, MO"	"29133"			Unreliable
+	"Missouri"	"29"	"Randolph County, MO"	"29175"			Unreliable
+	"Missouri"	"29"	"St. Charles County, MO"	"29183"	98	413502	23.7
+	"Missouri"	"29"	"Scotland County, MO"	"29199"	0		0
+	"New York"	"36"	"Greene County, NY"	"36039"	13	47273	27.5
+	"North Carolina"	"37"	"Cherokee County, NC"	"37039"	11	29491	37.3
+	"Nebraska"	"31"	"Boone County, NE"	"31011"	0		0
+	"Nebraska"	"31"	"Cass County, NE"	"31025"	0		0
+	"Nebraska"	"31"	"Hitchcock County, NE"	"31087"	0		0
+	"Nebraska"	"31"	"Webster County, NE"	"31181"			Unreliable
+	"Nebraska"	"31"	"Wheeler County, NE"	"31183"	0		0
+	"North Carolina"	"37"	"Mecklenburg County, NC"	"37119"	311	1143382	27.2
+	"North Carolina"	"37"	"Montgomery County, NC"	"37123"	16	25848	61.9
+	"North Carolina"	"37"	"Union County, NC"	"37179"	48	248705	19.3
+	"North Dakota"	"38"	"Burleigh County, ND"	"38015"	18	99448	18.1
+	"Ohio"	"39"	"Athens County, OH"	"39009"	27	60948	44.3
+	"Ohio"	"39"	"Hancock County, OH"	"39063"	29	74742	38.8
+	"Ohio"	"39"	"Lake County, OH"	"39085"	88	231579	38
+	"Ohio"	"39"	"Williams County, OH"	"39171"			Unreliable
+	"Oklahoma"	"40"	"Adair County, OK"	"40001"			Unreliable
+	"Oklahoma"	"40"	"Comanche County, OK"	"40031"	28	122271	22.9
+	"North Carolina"	"37"	"Scotland County, NC"	"37165"	19	34358	55.3
+	"North Dakota"	"38"	"Cavalier County, ND"	"38019"	0		0
+	"North Dakota"	"38"	"Dickey County, ND"	"38021"	0		0
+	"North Dakota"	"38"	"Stark County, ND"	"38089"			Unreliable
+	"Nebraska"	"31"	"Saline County, NE"	"31151"			Unreliable
+	"Nebraska"	"31"	"Sioux County, NE"	"31165"	0		0
+	"Nevada"	"32"	"Eureka County, NV"	"32011"	0		0
+	"Nevada"	"32"	"Pershing County, NV"	"32027"			Unreliable
+	"New Hampshire"	"33"	"Rockingham County, NH"	"33015"	77	319502	24.1
+	"New Jersey"	"34"	"Gloucester County, NJ"	"34015"	115	306667	37.5
+	"New Mexico"	"35"	"San Juan County, NM"	"35045"	45	120643	37.3
+	"New Mexico"	"35"	"Santa Fe County, NM"	"35049"	69	155756	44.3
+	"New Mexico"	"35"	"Union County, NM"	"35059"			Unreliable
+	"Oklahoma"	"40"	"Jackson County, OK"	"40065"			Unreliable
+	"Oklahoma"	"40"	"Kingfisher County, OK"	"40073"			Unreliable
+	"Oklahoma"	"40"	"Osage County, OK"	"40113"	14	45902	30.5
+	"Oklahoma"	"40"	"Pottawatomie County, OK"	"40125"	24	73394	32.7
+	"Oregon"	"41"	"Marion County, OR"	"41047"	78	346667	22.5
+	"Oklahoma"	"40"	"Noble County, OK"	"40103"			Unreliable
+	"Oklahoma"	"40"	"Woods County, OK"	"40151"			Unreliable
+	"Oregon"	"41"	"Baker County, OR"	"41001"			Unreliable
+	"New Mexico"	"35"	"Lea County, NM"	"35025"	25	72254	34.6
+	"New Mexico"	"35"	"Quay County, NM"	"35037"			Unreliable
+	"New Mexico"	"35"	"Roosevelt County, NM"	"35041"			Unreliable
+	"New Mexico"	"35"	"Torrance County, NM"	"35057"			Unreliable
+	"New York"	"36"	"Chautauqua County, NY"	"36013"	61	125257	48.7
+	"New York"	"36"	"Hamilton County, NY"	"36041"			Unreliable
+	"New York"	"36"	"Montgomery County, NY"	"36057"	10	49261	20.3
+	"New York"	"36"	"Queens County, NY"	"36081"	515	2278761	22.6
+	"New York"	"36"	"Rockland County, NY"	"36087"	48	340426	14.1
+	"New York"	"36"	"Ulster County, NY"	"36111"	71	182519	38.9
+	"Pennsylvania"	"42"	"Perry County, PA"	"42099"	12	46154	26
+	"Rhode Island"	"44"	"Providence County, RI"	"44007"	268	656863	40.8
+	"South Carolina"	"45"	"Chester County, SC"	"45023"	12	32000	37.5
+	"South Carolina"	"45"	"Chesterfield County, SC"	"45025"	17	43702	38.9
+	"South Carolina"	"45"	"Horry County, SC"	"45051"	200	383142	52.2
+	"South Dakota"	"46"	"Brown County, SD"	"46013"			Unreliable
+	"South Dakota"	"46"	"Codington County, SD"	"46029"			Unreliable
+	"South Dakota"	"46"	"Faulk County, SD"	"46049"	0		0
+	"South Dakota"	"46"	"Hamlin County, SD"	"46057"	0		0
+	"North Carolina"	"37"	"Catawba County, NC"	"37035"	63	163212	38.6
+	"North Carolina"	"37"	"Clay County, NC"	"37043"			Unreliable
+	"North Carolina"	"37"	"Gaston County, NC"	"37071"	145	233871	62
+	"North Carolina"	"37"	"Rowan County, NC"	"37159"	104	149640	69.5
+	"North Carolina"	"37"	"Wayne County, NC"	"37191"	25	117371	21.3
+	"North Dakota"	"38"	"Golden Valley County, ND"	"38033"	0		0
+	"Tennessee"	"47"	"Anderson County, TN"	"47001"	74	78891	93.8
+	"Tennessee"	"47"	"Haywood County, TN"	"47075"			Unreliable
+	"Tennessee"	"47"	"Meigs County, TN"	"47121"	10	13263	75.4
+	"North Dakota"	"38"	"Walsh County, ND"	"38099"			Unreliable
+	"Ohio"	"39"	"Knox County, OH"	"39083"	10	63291	15.8
+	"Ohio"	"39"	"Sandusky County, OH"	"39143"	23	58524	39.3
+	"Pennsylvania"	"42"	"Potter County, PA"	"42105"			Unreliable
+	"Pennsylvania"	"42"	"Union County, PA"	"42119"			Unreliable
+	"South Carolina"	"45"	"Abbeville County, SC"	"45001"			Unreliable
+	"South Carolina"	"45"	"Marion County, SC"	"45067"	12	28504	42.1
+	"South Carolina"	"45"	"Richland County, SC"	"45079"	123	421233	29.2
+	"South Carolina"	"45"	"Saluda County, SC"	"45081"			Unreliable
+	"South Dakota"	"46"	"Brookings County, SD"	"46011"	0		0
+	"South Dakota"	"46"	"Butte County, SD"	"46019"			Unreliable
+	"South Dakota"	"46"	"Clay County, SD"	"46027"			Unreliable
+	"South Dakota"	"46"	"Dewey County, SD"	"46041"	0		0
+	"Oklahoma"	"40"	"Beckham County, OK"	"40009"			Unreliable
+	"Oklahoma"	"40"	"Delaware County, OK"	"40041"			Unreliable
+	"Oklahoma"	"40"	"Washington County, OK"	"40147"	20	53191	37.6
+	"Oregon"	"41"	"Harney County, OR"	"41025"			Unreliable
+	"Oregon"	"41"	"Jefferson County, OR"	"41031"			Unreliable
+	"Oregon"	"41"	"Morrow County, OR"	"41049"			Unreliable
+	"Oregon"	"41"	"Sherman County, OR"	"41055"	0		0
+	"Oregon"	"41"	"Tillamook County, OR"	"41057"			Unreliable
+	"Texas"	"48"	"Henderson County, TX"	"48213"	15	84270	17.8
+	"Texas"	"48"	"Karnes County, TX"	"48255"			Unreliable
+	"Texas"	"48"	"Kent County, TX"	"48263"	0		0
+	"Texas"	"48"	"Lamb County, TX"	"48279"			Unreliable
+	"Texas"	"48"	"La Salle County, TX"	"48283"			Unreliable
+	"Texas"	"48"	"Mason County, TX"	"48319"			Unreliable
+	"Oregon"	"41"	"Wheeler County, OR"	"41069"	0		0
+	"Pennsylvania"	"42"	"Clinton County, PA"	"42035"			Unreliable
+	"Pennsylvania"	"42"	"Columbia County, PA"	"42037"	18	65217	27.6
+	"Pennsylvania"	"42"	"Greene County, PA"	"42059"	12	34483	34.8
+	"Pennsylvania"	"42"	"Mifflin County, PA"	"42087"	17	45946	37
+	"South Carolina"	"45"	"Orangeburg County, SC"	"45075"	38	83151	45.7
+	"Texas"	"48"	"Taylor County, TX"	"48441"	27	145161	18.6
+	"Texas"	"48"	"Terrell County, TX"	"48443"	0		0
+	"Texas"	"48"	"Upton County, TX"	"48461"			Unreliable
+	"Texas"	"48"	"Wood County, TX"	"48499"			Unreliable
+	"Utah"	"49"	"Emery County, UT"	"49015"			Unreliable
+	"Alaska"	"02"	"Petersburg Borough, AK"	"02195"	0		0
+	"Utah"	"49"	"Uintah County, UT"	"49047"			Unreliable
+	"Virginia"	"51"	"Bath County, VA"	"51017"	0		0
+	"Vermont"	"50"	"Franklin County, VT"	"50011"	18	50704	35.5
+	"Vermont"	"50"	"Grand Isle County, VT"	"50013"			Unreliable
+	"Vermont"	"50"	"Rutland County, VT"	"50021"	36	60403	59.6
+	"Virginia"	"51"	"Accomack County, VA"	"51001"			Unreliable
+	"Virginia"	"51"	"Appomattox County, VA"	"51011"			Unreliable
+	"Virginia"	"51"	"Caroline County, VA"	"51033"			Unreliable
+	"Virginia"	"51"	"Isle of Wight County, VA"	"51093"	15	40107	37.4
+	"Virginia"	"51"	"Nelson County, VA"	"51125"			Unreliable
+	"Virginia"	"51"	"Patrick County, VA"	"51141"			Unreliable
+	"Virginia"	"51"	"Rockbridge County, VA"	"51163"			Unreliable
+	"Virginia"	"51"	"Scott County, VA"	"51169"			Unreliable
+	"Tennessee"	"47"	"McMinn County, TN"	"47107"	26	54737	47.5
+	"Texas"	"48"	"Baylor County, TX"	"48023"	0		0
+	"Texas"	"48"	"Bexar County, TX"	"48029"	444	2055556	21.6
+	"Texas"	"48"	"Bowie County, TX"	"48037"	17	91892	18.5
+	"Alabama"	"01"	"Butler County, AL"	"01013"			Unreliable
+	"Alabama"	"01"	"Clay County, AL"	"01027"			Unreliable
+	"Virginia"	"51"	"Roanoke County, VA"	"51161"	24	96774	24.8
+	"Virginia"	"51"	"Surry County, VA"	"51181"			Unreliable
+	"Virginia"	"51"	"Wythe County, VA"	"51197"			Unreliable
+	"Virginia"	"51"	"Franklin city, VA"	"51620"			Unreliable
+	"Virginia"	"51"	"Harrisonburg city, VA"	"51660"			Unreliable
+	"Washington"	"53"	"Garfield County, WA"	"53023"	0		0
+	"Alabama"	"01"	"Chilton County, AL"	"01021"	14	45902	30.5
+	"Alabama"	"01"	"Coosa County, AL"	"01037"			Unreliable
+	"Alabama"	"01"	"Crenshaw County, AL"	"01041"	0		0
+	"Alabama"	"01"	"Elmore County, AL"	"01051"	10	89286	11.2
+	"Alabama"	"01"	"Lamar County, AL"	"01075"			Unreliable
+	"Alabama"	"01"	"Marengo County, AL"	"01091"			Unreliable
+	"Alabama"	"01"	"Perry County, AL"	"01105"	0		0
+	"Alabama"	"01"	"Pickens County, AL"	"01107"			Unreliable
+	"Alabama"	"01"	"Tallapoosa County, AL"	"01123"			Unreliable
+	"Alabama"	"01"	"Tuscaloosa County, AL"	"01125"	43	236264	18.2
+	"Alaska"	"02"	"Anchorage Municipality, AK"	"02020"	125	286697	43.6
+	"Arkansas"	"05"	"Baxter County, AR"	"05005"			Unreliable
+	"Alabama"	"01"	"Escambia County, AL"	"01053"	18	36660	49.1
+	"Alabama"	"01"	"Henry County, AL"	"01067"			Unreliable
+	"Alabama"	"01"	"Talladega County, AL"	"01121"	12	80537	14.9
+	"Alaska"	"02"	"Nome Census Area, AK"	"02180"			Unreliable
+	"Arizona"	"04"	"Cochise County, AZ"	"04003"	40	125392	31.9
+	"Iowa"	"19"	"Sac County, IA"	"19161"			Unreliable
+	"Kansas"	"20"	"Brown County, KS"	"20013"	0		0
+	"Kansas"	"20"	"Chautauqua County, KS"	"20019"			Unreliable
+	"Kansas"	"20"	"Finney County, KS"	"20055"			Unreliable
+	"Kansas"	"20"	"Kearny County, KS"	"20093"	0		0
+	"Kansas"	"20"	"Mitchell County, KS"	"20123"			Unreliable
+	"Kansas"	"20"	"Osage County, KS"	"20139"			Unreliable
+	"Washington"	"53"	"Kitsap County, WA"	"53035"	67	278008	24.1
+	"West Virginia"	"54"	"Calhoun County, WV"	"54013"			Unreliable
+	"West Virginia"	"54"	"Mason County, WV"	"54053"	19	24902	76.3
+	"West Virginia"	"54"	"Monongalia County, WV"	"54061"	43	106965	40.2
+	"Wisconsin"	"55"	"Brown County, WI"	"55009"	66	270492	24.4
+	"Kansas"	"20"	"Smith County, KS"	"20183"	0		0
+	"Kansas"	"20"	"Stevens County, KS"	"20189"			Unreliable
+	"Kansas"	"20"	"Wilson County, KS"	"20205"			Unreliable
+	"Kentucky"	"21"	"Barren County, KY"	"21009"			Unreliable
+	"Kentucky"	"21"	"Boyd County, KY"	"21019"	49	48039	102
+	"Kentucky"	"21"	"Breckinridge County, KY"	"21027"			Unreliable
+	"Kentucky"	"21"	"Fleming County, KY"	"21069"			Unreliable
+	"Kentucky"	"21"	"Hickman County, KY"	"21105"			Unreliable
+	"Kentucky"	"21"	"Pendleton County, KY"	"21191"			Unreliable
+	"Kentucky"	"21"	"Russell County, KY"	"21207"			Unreliable
+	"Louisiana"	"22"	"Bienville Parish, LA"	"22013"	0		0
+	"Louisiana"	"22"	"Evangeline Parish, LA"	"22039"	10	32051	31.2
+	"Louisiana"	"22"	"Iberville Parish, LA"	"22047"	15	29586	50.7
+	"Louisiana"	"22"	"Ouachita Parish, LA"	"22073"	63	157895	39.9
+	"Louisiana"	"22"	"St. Martin Parish, LA"	"22099"	32	51282	62.4
+	"Louisiana"	"22"	"Tangipahoa Parish, LA"	"22105"	99	136740	72.4
+	"Louisiana"	"22"	"Tensas Parish, LA"	"22107"	0		0
+	"Kentucky"	"21"	"Trigg County, KY"	"21221"			Unreliable
+	"Kentucky"	"21"	"Wayne County, KY"	"21231"			Unreliable
+	"Louisiana"	"22"	"De Soto Parish, LA"	"22031"	0		0
+	"Louisiana"	"22"	"Grant Parish, LA"	"22043"			Unreliable
+	"Louisiana"	"22"	"Orleans Parish, LA"	"22071"	358	369835	96.8
+	"Louisiana"	"22"	"Pointe Coupee Parish, LA"	"22077"			Unreliable
+	"Louisiana"	"22"	"Richland Parish, LA"	"22083"			Unreliable
+	"Louisiana"	"22"	"Vermilion Parish, LA"	"22113"	23	56931	40.4
+	"Maine"	"23"	"Franklin County, ME"	"23007"	14	30568	45.8
+	"Kentucky"	"21"	"Elliott County, KY"	"21063"	0		0
+	"Kentucky"	"21"	"Hancock County, KY"	"21091"	0		0
+	"Kentucky"	"21"	"Hart County, KY"	"21099"			Unreliable
+	"Kentucky"	"21"	"Leslie County, KY"	"21131"			Unreliable
+	"Kentucky"	"21"	"Letcher County, KY"	"21133"	14	20833	67.2
+	"Kentucky"	"21"	"Lyon County, KY"	"21143"			Unreliable
+	"Kentucky"	"21"	"Rockcastle County, KY"	"21203"			Unreliable
+	"Maine"	"23"	"Somerset County, ME"	"23025"	30	51107	58.7
+	"Maryland"	"24"	"Garrett County, MD"	"24023"			Unreliable
+	"Maryland"	"24"	"Montgomery County, MD"	"24031"	125	1050420	11.9
+	"Maryland"	"24"	"Prince George's County, MD"	"24033"	245	945946	25.9
+	"Massachusetts"	"25"	"Essex County, MA"	"25009"	288	806723	35.7
+	"Massachusetts"	"25"	"Norfolk County, MA"	"25021"	170	726496	23.4
+	"Michigan"	"26"	"Arenac County, MI"	"26011"			Unreliable
+	"Michigan"	"26"	"Charlevoix County, MI"	"26029"			Unreliable
+	"Michigan"	"26"	"Clinton County, MI"	"26037"			Unreliable
+	"Michigan"	"26"	"Isabella County, MI"	"26073"	13	64356	20.2
+	"Michigan"	"26"	"Oceana County, MI"	"26127"			Unreliable
+	"Kentucky"	"21"	"Whitley County, KY"	"21235"	35	36920	94.8
+	"Louisiana"	"22"	"Cameron Parish, LA"	"22023"			Unreliable
+	"Louisiana"	"22"	"East Feliciana Parish, LA"	"22037"			Unreliable
+	"Louisiana"	"22"	"Natchitoches Parish, LA"	"22069"	13	36620	35.5
+	"Maryland"	"24"	"Allegany County, MD"	"24001"	34	67327	50.5
+	"Maryland"	"24"	"Talbot County, MD"	"24041"	10	37879	26.4
+	"Michigan"	"26"	"Cheboygan County, MI"	"26031"			Unreliable
+	"Michigan"	"26"	"Mackinac County, MI"	"26097"			Unreliable
+	"Michigan"	"26"	"Muskegon County, MI"	"26121"	64	175342	36.5
+	"Mississippi"	"28"	"Calhoun County, MS"	"28013"			Unreliable
+	"Mississippi"	"28"	"Coahoma County, MS"	"28027"			Unreliable
+	"Mississippi"	"28"	"Grenada County, MS"	"28043"	10	21142	47.3
+	"Mississippi"	"28"	"Newton County, MS"	"28101"			Unreliable
+	"Mississippi"	"28"	"Panola County, MS"	"28107"	10	32573	30.7
+	"Mississippi"	"28"	"Sunflower County, MS"	"28133"			Unreliable
+	"Missouri"	"29"	"Camden County, MO"	"29029"			Unreliable
+	"Missouri"	"29"	"Cedar County, MO"	"29039"			Unreliable
+	"Missouri"	"29"	"Madison County, MO"	"29123"			Unreliable
+	"Missouri"	"29"	"Phelps County, MO"	"29161"	21	45259	46.4
+	"Missouri"	"29"	"Platte County, MO"	"29165"	20	110497	18.1
+	"Missouri"	"29"	"Ray County, MO"	"29177"			Unreliable
+	"Montana"	"30"	"Deer Lodge County, MT"	"30023"			Unreliable
+	"Montana"	"30"	"Glacier County, MT"	"30035"			Unreliable
+	"Montana"	"30"	"Pondera County, MT"	"30073"			Unreliable
+	"Montana"	"30"	"Teton County, MT"	"30099"	0		0
+	"Nebraska"	"31"	"Cedar County, NE"	"31027"	0		0
+	"Nebraska"	"31"	"Cuming County, NE"	"31039"	0		0
+	"Nebraska"	"31"	"Dixon County, NE"	"31051"			Unreliable
+	"Minnesota"	"27"	"Koochiching County, MN"	"27071"			Unreliable
+	"Minnesota"	"27"	"Lake of the Woods County, MN"	"27077"	0		0
+	"Minnesota"	"27"	"Martin County, MN"	"27091"			Unreliable
+	"Minnesota"	"27"	"Nobles County, MN"	"27105"	0		0
+	"Minnesota"	"27"	"Stevens County, MN"	"27149"	0		0
+	"Mississippi"	"28"	"Franklin County, MS"	"28037"			Unreliable
+	"Mississippi"	"28"	"Webster County, MS"	"28155"			Unreliable
+	"Missouri"	"29"	"DeKalb County, MO"	"29063"			Unreliable
+	"Missouri"	"29"	"Dunklin County, MO"	"29069"			Unreliable
+	"Missouri"	"29"	"Gasconade County, MO"	"29073"			Unreliable
+	"Nevada"	"32"	"Lincoln County, NV"	"32017"			Unreliable
+	"New Jersey"	"34"	"Bergen County, NJ"	"34003"	156	951220	16.4
+	"New York"	"36"	"Genesee County, NY"	"36037"	16	57348	27.9
+	"Nebraska"	"31"	"Box Butte County, NE"	"31013"			Unreliable
+	"Nebraska"	"31"	"Burt County, NE"	"31021"	0		0
+	"Nebraska"	"31"	"Jefferson County, NE"	"31095"	0		0
+	"Nebraska"	"31"	"Platte County, NE"	"31141"			Unreliable
+	"Nebraska"	"31"	"Thurston County, NE"	"31173"			Unreliable
+	"Nevada"	"32"	"Clark County, NV"	"32003"	615	2320755	26.5
+	"Nevada"	"32"	"Mineral County, NV"	"32021"	0		0
+	"Montana"	"30"	"Musselshell County, MT"	"30065"			Unreliable
+	"Montana"	"30"	"Roosevelt County, MT"	"30085"			Unreliable
+	"Montana"	"30"	"Sanders County, MT"	"30089"			Unreliable
+	"Montana"	"30"	"Sheridan County, MT"	"30091"			Unreliable
+	"Montana"	"30"	"Silver Bow County, MT"	"30093"	20	35971	55.6
+	"Montana"	"30"	"Wibaux County, MT"	"30109"	0		0
+	"Nebraska"	"31"	"Antelope County, NE"	"31003"			Unreliable
+	"Nebraska"	"31"	"Brown County, NE"	"31017"	0		0
+	"Nebraska"	"31"	"Deuel County, NE"	"31049"	0		0
+	"Nebraska"	"31"	"Garden County, NE"	"31069"	0		0
+	"Nebraska"	"31"	"Nance County, NE"	"31125"	0		0
+	"Nebraska"	"31"	"Scotts Bluff County, NE"	"31157"			Unreliable
+	"Nevada"	"32"	"Humboldt County, NV"	"32013"			Unreliable
+	"Nevada"	"32"	"Lander County, NV"	"32015"			Unreliable
+	"New Hampshire"	"33"	"Hillsborough County, NH"	"33011"	180	427553	42.1
+	"New Mexico"	"35"	"Sandoval County, NM"	"35043"	34	153846	22.1
+	"New York"	"36"	"Albany County, NY"	"36001"	95	315615	30.1
+	"New York"	"36"	"Cattaraugus County, NY"	"36009"	29	76115	38.1
+	"New York"	"36"	"Columbia County, NY"	"36021"	18	61017	29.5
+	"New York"	"36"	"Saratoga County, NY"	"36091"	34	237762	14.3
+	"New York"	"36"	"Tompkins County, NY"	"36109"	30	104167	28.8
+	"New York"	"36"	"Wyoming County, NY"	"36121"	10	39526	25.3
+	"New York"	"36"	"Yates County, NY"	"36123"			Unreliable
+	"North Carolina"	"37"	"Beaufort County, NC"	"37013"	23	44402	51.8
+	"North Carolina"	"37"	"Cumberland County, NC"	"37051"	182	337037	54
+	"North Carolina"	"37"	"Dare County, NC"	"37055"	18	37975	47.4
+	"North Carolina"	"37"	"Graham County, NC"	"37075"			Unreliable
+	"North Dakota"	"38"	"Steele County, ND"	"38091"	0		0
+	"Ohio"	"39"	"Allen County, OH"	"39003"	48	101053	47.5
+	"Ohio"	"39"	"Brown County, OH"	"39015"	23	43726	52.6
+	"Ohio"	"39"	"Coshocton County, OH"	"39031"			Unreliable
+	"Ohio"	"39"	"Geauga County, OH"	"39055"			Unreliable
+	"New Jersey"	"34"	"Camden County, NJ"	"34007"	325	525040	61.9
+	"New Jersey"	"34"	"Middlesex County, NJ"	"34023"	205	861345	23.8
+	"New Mexico"	"35"	"Bernalillo County, NM"	"35001"	412	673203	61.2
+	"New Mexico"	"35"	"Lincoln County, NM"	"35027"			Unreliable
+	"New York"	"36"	"Broome County, NY"	"36007"	97	197154	49.2
+	"New York"	"36"	"Erie County, NY"	"36029"	342	947368	36.1
+	"Oklahoma"	"40"	"Greer County, OK"	"40055"			Unreliable
+	"Oklahoma"	"40"	"Harmon County, OK"	"40057"			Unreliable
+	"Oklahoma"	"40"	"Love County, OK"	"40085"			Unreliable
+	"Oklahoma"	"40"	"McCurtain County, OK"	"40089"			Unreliable
+	"Oklahoma"	"40"	"Ottawa County, OK"	"40115"			Unreliable
+	"Oklahoma"	"40"	"Pontotoc County, OK"	"40123"	14	38043	36.8
+	"Oregon"	"41"	"Lake County, OR"	"41037"			Unreliable
+	"Pennsylvania"	"42"	"Adams County, PA"	"42001"			Unreliable
+	"New York"	"36"	"New York County, NY"	"36061"	487	1596721	30.5
+	"New York"	"36"	"Livingston County, NY"	"36051"	14	61404	22.8
+	"New York"	"36"	"Nassau County, NY"	"36059"	235	1382353	17
+	"New York"	"36"	"Orange County, NY"	"36071"	130	406250	32
+	"New York"	"36"	"Westchester County, NY"	"36119"	182	989130	18.4
+	"North Carolina"	"37"	"Duplin County, NC"	"37061"	14	48951	28.6
+	"North Carolina"	"37"	"Durham County, NC"	"37063"	127	333333	38.1
+	"North Carolina"	"37"	"Edgecombe County, NC"	"37065"	25	48356	51.7
+	"Pennsylvania"	"42"	"Lancaster County, PA"	"42071"	111	557789	19.9
+	"Pennsylvania"	"42"	"Montgomery County, PA"	"42091"	184	863850	21.3
+	"Pennsylvania"	"42"	"Montour County, PA"	"42093"			Unreliable
+	"Pennsylvania"	"42"	"Northumberland County, PA"	"42097"	34	90186	37.7
+	"Pennsylvania"	"42"	"Snyder County, PA"	"42109"			Unreliable
+	"Pennsylvania"	"42"	"Sullivan County, PA"	"42113"			Unreliable
+	"Pennsylvania"	"42"	"Tioga County, PA"	"42117"			Unreliable
+	"Rhode Island"	"44"	"Washington County, RI"	"44009"	29	130045	22.3
+	"South Carolina"	"45"	"Colleton County, SC"	"45029"	12	38585	31.1
+	"South Carolina"	"45"	"Edgefield County, SC"	"45037"	15	26978	55.6
+	"North Carolina"	"37"	"Harnett County, NC"	"37085"	59	138498	42.6
+	"North Carolina"	"37"	"Madison County, NC"	"37115"	12	21898	54.8
+	"North Carolina"	"37"	"Pitt County, NC"	"37147"	84	173554	48.4
+	"North Carolina"	"37"	"Sampson County, NC"	"37163"	16	59041	27.1
+	"North Carolina"	"37"	"Swain County, NC"	"37173"	13	13934	93.3
+	"North Carolina"	"37"	"Wilkes County, NC"	"37193"	23	65714	35
+	"North Dakota"	"38"	"Dunn County, ND"	"38025"			Unreliable
+	"North Dakota"	"38"	"Emmons County, ND"	"38029"			Unreliable
+	"North Dakota"	"38"	"Hettinger County, ND"	"38041"	0		0
+	"North Dakota"	"38"	"Logan County, ND"	"38047"	0		0
+	"South Dakota"	"46"	"Hand County, SD"	"46059"	0		0
+	"South Dakota"	"46"	"Lincoln County, SD"	"46083"			Unreliable
+	"South Dakota"	"46"	"Sully County, SD"	"46119"	0		0
+	"Tennessee"	"47"	"Bedford County, TN"	"47003"	15	51903	28.9
+	"Tennessee"	"47"	"Fentress County, TN"	"47049"			Unreliable
+	"North Dakota"	"38"	"Sargent County, ND"	"38081"	0		0
+	"Ohio"	"39"	"Champaign County, OH"	"39021"			Unreliable
+	"Ohio"	"39"	"Clark County, OH"	"39023"	69	134766	51.2
+	"Ohio"	"39"	"Darke County, OH"	"39037"	16	51447	31.1
+	"Ohio"	"39"	"Greene County, OH"	"39057"	47	169065	27.8
+	"Ohio"	"39"	"Hardin County, OH"	"39065"	11	30387	36.2
+	"Ohio"	"39"	"Hocking County, OH"	"39073"	17	27823	61.1
+	"Ohio"	"39"	"Monroe County, OH"	"39111"			Unreliable
+	"Ohio"	"39"	"Muskingum County, OH"	"39119"	30	86207	34.8
+	"Tennessee"	"47"	"Marion County, TN"	"47115"	19	29052	65.4
+	"Tennessee"	"47"	"Maury County, TN"	"47119"	37	107872	34.3
+	"Texas"	"48"	"Bandera County, TX"	"48019"			Unreliable
+	"Texas"	"48"	"Burleson County, TX"	"48051"			Unreliable
+	"Texas"	"48"	"Carson County, TX"	"48065"			Unreliable
+	"Texas"	"48"	"Cherokee County, TX"	"48073"			Unreliable
+	"South Dakota"	"46"	"Marshall County, SD"	"46091"	0		0
+	"South Dakota"	"46"	"Moody County, SD"	"46101"			Unreliable
+	"South Dakota"	"46"	"Spink County, SD"	"46115"	0		0
+	"South Dakota"	"46"	"Turner County, SD"	"46125"			Unreliable
+	"Tennessee"	"47"	"Hardin County, TN"	"47071"	12	27088	44.3
+	"Texas"	"48"	"Donley County, TX"	"48129"	0		0
+	"Texas"	"48"	"El Paso County, TX"	"48141"	138	867925	15.9
+	"Texas"	"48"	"Johnson County, TX"	"48251"	32	195122	16.4
+	"Texas"	"48"	"Matagorda County, TX"	"48321"			Unreliable
+	"Texas"	"48"	"Maverick County, TX"	"48323"			Unreliable
+	"Texas"	"48"	"Montague County, TX"	"48337"	0		0
+	"Tennessee"	"47"	"Perry County, TN"	"47135"			Unreliable
+	"Texas"	"48"	"Andrews County, TX"	"48003"			Unreliable
+	"Texas"	"48"	"Angelina County, TX"	"48005"	21	87137	24.1
+	"Texas"	"48"	"Bailey County, TX"	"48017"			Unreliable
+	"Texas"	"48"	"Bell County, TX"	"48027"	61	388535	15.7
+	"Texas"	"48"	"Blanco County, TX"	"48031"			Unreliable
+	"Texas"	"48"	"Brazos County, TX"	"48041"	21	241379	8.7
+	"Texas"	"48"	"Cooke County, TX"	"48097"			Unreliable
+	"Texas"	"48"	"Potter County, TX"	"48375"	24	114833	20.9
+	"Texas"	"48"	"Rains County, TX"	"48379"			Unreliable
+	"Texas"	"48"	"Tarrant County, TX"	"48439"	401	2155914	18.6
+	"Texas"	"48"	"Yoakum County, TX"	"48501"			Unreliable
+	"Texas"	"48"	"Zavala County, TX"	"48507"			Unreliable
+	"Utah"	"49"	"Daggett County, UT"	"49009"	0		0
+	"Utah"	"49"	"Kane County, UT"	"49025"			Unreliable
+	"South Dakota"	"46"	"Clark County, SD"	"46025"	0		0
+	"South Dakota"	"46"	"Douglas County, SD"	"46043"	0		0
+	"South Dakota"	"46"	"Fall River County, SD"	"46047"	0		0
+	"South Dakota"	"46"	"McCook County, SD"	"46087"	0		0
+	"South Dakota"	"46"	"Oglala Lakota County, SD"	"46102"			Unreliable
+	"Tennessee"	"47"	"Clay County, TN"	"47027"			Unreliable
+	"Tennessee"	"47"	"Henry County, TN"	"47079"			Unreliable
+	"Utah"	"49"	"Sanpete County, UT"	"49039"			Unreliable
+	"Utah"	"49"	"Wayne County, UT"	"49055"	0		0
+	"Vermont"	"50"	"Essex County, VT"	"50009"			Unreliable
+	"Vermont"	"50"	"Windsor County, VT"	"50027"	32	58182	55
+	"Virginia"	"51"	"Clarke County, VA"	"51043"			Unreliable
+	"Virginia"	"51"	"Fauquier County, VA"	"51061"	19	74803	25.4
+	"Virginia"	"51"	"Gloucester County, VA"	"51073"	14	39548	35.4
+	"Virginia"	"51"	"Hanover County, VA"	"51085"	31	112727	27.5
+	"Virginia"	"51"	"King and Queen County, VA"	"51097"			Unreliable
+	"Tennessee"	"47"	"Montgomery County, TN"	"47125"	76	234568	32.4
+	"Tennessee"	"47"	"Polk County, TN"	"47139"			Unreliable
+	"Tennessee"	"47"	"Stewart County, TN"	"47161"			Unreliable
+	"Tennessee"	"47"	"Washington County, TN"	"47179"	63	136069	46.3
+	"Tennessee"	"47"	"Weakley County, TN"	"47183"			Unreliable
+	"Texas"	"48"	"Brazoria County, TX"	"48039"	64	387879	16.5
+	"Texas"	"48"	"Callahan County, TX"	"48059"			Unreliable
+	"Texas"	"48"	"Coke County, TX"	"48081"	0		0
+	"Virginia"	"51"	"Northampton County, VA"	"51131"			Unreliable
+	"Virginia"	"51"	"Prince George County, VA"	"51149"			Unreliable
+	"Virginia"	"51"	"Richmond County, VA"	"51159"			Unreliable
+	"Virginia"	"51"	"Russell County, VA"	"51167"			Unreliable
+	"Virginia"	"51"	"Galax city, VA"	"51640"			Unreliable
+	"Virginia"	"51"	"Lynchburg city, VA"	"51680"	27	79179	34.1
+	"Washington"	"53"	"Clark County, WA"	"53011"	119	517391	23
+	"Washington"	"53"	"Columbia County, WA"	"53013"	0		0
+	"Washington"	"53"	"King County, WA"	"53033"	870	2265625	38.4
+	"Washington"	"53"	"Kittitas County, WA"	"53037"			Unreliable
+	"Alabama"	"01"	"Baldwin County, AL"	"01003"	70	246479	28.4
+	"Alabama"	"01"	"Bibb County, AL"	"01007"			Unreliable
+	"Alabama"	"01"	"Blount County, AL"	"01009"	14	59574	23.5
+	"Alabama"	"01"	"Calhoun County, AL"	"01015"	55	115789	47.5
+	"Virginia"	"51"	"Charles City County, VA"	"51036"			Unreliable
+	"Virginia"	"51"	"Fairfax County, VA"	"51059"	107	1138298	9.4
+	"Virginia"	"51"	"Floyd County, VA"	"51063"			Unreliable
+	"Virginia"	"51"	"Louisa County, VA"	"51109"	13	40000	32.5
+	"Virginia"	"51"	"Powhatan County, VA"	"51145"			Unreliable
+	"Alabama"	"01"	"Clarke County, AL"	"01025"			Unreliable
+	"Alabama"	"01"	"Dallas County, AL"	"01047"	17	36717	46.3
+	"Alabama"	"01"	"Marshall County, AL"	"01095"	28	99291	28.2
+	"Alaska"	"02"	"Haines Borough, AK"	"02100"			Unreliable
+	"Alaska"	"02"	"Ketchikan Gateway Borough, AK"	"02130"			Unreliable
+	"Alaska"	"02"	"Matanuska-Susitna Borough, AK"	"02170"	27	113445	23.8
+	"Arizona"	"04"	"Graham County, AZ"	"04009"	18	38793	46.4
+	"Alabama"	"01"	"Geneva County, AL"	"01061"			Unreliable
+	"Alabama"	"01"	"Houston County, AL"	"01069"	22	107843	20.4
+	"Alabama"	"01"	"Lawrence County, AL"	"01079"			Unreliable
+	"Alabama"	"01"	"Limestone County, AL"	"01083"			Unreliable
+	"Alabama"	"01"	"Macon County, AL"	"01087"			Unreliable
+	"Alabama"	"01"	"Sumter County, AL"	"01119"	0		0
+	"Arizona"	"04"	"Mohave County, AZ"	"04015"	66	220736	29.9
+	"Arkansas"	"05"	"Conway County, AR"	"05029"			Unreliable
+	"Arkansas"	"05"	"Desha County, AR"	"05041"			Unreliable
+	"Arkansas"	"05"	"Hot Spring County, AR"	"05059"			Unreliable
+	"Arkansas"	"05"	"Lonoke County, AR"	"05085"	12	75000	16
+	"Arkansas"	"05"	"Polk County, AR"	"05113"			Unreliable
+	"Arkansas"	"05"	"Sharp County, AR"	"05135"			Unreliable
+	"California"	"06"	"Humboldt County, CA"	"06023"	85	134921	63
+	"California"	"06"	"Mariposa County, CA"	"06043"			Unreliable
+	"California"	"06"	"Nevada County, CA"	"06057"	32	102564	31.2
+	"Texas"	"48"	"McLennan County, TX"	"48309"	25	265957	9.4
+	"California"	"06"	"San Francisco County, CA"	"06075"	467	807958	57.8
+	"Colorado"	"08"	"Ouray County, CO"	"08091"	0		0
+	"Delaware"	"10"	"Kent County, DE"	"10001"	94	187625	50.1
+	"District of Columbia"	"11"	"District of Columbia, DC"	"11001"	446	670677	66.5
+	"Colorado"	"08"	"Elbert County, CO"	"08039"			Unreliable
+	"Colorado"	"08"	"El Paso County, CO"	"08041"	349	740977	47.1
+	"Connecticut"	"09"	"New Haven County, CT"	"09009"	480	864865	55.5
+	"West Virginia"	"54"	"Monroe County, WV"	"54063"			Unreliable
+	"West Virginia"	"54"	"Tyler County, WV"	"54095"			Unreliable
+	"Wisconsin"	"55"	"Ashland County, WI"	"55003"			Unreliable
+	"Wisconsin"	"55"	"Manitowoc County, WI"	"55071"	22	81181	27.1
+	"Wisconsin"	"55"	"Richland County, WI"	"55103"			Unreliable
+	"Wisconsin"	"55"	"Walworth County, WI"	"55127"	17	105590	16.1
+	"Wisconsin"	"55"	"Winnebago County, WI"	"55139"	34	170854	19.9
+	"Wisconsin"	"55"	"St. Croix County, WI"	"55109"	12	96000	12.5
+	"Wisconsin"	"55"	"Shawano County, WI"	"55115"			Unreliable
+	"Wyoming"	"56"	"Campbell County, WY"	"56005"			Unreliable
+	"Wyoming"	"56"	"Carbon County, WY"	"56007"			Unreliable
+	"Florida"	"12"	"Martin County, FL"	"12085"	35	162037	21.6
+	"Florida"	"12"	"Santa Rosa County, FL"	"12113"	65	198171	32.8
+	"Florida"	"12"	"Sarasota County, FL"	"12115"	117	462451	25.3
+	"Georgia"	"13"	"Bacon County, GA"	"13005"			Unreliable
+	"Georgia"	"13"	"Clay County, GA"	"13061"	0		0
+	"Georgia"	"13"	"Clayton County, GA"	"13063"	55	298913	18.4
+	"Georgia"	"13"	"Clinch County, GA"	"13065"			Unreliable
+	"Georgia"	"13"	"Columbia County, GA"	"13073"	39	162500	24
+	"Georgia"	"13"	"Forsyth County, GA"	"13117"	49	267760	18.3
+	"Florida"	"12"	"Holmes County, FL"	"12059"			Unreliable
+	"Florida"	"12"	"Levy County, FL"	"12075"	16	45198	35.4
+	"Florida"	"12"	"Manatee County, FL"	"12081"	148	428986	34.5
+	"Florida"	"12"	"Osceola County, FL"	"12097"	112	422642	26.5
+	"Florida"	"12"	"Polk County, FL"	"12105"	209	788679	26.5
+	"Florida"	"12"	"Walton County, FL"	"12131"	30	83333	36
+	"Texas"	"48"	"Jones County, TX"	"48253"			Unreliable
+	"Texas"	"48"	"Parker County, TX"	"48367"	29	165714	17.5
+	"Texas"	"48"	"Parmer County, TX"	"48369"	0		0
+	"Texas"	"48"	"Reeves County, TX"	"48389"			Unreliable
+	"Texas"	"48"	"Uvalde County, TX"	"48463"			Unreliable
+	"Wyoming"	"56"	"Sheridan County, WY"	"56033"			Unreliable
+	"Georgia"	"13"	"Jackson County, GA"	"13157"	13	83871	15.5
+	"Georgia"	"13"	"Jasper County, GA"	"13159"			Unreliable
+	"Georgia"	"13"	"Johnson County, GA"	"13167"			Unreliable
+	"Georgia"	"13"	"Upson County, GA"	"13293"			Unreliable
+	"Idaho"	"16"	"Bannock County, ID"	"16005"	22	89796	24.5
+	"Georgia"	"13"	"Laurens County, GA"	"13175"	16	49689	32.2
+	"Georgia"	"13"	"Marion County, GA"	"13197"			Unreliable
+	"Georgia"	"13"	"Richmond County, GA"	"13245"	112	206262	54.3
+	"Georgia"	"13"	"Rockdale County, GA"	"13247"	17	94972	17.9
+	"Georgia"	"13"	"Seminole County, GA"	"13253"			Unreliable
+	"Georgia"	"13"	"Talbot County, GA"	"13263"	0		0
+	"Georgia"	"13"	"Walker County, GA"	"13295"	27	68878	39.2
+	"Georgia"	"13"	"Wayne County, GA"	"13305"	13	30733	42.3
+	"Georgia"	"13"	"Whitfield County, GA"	"13313"	16	103226	15.5
+	"Georgia"	"13"	"Wilkinson County, GA"	"13319"			Unreliable
+	"Idaho"	"16"	"Bear Lake County, ID"	"16007"			Unreliable
+	"Idaho"	"16"	"Camas County, ID"	"16025"	0		0
+	"Virginia"	"51"	"Spotsylvania County, VA"	"51177"	52	146893	35.4
+	"Virginia"	"51"	"Bristol city, VA"	"51520"			Unreliable
+	"Virginia"	"51"	"Falls Church city, VA"	"51610"			Unreliable
+	"Virginia"	"51"	"Richmond city, VA"	"51760"	217	228421	95
+	"Washington"	"53"	"Asotin County, WA"	"53003"			Unreliable
+	"Idaho"	"16"	"Kootenai County, ID"	"16055"	36	183673	19.6
+	"Idaho"	"16"	"Washington County, ID"	"16087"			Unreliable
+	"Illinois"	"17"	"Fayette County, IL"	"17051"			Unreliable
+	"Georgia"	"13"	"Gwinnett County, GA"	"13135"	163	976048	16.7
+	"Georgia"	"13"	"Hall County, GA"	"13139"	73	212828	34.3
+	"Georgia"	"13"	"Oconee County, GA"	"13219"			Unreliable
+	"Georgia"	"13"	"Pike County, GA"	"13231"			Unreliable
+	"Georgia"	"13"	"Pulaski County, GA"	"13235"	0		0
+	"Georgia"	"13"	"Wheeler County, GA"	"13309"			Unreliable
+	"Georgia"	"13"	"White County, GA"	"13311"			Unreliable
+	"Illinois"	"17"	"Livingston County, IL"	"17105"	12	35503	33.8
+	"Illinois"	"17"	"Pope County, IL"	"17151"			Unreliable
+	"Illinois"	"17"	"Whiteside County, IL"	"17195"	11	54455	20.2
+	"Indiana"	"18"	"Cass County, IN"	"18017"	16	37559	42.6
+	"Indiana"	"18"	"Crawford County, IN"	"18025"			Unreliable
+	"Indiana"	"18"	"Harrison County, IN"	"18061"	19	39749	47.8
+	"Indiana"	"18"	"Howard County, IN"	"18067"	42	83499	50.3
+	"Indiana"	"18"	"Jasper County, IN"	"18073"			Unreliable
+	"Hawaii"	"15"	"Maui County, HI"	"15009"	32	164103	19.5
+	"Idaho"	"16"	"Custer County, ID"	"16037"			Unreliable
+	"Idaho"	"16"	"Idaho County, ID"	"16049"			Unreliable
+	"Idaho"	"16"	"Jefferson County, ID"	"16051"			Unreliable
+	"Illinois"	"17"	"Bureau County, IL"	"17011"			Unreliable
+	"Illinois"	"17"	"Clark County, IL"	"17023"			Unreliable
+	"Illinois"	"17"	"Henry County, IL"	"17073"			Unreliable
+	"Wyoming"	"56"	"Washakie County, WY"	"56043"			Unreliable
+	"Indiana"	"18"	"Perry County, IN"	"18123"			Unreliable
+	"Indiana"	"18"	"Tippecanoe County, IN"	"18157"	49	188462	26
+	"Indiana"	"18"	"Union County, IN"	"18161"			Unreliable
+	"Iowa"	"19"	"Clarke County, IA"	"19039"	0		0
+	"Iowa"	"19"	"Des Moines County, IA"	"19057"	13	38235	34
+	"Iowa"	"19"	"Louisa County, IA"	"19115"	0		0
+	"Iowa"	"19"	"Madison County, IA"	"19121"			Unreliable
+	"Illinois"	"17"	"Pike County, IL"	"17149"	0		0
+	"Illinois"	"17"	"Putnam County, IL"	"17155"			Unreliable
+	"Illinois"	"17"	"White County, IL"	"17193"			Unreliable
+	"Illinois"	"17"	"Will County, IL"	"17197"	160	698690	22.9
+	"Indiana"	"18"	"Adams County, IN"	"18001"			Unreliable
+	"Indiana"	"18"	"Floyd County, IN"	"18043"	42	80614	52.1
+	"Indiana"	"18"	"Hendricks County, IN"	"18063"	35	183246	19.1
+	"Indiana"	"18"	"Knox County, IN"	"18083"			Unreliable
+	"Indiana"	"18"	"Marion County, IN"	"18097"	686	968927	70.8
+	"Illinois"	"17"	"Richland County, IL"	"17159"			Unreliable
+	"Indiana"	"18"	"Carroll County, IN"	"18015"			Unreliable
+	"Indiana"	"18"	"Fulton County, IN"	"18049"			Unreliable
+	"Indiana"	"18"	"Jay County, IN"	"18075"			Unreliable
+	"Indiana"	"18"	"Madison County, IN"	"18095"	77	131399	58.6
+	"Indiana"	"18"	"Warrick County, IN"	"18173"			Unreliable
+	"Iowa"	"19"	"Clay County, IA"	"19041"	0		0
+	"Iowa"	"19"	"Guthrie County, IA"	"19077"			Unreliable
+	"Washington"	"53"	"Spokane County, WA"	"53063"	205	549598	37.3
+	"West Virginia"	"54"	"Cabell County, WV"	"54011"	118	92476	127.6
+	"West Virginia"	"54"	"Marion County, WV"	"54049"	33	55743	59.2
+	"West Virginia"	"54"	"Mercer County, WV"	"54055"	54	58632	92.1
+	"Iowa"	"19"	"Floyd County, IA"	"19067"			Unreliable
+	"Iowa"	"19"	"Jasper County, IA"	"19099"			Unreliable
+	"Iowa"	"19"	"Osceola County, IA"	"19143"	0		0
+	"Iowa"	"19"	"Story County, IA"	"19169"			Unreliable
+	"Indiana"	"18"	"Pulaski County, IN"	"18131"			Unreliable
+	"Indiana"	"18"	"Starke County, IN"	"18149"	17	23192	73.3
+	"Iowa"	"19"	"Cass County, IA"	"19029"			Unreliable
+	"Iowa"	"19"	"Chickasaw County, IA"	"19037"	0		0
+	"Iowa"	"19"	"Jones County, IA"	"19105"	0		0
+	"Iowa"	"19"	"Poweshiek County, IA"	"19157"			Unreliable
+	"Iowa"	"19"	"Union County, IA"	"19175"			Unreliable
+	"Kansas"	"20"	"Labette County, KS"	"20099"			Unreliable
+	"Kansas"	"20"	"Pawnee County, KS"	"20145"			Unreliable
+	"Kansas"	"20"	"Pratt County, KS"	"20151"			Unreliable
+	"Kentucky"	"21"	"Anderson County, KY"	"21005"	11	24283	45.3
+	"Kentucky"	"21"	"Daviess County, KY"	"21059"	29	103203	28.1
+	"Kentucky"	"21"	"Pike County, KY"	"21195"	53	56323	94.1
+	"Kentucky"	"21"	"Pulaski County, KY"	"21199"	28	65728	42.6
+	"Louisiana"	"22"	"Ascension Parish, LA"	"22005"	76	130584	58.2
+	"Kansas"	"20"	"Ford County, KS"	"20057"			Unreliable
+	"Kansas"	"20"	"Harper County, KS"	"20077"			Unreliable
+	"Kansas"	"20"	"Meade County, KS"	"20119"	0		0
+	"Kansas"	"20"	"Neosho County, KS"	"20133"			Unreliable
+	"Kansas"	"20"	"Rawlins County, KS"	"20153"	0		0
+	"Kansas"	"20"	"Rush County, KS"	"20165"			Unreliable
+	"Kansas"	"20"	"Scott County, KS"	"20171"	0		0
+	"Maryland"	"24"	"Dorchester County, MD"	"24019"	18	32609	55.2
+	"Maryland"	"24"	"Frederick County, MD"	"24021"	68	288136	23.6
+	"Michigan"	"26"	"Dickinson County, MI"	"26043"			Unreliable
+	"Michigan"	"26"	"Kent County, MI"	"26081"	109	660606	16.5
+	"Michigan"	"26"	"Luce County, MI"	"26095"	0		0
+	"Michigan"	"26"	"Midland County, MI"	"26111"	11	83969	13.1
+	"Michigan"	"26"	"Saginaw County, MI"	"26145"	52	188406	27.6
+	"Michigan"	"26"	"Sanilac County, MI"	"26151"			Unreliable
+	"Iowa"	"19"	"Polk County, IA"	"19153"	120	502092	23.9
+	"Iowa"	"19"	"Sioux County, IA"	"19167"			Unreliable
+	"Iowa"	"19"	"Tama County, IA"	"19171"	0		0
+	"Iowa"	"19"	"Wapello County, IA"	"19179"	0		0
+	"Iowa"	"19"	"Warren County, IA"	"19181"			Unreliable
+	"Kansas"	"20"	"Crawford County, KS"	"20037"			Unreliable
+	"Kansas"	"20"	"Lyon County, KS"	"20111"			Unreliable
+	"Kansas"	"20"	"Phillips County, KS"	"20147"	0		0
+	"Kansas"	"20"	"Reno County, KS"	"20155"	21	61584	34.1
+	"Kansas"	"20"	"Riley County, KS"	"20161"			Unreliable
+	"Kansas"	"20"	"Russell County, KS"	"20167"	0		0
+	"Kentucky"	"21"	"Boyle County, KY"	"21021"	15	30864	48.6
+	"Kentucky"	"21"	"Breathitt County, KY"	"21025"			Unreliable
+	"Kentucky"	"21"	"Clark County, KY"	"21049"	24	36980	64.9
+	"Kentucky"	"21"	"Estill County, KY"	"21065"	17	14026	121.2
+	"Kentucky"	"21"	"Fulton County, KY"	"21075"			Unreliable
+	"Kentucky"	"21"	"Green County, KY"	"21087"			Unreliable
+	"Kentucky"	"21"	"Lewis County, KY"	"21135"			Unreliable
+	"Kentucky"	"21"	"Owen County, KY"	"21187"			Unreliable
+	"Kentucky"	"21"	"Owsley County, KY"	"21189"			Unreliable
+	"Louisiana"	"22"	"Avoyelles Parish, LA"	"22009"	29	38718	74.9
+	"Louisiana"	"22"	"Claiborne Parish, LA"	"22027"			Unreliable
+	"Louisiana"	"22"	"Madison Parish, LA"	"22065"			Unreliable
+	"Louisiana"	"22"	"Morehouse Parish, LA"	"22067"			Unreliable
+	"Louisiana"	"22"	"St. John the Baptist Parish, LA"	"22095"	11	40000	27.5
+	"Louisiana"	"22"	"Vernon Parish, LA"	"22115"	12	46875	25.6
+	"Massachusetts"	"25"	"Middlesex County, MA"	"25017"	411	1618110	25.4
+	"Michigan"	"26"	"Alcona County, MI"	"26001"			Unreliable
+	"Michigan"	"26"	"Bay County, MI"	"26017"	27	102662	26.3
+	"Michigan"	"26"	"Chippewa County, MI"	"26033"			Unreliable
+	"Michigan"	"26"	"Ingham County, MI"	"26065"	113	283208	39.9
+	"Michigan"	"26"	"Iosco County, MI"	"26069"			Unreliable
+	"Michigan"	"26"	"Leelanau County, MI"	"26089"			Unreliable
+	"Michigan"	"26"	"Newaygo County, MI"	"26123"			Unreliable
+	"Mississippi"	"28"	"Covington County, MS"	"28031"			Unreliable
+	"Mississippi"	"28"	"Holmes County, MS"	"28051"			Unreliable
+	"Mississippi"	"28"	"Neshoba County, MS"	"28099"			Unreliable
+	"Mississippi"	"28"	"Tallahatchie County, MS"	"28135"	0		0
+	"Mississippi"	"28"	"Tishomingo County, MS"	"28141"			Unreliable
+	"Mississippi"	"28"	"Tunica County, MS"	"28143"			Unreliable
+	"Mississippi"	"28"	"Union County, MS"	"28145"			Unreliable
+	"Missouri"	"29"	"Crawford County, MO"	"29055"	12	22642	53
+	"Missouri"	"29"	"Daviess County, MO"	"29061"			Unreliable
+	"Missouri"	"29"	"Dent County, MO"	"29065"			Unreliable
+	"Missouri"	"29"	"Howell County, MO"	"29091"			Unreliable
+	"Missouri"	"29"	"Jefferson County, MO"	"29099"	101	229025	44.1
+	"Missouri"	"29"	"Miller County, MO"	"29131"			Unreliable
+	"Missouri"	"29"	"Polk County, MO"	"29167"			Unreliable
+	"Montana"	"30"	"Meagher County, MT"	"30059"	0		0
+	"Montana"	"30"	"Ravalli County, MT"	"30081"			Unreliable
+	"Montana"	"30"	"Treasure County, MT"	"30103"	0		0
+	"Nebraska"	"31"	"Arthur County, NE"	"31005"	0		0
+	"Nebraska"	"31"	"Chase County, NE"	"31029"	0		0
+	"Nebraska"	"31"	"Dakota County, NE"	"31043"			Unreliable
+	"Nebraska"	"31"	"Gosper County, NE"	"31073"	0		0
+	"Nebraska"	"31"	"Knox County, NE"	"31107"	0		0
+	"Nebraska"	"31"	"Nemaha County, NE"	"31127"			Unreliable
+	"Nebraska"	"31"	"Sarpy County, NE"	"31153"	18	195652	9.2
+	"Minnesota"	"27"	"Douglas County, MN"	"27041"			Unreliable
+	"Minnesota"	"27"	"St. Louis County, MN"	"27137"	68	199413	34.1
+	"Minnesota"	"27"	"Watonwan County, MN"	"27165"	0		0
+	"Mississippi"	"28"	"Bolivar County, MS"	"28011"			Unreliable
+	"Michigan"	"26"	"Washtenaw County, MI"	"26161"	89	366255	24.3
+	"Minnesota"	"27"	"Big Stone County, MN"	"27011"	0		0
+	"Minnesota"	"27"	"Carlton County, MN"	"27017"			Unreliable
+	"Minnesota"	"27"	"Hennepin County, MN"	"27053"	442	1255682	35.2
+	"Minnesota"	"27"	"Lincoln County, MN"	"27081"			Unreliable
+	"Minnesota"	"27"	"Norman County, MN"	"27107"	0		0
+	"Minnesota"	"27"	"Sherburne County, MN"	"27141"			Unreliable
+	"Minnesota"	"27"	"Steele County, MN"	"27147"			Unreliable
+	"Minnesota"	"27"	"Wilkin County, MN"	"27167"			Unreliable
+	"Mississippi"	"28"	"Choctaw County, MS"	"28019"	0		0
+	"Mississippi"	"28"	"DeSoto County, MS"	"28033"	60	191083	31.4
+	"Mississippi"	"28"	"Jefferson County, MS"	"28063"			Unreliable
+	"Mississippi"	"28"	"Jones County, MS"	"28067"	10	66225	15.1
+	"Mississippi"	"28"	"Leake County, MS"	"28079"	0		0
+	"Mississippi"	"28"	"Lee County, MS"	"28081"	13	82803	15.7
+	"Mississippi"	"28"	"Marion County, MS"	"28091"	16	24169	66.2
+	"Mississippi"	"28"	"Rankin County, MS"	"28121"	38	158996	23.9
+	"Missouri"	"29"	"Jasper County, MO"	"29097"	30	123967	24.2
+	"Missouri"	"29"	"Knox County, MO"	"29103"	0		0
+	"Missouri"	"29"	"Livingston County, MO"	"29117"			Unreliable
+	"Missouri"	"29"	"New Madrid County, MO"	"29143"			Unreliable
+	"Missouri"	"29"	"Pike County, MO"	"29163"			Unreliable
+	"Missouri"	"29"	"St. Clair County, MO"	"29185"			Unreliable
+	"Nevada"	"32"	"Elko County, NV"	"32007"	24	53933	44.5
+	"Nevada"	"32"	"White Pine County, NV"	"32033"			Unreliable
+	"New Mexico"	"35"	"Catron County, NM"	"35003"			Unreliable
+	"New Mexico"	"35"	"Chaves County, NM"	"35005"	30	63830	47
+	"New Mexico"	"35"	"Colfax County, NM"	"35007"			Unreliable
+	"New Mexico"	"35"	"Eddy County, NM"	"35015"	21	60172	34.9
+	"New Mexico"	"35"	"Hidalgo County, NM"	"35023"			Unreliable
+	"New Mexico"	"35"	"San Miguel County, NM"	"35047"	23	26901	85.5
+	"Montana"	"30"	"Hill County, MT"	"30041"			Unreliable
+	"Nebraska"	"31"	"Cherry County, NE"	"31031"	0		0
+	"Nebraska"	"31"	"Frontier County, NE"	"31063"	0		0
+	"Nebraska"	"31"	"Garfield County, NE"	"31071"	0		0
+	"Nebraska"	"31"	"Hamilton County, NE"	"31081"	0		0
+	"Nebraska"	"31"	"Madison County, NE"	"31119"	0		0
+	"Nebraska"	"31"	"Morrill County, NE"	"31123"	0		0
+	"Nebraska"	"31"	"Pierce County, NE"	"31139"			Unreliable
+	"Nebraska"	"31"	"Saunders County, NE"	"31155"	0		0
+	"Nebraska"	"31"	"Sheridan County, NE"	"31161"	0		0
+	"Nebraska"	"31"	"Valley County, NE"	"31175"	0		0
+	"Nebraska"	"31"	"Wayne County, NE"	"31179"	0		0
+	"New Hampshire"	"33"	"Belknap County, NH"	"33001"	14	64815	21.6
+	"Ohio"	"39"	"Ottawa County, OH"	"39123"	13	40000	32.5
+	"New Jersey"	"34"	"Warren County, NJ"	"34041"	32	110727	28.9
+	"New Mexico"	"35"	"Rio Arriba County, NM"	"35039"	49	40000	122.5
+	"New Mexico"	"35"	"Socorro County, NM"	"35053"			Unreliable
+	"New York"	"36"	"Cayuga County, NY"	"36011"	21	74733	28.1
+	"New York"	"36"	"Dutchess County, NY"	"36027"	131	297727	44
+	"New York"	"36"	"Niagara County, NY"	"36063"	85	210396	40.4
+	"New York"	"36"	"Richmond County, NY"	"36085"	162	490909	33
+	"New York"	"36"	"Schoharie County, NY"	"36095"			Unreliable
+	"New York"	"36"	"Washington County, NY"	"36115"	24	60759	39.5
+	"North Carolina"	"37"	"Bertie County, NC"	"37015"			Unreliable
+	"North Carolina"	"37"	"Bladen County, NC"	"37017"	17	29412	57.8
+	"North Carolina"	"37"	"Camden County, NC"	"37029"			Unreliable
+	"North Carolina"	"37"	"Franklin County, NC"	"37069"	30	74442	40.3
+	"North Carolina"	"37"	"Hoke County, NC"	"37093"	23	53738	42.8
+	"North Carolina"	"37"	"Mitchell County, NC"	"37121"			Unreliable
+	"North Dakota"	"38"	"Sioux County, ND"	"38085"			Unreliable
+	"Ohio"	"39"	"Henry County, OH"	"39069"			Unreliable
+	"Ohio"	"39"	"Madison County, OH"	"39097"	12	43636	27.5
+	"Ohio"	"39"	"Mercer County, OH"	"39107"			Unreliable
+	"Ohio"	"39"	"Summit County, OH"	"39153"	232	535797	43.3
+	"Ohio"	"39"	"Van Wert County, OH"	"39161"	11	28796	38.2
+	"Oklahoma"	"40"	"Creek County, OK"	"40037"	28	72727	38.5
+	"Nevada"	"32"	"Lyon County, NV"	"32019"	18	61644	29.2
+	"New Jersey"	"34"	"Cumberland County, NJ"	"34011"	83	151460	54.8
+	"New Jersey"	"34"	"Monmouth County, NJ"	"34025"	156	644628	24.2
+	"New Jersey"	"34"	"Ocean County, NJ"	"34029"	197	656667	30
+	"New York"	"36"	"Clinton County, NY"	"36019"	24	77922	30.8
+	"New York"	"36"	"Essex County, NY"	"36031"	10	36765	27.2
+	"Ohio"	"39"	"Tuscarawas County, OH"	"39157"	23	92000	25
+	"Oklahoma"	"40"	"Craig County, OK"	"40035"			Unreliable
+	"Oklahoma"	"40"	"Custer County, OK"	"40039"			Unreliable
+	"Oklahoma"	"40"	"Garvin County, OK"	"40049"			Unreliable
+	"Oklahoma"	"40"	"Johnston County, OK"	"40069"	0		0
+	"Oklahoma"	"40"	"Latimer County, OK"	"40077"	0		0
+	"Oklahoma"	"40"	"Nowata County, OK"	"40105"	0		0
+	"Oregon"	"41"	"Deschutes County, OR"	"41017"	26	206349	12.6
+	"New York"	"36"	"St. Lawrence County, NY"	"36089"	25	107296	23.3
+	"North Carolina"	"37"	"Cleveland County, NC"	"37045"	36	100559	35.8
+	"North Carolina"	"37"	"Haywood County, NC"	"37087"	34	62615	54.3
+	"North Carolina"	"37"	"McDowell County, NC"	"37111"	20	44743	44.7
+	"North Carolina"	"37"	"Martin County, NC"	"37117"	11	21484	51.2
+	"North Carolina"	"37"	"Pender County, NC"	"37141"	22	65672	33.5
+	"Pennsylvania"	"42"	"Butler County, PA"	"42019"	66	197605	33.4
+	"Pennsylvania"	"42"	"Cambria County, PA"	"42021"	82	131410	62.4
+	"Rhode Island"	"44"	"Kent County, RI"	"44003"	61	171348	35.6
+	"South Carolina"	"45"	"Berkeley County, SC"	"45015"	92	244681	37.6
+	"North Carolina"	"37"	"Stokes County, NC"	"37169"	25	45126	55.4
+	"North Dakota"	"38"	"Pembina County, ND"	"38067"			Unreliable
+	"Ohio"	"39"	"Auglaize County, OH"	"39011"			Unreliable
+	"Ohio"	"39"	"Butler County, OH"	"39017"	203	389635	52.1
+	"Ohio"	"39"	"Defiance County, OH"	"39039"	10	38168	26.2
+	"South Carolina"	"45"	"Lancaster County, SC"	"45057"	54	104651	51.6
+	"South Carolina"	"45"	"Newberry County, SC"	"45071"	14	38356	36.5
+	"South Dakota"	"46"	"Bon Homme County, SD"	"46009"			Unreliable
+	"South Dakota"	"46"	"Edmunds County, SD"	"46045"	0		0
+	"South Dakota"	"46"	"Gregory County, SD"	"46053"	0		0
+	"Ohio"	"39"	"Montgomery County, OH"	"39113"	286	533582	53.6
+	"Oklahoma"	"40"	"Blaine County, OK"	"40011"			Unreliable
+	"Oklahoma"	"40"	"Ellis County, OK"	"40045"	0		0
+	"Oklahoma"	"40"	"Lincoln County, OK"	"40081"	10	34130	29.3
+	"Oklahoma"	"40"	"Murray County, OK"	"40099"			Unreliable
+	"Oklahoma"	"40"	"Okmulgee County, OK"	"40111"	17	37037	45.9
+	"Tennessee"	"47"	"Cocke County, TN"	"47029"	30	36855	81.4
+	"Tennessee"	"47"	"Coffee County, TN"	"47031"	23	59740	38.5
+	"Tennessee"	"47"	"Grainger County, TN"	"47057"	17	24182	70.3
+	"Tennessee"	"47"	"Madison County, TN"	"47113"	32	99071	32.3
+	"Tennessee"	"47"	"Morgan County, TN"	"47129"	12	21201	56.6
+	"Tennessee"	"47"	"Rutherford County, TN"	"47149"	129	360335	35.8
+	"Tennessee"	"47"	"Van Buren County, TN"	"47175"			Unreliable
+	"Tennessee"	"47"	"White County, TN"	"47185"	17	28007	60.7
+	"Texas"	"48"	"Brooks County, TX"	"48047"			Unreliable
+	"Oklahoma"	"40"	"McClain County, OK"	"40087"			Unreliable
+	"Oklahoma"	"40"	"Marshall County, OK"	"40095"			Unreliable
+	"Oklahoma"	"40"	"Okfuskee County, OK"	"40107"			Unreliable
+	"Oklahoma"	"40"	"Wagoner County, OK"	"40145"	27	86817	31.1
+	"Oklahoma"	"40"	"Washita County, OK"	"40149"			Unreliable
+	"Oregon"	"41"	"Coos County, OR"	"41011"	21	65015	32.3
+	"Oregon"	"41"	"Curry County, OR"	"41015"			Unreliable
+	"Oregon"	"41"	"Grant County, OR"	"41023"	0		0
+	"Pennsylvania"	"42"	"Bedford County, PA"	"42009"	10	47393	21.1
+	"Pennsylvania"	"42"	"Chester County, PA"	"42029"	115	547619	21
+	"Pennsylvania"	"42"	"Dauphin County, PA"	"42043"	99	288630	34.3
+	"Texas"	"48"	"Burnet County, TX"	"48053"	10	52632	19
+	"Texas"	"48"	"Chambers County, TX"	"48071"			Unreliable
+	"Texas"	"48"	"Clay County, TX"	"48077"			Unreliable
+	"Texas"	"48"	"Comanche County, TX"	"48093"	0		0
+	"Texas"	"48"	"Duval County, TX"	"48131"			Unreliable
+	"Texas"	"48"	"Floyd County, TX"	"48153"	0		0
+	"Texas"	"48"	"Foard County, TX"	"48155"	0		0
+	"Texas"	"48"	"Freestone County, TX"	"48161"			Unreliable
+	"Texas"	"48"	"Hays County, TX"	"48209"	31	269565	11.5
+	"Texas"	"48"	"Jack County, TX"	"48237"			Unreliable
+	"Texas"	"48"	"Jasper County, TX"	"48241"			Unreliable
+	"Texas"	"48"	"Kendall County, TX"	"48259"			Unreliable
+	"Texas"	"48"	"Kimble County, TX"	"48267"	0		0
+	"Pennsylvania"	"42"	"Forest County, PA"	"42053"	0		0
+	"Pennsylvania"	"42"	"McKean County, PA"	"42083"	12	39867	30.1
+	"Pennsylvania"	"42"	"Washington County, PA"	"42125"	87	210145	41.4
+	"Pennsylvania"	"42"	"York County, PA"	"42133"	134	460481	29.1
+	"Rhode Island"	"44"	"Newport County, RI"	"44005"	29	84795	34.2
+	"South Carolina"	"45"	"Clarendon County, SC"	"45027"			Unreliable
+	"South Carolina"	"45"	"Dillon County, SC"	"45033"	25	27747	90.1
+	"South Carolina"	"45"	"Spartanburg County, SC"	"45083"	167	345756	48.3
+	"Texas"	"48"	"Lavaca County, TX"	"48285"	0		0
+	"Texas"	"48"	"Loving County, TX"	"48301"	0		0
+	"Texas"	"48"	"Lubbock County, TX"	"48303"	48	317881	15.1
+	"Texas"	"48"	"Marion County, TX"	"48315"			Unreliable
+	"Texas"	"48"	"Midland County, TX"	"48329"	24	171429	14
+	"Texas"	"48"	"Ochiltree County, TX"	"48357"			Unreliable
+	"Texas"	"48"	"San Patricio County, TX"	"48409"	14	70000	20
+	"Texas"	"48"	"Stephens County, TX"	"48429"			Unreliable
+	"South Dakota"	"46"	"Campbell County, SD"	"46021"	0		0
+	"South Dakota"	"46"	"Roberts County, SD"	"46109"			Unreliable
+	"South Dakota"	"46"	"Union County, SD"	"46127"	0		0
+	"South Dakota"	"46"	"Walworth County, SD"	"46129"	0		0
+	"Tennessee"	"47"	"Blount County, TN"	"47009"	76	139706	54.4
+	"Tennessee"	"47"	"Hamblen County, TN"	"47063"	35	65177	53.7
+	"Utah"	"49"	"Tooele County, UT"	"49045"	10	80000	12.5
+	"Vermont"	"50"	"Addison County, VT"	"50001"			Unreliable
+	"Virginia"	"51"	"Amelia County, VA"	"51007"			Unreliable
+	"Virginia"	"51"	"Dickenson County, VA"	"51051"	11	13733	80.1
+	"Virginia"	"51"	"Goochland County, VA"	"51075"			Unreliable
+	"Virginia"	"51"	"Greensville County, VA"	"51081"			Unreliable
+	"Virginia"	"51"	"Lancaster County, VA"	"51103"			Unreliable
+	"Alabama"	"01"	"Bullock County, AL"	"01011"			Unreliable
+	"Tennessee"	"47"	"Obion County, TN"	"47131"			Unreliable
+	"Tennessee"	"47"	"Smith County, TN"	"47159"	13	20472	63.5
+	"Tennessee"	"47"	"Trousdale County, TN"	"47169"			Unreliable
+	"Tennessee"	"47"	"Wayne County, TN"	"47181"			Unreliable
+	"Tennessee"	"47"	"Williamson County, TN"	"47187"	42	260870	16.1
+	"Texas"	"48"	"Bee County, TX"	"48025"			Unreliable
+	"Texas"	"48"	"Borden County, TX"	"48033"	0		0
+	"Texas"	"48"	"Bosque County, TX"	"48035"			Unreliable
+	"Texas"	"48"	"Castro County, TX"	"48069"			Unreliable
+	"Texas"	"48"	"Coryell County, TX"	"48099"			Unreliable
+	"Tennessee"	"47"	"Decatur County, TN"	"47039"			Unreliable
+	"Tennessee"	"47"	"Henderson County, TN"	"47077"	11	27919	39.4
+	"Tennessee"	"47"	"Shelby County, TN"	"47157"	577	915873	63
+	"Texas"	"48"	"Brown County, TX"	"48049"			Unreliable
+	"Alabama"	"01"	"Lauderdale County, AL"	"01077"	28	95890	29.2
+	"Alabama"	"01"	"Lee County, AL"	"01081"	18	180000	10
+	"Alabama"	"01"	"Winston County, AL"	"01133"			Unreliable
+	"Arizona"	"04"	"Coconino County, AZ"	"04005"	34	144068	23.6
+	"Arizona"	"04"	"Gila County, AZ"	"04007"	26	53942	48.2
+	"Alabama"	"01"	"Lowndes County, AL"	"01085"			Unreliable
+	"Alaska"	"02"	"Dillingham Census Area, AK"	"02070"			Unreliable
+	"Alaska"	"02"	"Fairbanks North Star Borough, AK"	"02090"	22	95238	23.1
+	"Alaska"	"02"	"Juneau City and Borough, AK"	"02110"	13	31707	41
+	"Alaska"	"02"	"Skagway Municipality, AK"	"02230"			Unreliable
+	"Virginia"	"51"	"Covington city, VA"	"51580"			Unreliable
+	"West Virginia"	"54"	"Braxton County, WV"	"54007"			Unreliable
+	"Arkansas"	"05"	"Crawford County, AR"	"05033"	16	61069	26.2
+	"Arkansas"	"05"	"Cross County, AR"	"05037"			Unreliable
+	"Arkansas"	"05"	"Perry County, AR"	"05105"			Unreliable
+	"Arkansas"	"05"	"Phillips County, AR"	"05107"			Unreliable
+	"Arkansas"	"05"	"Sebastian County, AR"	"05131"	36	129032	27.9
+	"California"	"06"	"Alameda County, CA"	"06001"	317	1625641	19.5
+	"California"	"06"	"Contra Costa County, CA"	"06013"	235	1157635	20.3
+	"California"	"06"	"Kern County, CA"	"06029"	485	916824	52.9
+	"Arkansas"	"05"	"Franklin County, AR"	"05047"			Unreliable
+	"Arkansas"	"05"	"Grant County, AR"	"05053"			Unreliable
+	"Arkansas"	"05"	"Independence County, AR"	"05063"			Unreliable
+	"California"	"06"	"Butte County, CA"	"06007"	110	207547	53
+	"California"	"06"	"Lassen County, CA"	"06035"	18	30000	60
+	"California"	"06"	"Monterey County, CA"	"06053"	78	433333	18
+	"California"	"06"	"Riverside County, CA"	"06065"	847	2476608	34.2
+	"California"	"06"	"San Diego County, CA"	"06073"	945	3281250	28.8
+	"California"	"06"	"Yolo County, CA"	"06113"	44	222222	19.8
+	"Colorado"	"08"	"Chaffee County, CO"	"08015"			Unreliable
+	"Colorado"	"08"	"Crowley County, CO"	"08025"			Unreliable
+	"Colorado"	"08"	"Kiowa County, CO"	"08061"	0		0
+	"Colorado"	"08"	"Saguache County, CO"	"08109"			Unreliable
+	"Colorado"	"08"	"San Miguel County, CO"	"08113"			Unreliable
+	"Connecticut"	"09"	"Fairfield County, CT"	"09001"	255	958647	26.6
+	"Delaware"	"10"	"Sussex County, DE"	"10005"	128	256513	49.9
+	"California"	"06"	"San Mateo County, CA"	"06081"	102	728571	14
+	"California"	"06"	"Siskiyou County, CA"	"06093"	23	43810	52.5
+	"Colorado"	"08"	"Denver County, CO"	"08031"	273	712794	38.3
+	"Connecticut"	"09"	"Hartford County, CT"	"09003"	375	899281	41.7
+	"Connecticut"	"09"	"Litchfield County, CT"	"09005"	63	185294	34
+	"West Virginia"	"54"	"Doddridge County, WV"	"54017"			Unreliable
+	"West Virginia"	"54"	"Ohio County, WV"	"54069"	24	41451	57.9
+	"West Virginia"	"54"	"Taylor County, WV"	"54091"			Unreliable
+	"West Virginia"	"54"	"Webster County, WV"	"54101"			Unreliable
+	"Wisconsin"	"55"	"Buffalo County, WI"	"55011"			Unreliable
+	"Wisconsin"	"55"	"Eau Claire County, WI"	"55035"	18	106509	16.9
+	"Wisconsin"	"55"	"Milwaukee County, WI"	"55079"	636	917749	69.3
+	"Wisconsin"	"55"	"Pierce County, WI"	"55093"			Unreliable
+	"Wisconsin"	"55"	"Price County, WI"	"55099"	0		0
+	"Wisconsin"	"55"	"Rock County, WI"	"55105"	70	163934	42.7
+	"Florida"	"12"	"Hamilton County, FL"	"12047"			Unreliable
+	"Florida"	"12"	"Suwannee County, FL"	"12121"	16	45455	35.2
+	"Georgia"	"13"	"Coweta County, GA"	"13077"	24	152866	15.7
+	"Georgia"	"13"	"Decatur County, GA"	"13087"			Unreliable
+	"Georgia"	"13"	"Dooly County, GA"	"13093"			Unreliable
+	"Georgia"	"13"	"Early County, GA"	"13099"			Unreliable
+	"Florida"	"12"	"Dixie County, FL"	"12029"			Unreliable
+	"Florida"	"12"	"Hendry County, FL"	"12051"	10	41322	24.2
+	"Florida"	"12"	"Highlands County, FL"	"12055"	30	105634	28.4
+	"Florida"	"12"	"Hillsborough County, FL"	"12057"	547	1515235	36.1
+	"Florida"	"12"	"Indian River County, FL"	"12061"	46	167273	27.5
+	"Florida"	"12"	"Lake County, FL"	"12069"	136	409639	33.2
+	"Florida"	"12"	"Okeechobee County, FL"	"12093"	17	40380	42.1
+	"Florida"	"12"	"Seminole County, FL"	"12117"	130	477941	27.2
+	"Georgia"	"13"	"Baldwin County, GA"	"13009"			Unreliable
+	"Georgia"	"13"	"Bartow County, GA"	"13015"	39	112717	34.6
+	"Georgia"	"13"	"Dougherty County, GA"	"13095"	30	82873	36.2
+	"Texas"	"48"	"Cameron County, TX"	"48061"	30	422535	7.1
+	"Texas"	"48"	"Cottle County, TX"	"48101"	0		0
+	"Texas"	"48"	"Deaf Smith County, TX"	"48117"			Unreliable
+	"Texas"	"48"	"Falls County, TX"	"48145"			Unreliable
+	"Texas"	"48"	"Garza County, TX"	"48169"			Unreliable
+	"Texas"	"48"	"Glasscock County, TX"	"48173"	0		0
+	"Texas"	"48"	"Gray County, TX"	"48179"			Unreliable
+	"Texas"	"48"	"Hill County, TX"	"48217"			Unreliable
+	"Texas"	"48"	"Hopkins County, TX"	"48223"			Unreliable
+	"Wisconsin"	"55"	"Menominee County, WI"	"55078"	10	4205	237.8
+	"Wisconsin"	"55"	"Taylor County, WI"	"55119"			Unreliable
+	"Wisconsin"	"55"	"Wood County, WI"	"55141"	12	73620	16.3
+	"Wyoming"	"56"	"Albany County, WY"	"56001"			Unreliable
+	"Georgia"	"13"	"Haralson County, GA"	"13143"	11	31339	35.1
+	"Georgia"	"13"	"Henry County, GA"	"13151"	53	248826	21.3
+	"Georgia"	"13"	"Turner County, GA"	"13287"	0		0
+	"Georgia"	"13"	"Warren County, GA"	"13301"			Unreliable
+	"Georgia"	"13"	"Worth County, GA"	"13321"			Unreliable
+	"Hawaii"	"15"	"Honolulu County, HI"	"15003"	177	994382	17.8
+	"Utah"	"49"	"Cache County, UT"	"49005"			Unreliable
+	"Utah"	"49"	"Garfield County, UT"	"49017"			Unreliable
+	"Utah"	"49"	"Utah County, UT"	"49049"	54	701299	7.7
+	"Virginia"	"51"	"Mathews County, VA"	"51115"			Unreliable
+	"Idaho"	"16"	"Bonneville County, ID"	"16019"	23	129213	17.8
+	"Idaho"	"16"	"Owyhee County, ID"	"16073"			Unreliable
+	"Idaho"	"16"	"Payette County, ID"	"16075"			Unreliable
+	"Idaho"	"16"	"Valley County, ID"	"16085"			Unreliable
+	"Illinois"	"17"	"Carroll County, IL"	"17015"			Unreliable
+	"Illinois"	"17"	"Christian County, IL"	"17021"	0		0
+	"Illinois"	"17"	"Ford County, IL"	"17053"			Unreliable
+	"Illinois"	"17"	"Lake County, IL"	"17097"	130	710383	18.3
+	"Illinois"	"17"	"Mercer County, IL"	"17131"			Unreliable
+	"Illinois"	"17"	"Kane County, IL"	"17089"	87	514793	16.9
+	"Illinois"	"17"	"Monroe County, IL"	"17133"			Unreliable
+	"Illinois"	"17"	"Schuyler County, IL"	"17169"			Unreliable
+	"Illinois"	"17"	"Wayne County, IL"	"17191"	0		0
+	"Indiana"	"18"	"Huntington County, IN"	"18069"	11	36789	29.9
+	"Minnesota"	"27"	"Mahnomen County, MN"	"27087"			Unreliable
+	"Minnesota"	"27"	"Ramsey County, MN"	"27123"	229	537559	42.6
+	"Minnesota"	"27"	"Scott County, MN"	"27139"	20	153846	13
+	"Minnesota"	"27"	"Winona County, MN"	"27169"	11	49550	22.2
+	"Mississippi"	"28"	"Noxubee County, MS"	"28103"	0		0
+	"Mississippi"	"28"	"Stone County, MS"	"28131"			Unreliable
+	"Mississippi"	"28"	"Walthall County, MS"	"28147"			Unreliable
+	"Mississippi"	"28"	"Yazoo County, MS"	"28163"			Unreliable
+	"Missouri"	"29"	"Andrew County, MO"	"29003"			Unreliable
+	"Missouri"	"29"	"Butler County, MO"	"29023"	16	42216	37.9
+	"Missouri"	"29"	"Morgan County, MO"	"29141"			Unreliable
+	"Missouri"	"29"	"Newton County, MO"	"29145"			Unreliable
+	"Missouri"	"29"	"Nodaway County, MO"	"29147"	0		0
+	"Missouri"	"29"	"Webster County, MO"	"29225"			Unreliable
+	"Montana"	"30"	"Carter County, MT"	"30011"	0		0
+	"Montana"	"30"	"Chouteau County, MT"	"30015"			Unreliable
+	"Montana"	"30"	"Fergus County, MT"	"30027"	0		0
+	"Minnesota"	"27"	"Crow Wing County, MN"	"27035"	13	67708	19.2
+	"Minnesota"	"27"	"Kanabec County, MN"	"27065"			Unreliable
+	"Minnesota"	"27"	"Wright County, MN"	"27171"	10	147059	6.8
+	"Missouri"	"29"	"Taney County, MO"	"29213"	19	56716	33.5
+	"Missouri"	"29"	"Texas County, MO"	"29215"			Unreliable
+	"Montana"	"30"	"Custer County, MT"	"30017"			Unreliable
+	"Montana"	"30"	"Liberty County, MT"	"30051"			Unreliable
+	"Nebraska"	"31"	"Butler County, NE"	"31023"	0		0
+	"Mississippi"	"28"	"Jackson County, MS"	"28059"	74	145098	51
+	"Mississippi"	"28"	"Pearl River County, MS"	"28109"	46	57214	80.4
+	"Mississippi"	"28"	"Pike County, MS"	"28113"	17	39720	42.8
+	"Mississippi"	"28"	"Prentiss County, MS"	"28117"			Unreliable
+	"Mississippi"	"28"	"Washington County, MS"	"28151"			Unreliable
+	"Missouri"	"29"	"Atchison County, MO"	"29005"			Unreliable
+	"Missouri"	"29"	"Audrain County, MO"	"29007"			Unreliable
+	"Missouri"	"29"	"Christian County, MO"	"29043"	22	93220	23.6
+	"Missouri"	"29"	"Oregon County, MO"	"29149"			Unreliable
+	"Montana"	"30"	"Beaverhead County, MT"	"30001"			Unreliable
+	"Montana"	"30"	"Big Horn County, MT"	"30003"			Unreliable
+	"Montana"	"30"	"Fallon County, MT"	"30025"	0		0
+	"Montana"	"30"	"Judith Basin County, MT"	"30045"	0		0
+	"Montana"	"30"	"McCone County, MT"	"30055"	0		0
+	"Montana"	"30"	"Mineral County, MT"	"30061"	0		0
+	"Montana"	"30"	"Richland County, MT"	"30083"			Unreliable
+	"Nebraska"	"31"	"Boyd County, NE"	"31015"	0		0
+	"Nebraska"	"31"	"Clay County, NE"	"31035"	0		0
+	"Nebraska"	"31"	"Harlan County, NE"	"31083"			Unreliable
+	"Nebraska"	"31"	"Hooker County, NE"	"31091"	0		0
+	"North Dakota"	"38"	"Grant County, ND"	"38037"	0		0
+	"North Carolina"	"37"	"Granville County, NC"	"37077"	24	61697	38.9
+	"North Carolina"	"37"	"Halifax County, NC"	"37083"	20	47733	41.9
+	"North Carolina"	"37"	"Pamlico County, NC"	"37137"	11	12236	89.9
+	"North Carolina"	"37"	"Warren County, NC"	"37185"			Unreliable
+	"North Carolina"	"37"	"Yancey County, NC"	"37199"			Unreliable
+	"North Dakota"	"38"	"Bowman County, ND"	"38011"	0		0
+	"North Dakota"	"38"	"Nelson County, ND"	"38063"	0		0
+	"Ohio"	"39"	"Adams County, OH"	"39001"	17	27464	61.9
+	"Ohio"	"39"	"Belmont County, OH"	"39013"	29	65463	44.3
+	"Ohio"	"39"	"Highland County, OH"	"39071"	20	43384	46.1
+	"Ohio"	"39"	"Holmes County, OH"	"39075"			Unreliable
+	"Ohio"	"39"	"Miami County, OH"	"39109"	23	110048	20.9
+	"Ohio"	"39"	"Morrow County, OH"	"39117"			Unreliable
+	"North Carolina"	"37"	"Iredell County, NC"	"37097"	47	195833	24
+	"North Carolina"	"37"	"Jackson County, NC"	"37099"	22	43912	50.1
+	"North Carolina"	"37"	"Macon County, NC"	"37113"	18	37975	47.4
+	"North Carolina"	"37"	"Richmond County, NC"	"37153"	37	42578	86.9
+	"North Carolina"	"37"	"Washington County, NC"	"37187"			Unreliable
+	"North Dakota"	"38"	"Eddy County, ND"	"38027"	0		0
+	"North Dakota"	"38"	"Sheridan County, ND"	"38083"	0		0
+	"Ohio"	"39"	"Gallia County, OH"	"39053"	20	29028	68.9
+	"Ohio"	"39"	"Harrison County, OH"	"39067"			Unreliable
+	"Ohio"	"39"	"Huron County, OH"	"39077"	17	58219	29.2
+	"Ohio"	"39"	"Perry County, OH"	"39127"	14	35443	39.5
+	"Nevada"	"32"	"Storey County, NV"	"32029"			Unreliable
+	"New Hampshire"	"33"	"Carroll County, NH"	"33003"	17	52147	32.6
+	"New Hampshire"	"33"	"Coos County, NH"	"33007"	24	31496	76.2
+	"New Hampshire"	"33"	"Merrimack County, NH"	"33013"	40	156250	25.6
+	"New Jersey"	"34"	"Hudson County, NJ"	"34017"	177	702381	25.2
+	"New Jersey"	"34"	"Hunterdon County, NJ"	"34019"	14	129630	10.8
+	"New Mexico"	"35"	"Harding County, NM"	"35021"	0		0
+	"New Mexico"	"35"	"Mora County, NM"	"35033"	0		0
+	"North Carolina"	"37"	"Cabarrus County, NC"	"37025"	70	235690	29.7
+	"North Carolina"	"37"	"Caldwell County, NC"	"37027"	33	80292	41.1
+	"North Carolina"	"37"	"Gates County, NC"	"37073"			Unreliable
+	"North Carolina"	"37"	"Hertford County, NC"	"37091"			Unreliable
+	"North Carolina"	"37"	"Hyde County, NC"	"37095"			Unreliable
+	"Pennsylvania"	"42"	"Bradford County, PA"	"42015"			Unreliable
+	"Pennsylvania"	"42"	"Crawford County, PA"	"42039"	17	82524	20.6
+	"Pennsylvania"	"42"	"Erie County, PA"	"42049"	98	268493	36.5
+	"Pennsylvania"	"42"	"Schuylkill County, PA"	"42107"	12	142857	8.4
+	"Pennsylvania"	"42"	"Westmoreland County, PA"	"42129"	132	352000	37.5
+	"North Carolina"	"37"	"Polk County, NC"	"37149"	12	20000	60
+	"North Carolina"	"37"	"Robeson County, NC"	"37155"	112	116424	96.2
+	"North Dakota"	"38"	"Adams County, ND"	"38001"	0		0
+	"North Dakota"	"38"	"Benson County, ND"	"38005"			Unreliable
+	"North Dakota"	"38"	"Billings County, ND"	"38007"	0		0
+	"North Dakota"	"38"	"Burke County, ND"	"38013"	0		0
+	"North Dakota"	"38"	"Morton County, ND"	"38059"			Unreliable
+	"North Dakota"	"38"	"Ward County, ND"	"38101"	11	68750	16
+	"South Carolina"	"45"	"Lexington County, SC"	"45063"	114	304813	37.4
+	"South Carolina"	"45"	"Oconee County, SC"	"45073"	36	80178	44.9
+	"South Carolina"	"45"	"Sumter County, SC"	"45085"	39	104000	37.5
+	"South Carolina"	"45"	"Union County, SC"	"45087"	19	26723	71.1
+	"South Dakota"	"46"	"Day County, SD"	"46037"	0		0
+	"South Dakota"	"46"	"Jerauld County, SD"	"46073"	0		0
+	"South Dakota"	"46"	"Minnehaha County, SD"	"46099"	24	203390	11.8
+	"South Dakota"	"46"	"Perkins County, SD"	"46105"	0		0
+	"Ohio"	"39"	"Lawrence County, OH"	"39087"	39	56604	68.9
+	"Ohio"	"39"	"Lorain County, OH"	"39093"	127	315920	40.2
+	"Ohio"	"39"	"Marion County, OH"	"39101"	39	64570	60.4
+	"Oklahoma"	"40"	"Bryan County, OK"	"40013"	12	48000	25
+	"Oklahoma"	"40"	"Caddo County, OK"	"40015"			Unreliable
+	"Oklahoma"	"40"	"Canadian County, OK"	"40017"	33	169231	19.5
+	"Oklahoma"	"40"	"Choctaw County, OK"	"40023"			Unreliable
+	"Oklahoma"	"40"	"Coal County, OK"	"40029"			Unreliable
+	"Oklahoma"	"40"	"Kay County, OK"	"40071"	10	43668	22.9
+	"Tennessee"	"47"	"Cannon County, TN"	"47015"			Unreliable
+	"Tennessee"	"47"	"Carroll County, TN"	"47017"			Unreliable
+	"Tennessee"	"47"	"Hickman County, TN"	"47081"	19	25469	74.6
+	"Tennessee"	"47"	"Humphreys County, TN"	"47085"	10	19011	52.6
+	"Tennessee"	"47"	"Johnson County, TN"	"47091"	13	18056	72
+	"Tennessee"	"47"	"Warren County, TN"	"47177"	21	42000	50
+	"Oklahoma"	"40"	"Oklahoma County, OK"	"40109"	258	803738	32.1
+	"Oklahoma"	"40"	"Rogers County, OK"	"40131"	24	99174	24.2
+	"Pennsylvania"	"42"	"Cumberland County, PA"	"42041"	37	268116	13.8
+	"Pennsylvania"	"42"	"Elk County, PA"	"42047"			Unreliable
+	"Texas"	"48"	"Cass County, TX"	"48067"			Unreliable
+	"Texas"	"48"	"Denton County, TX"	"48121"	100	980392	10.2
+	"Texas"	"48"	"Gonzales County, TX"	"48177"			Unreliable
+	"Texas"	"48"	"Hardeman County, TX"	"48197"	0		0
+	"Pennsylvania"	"42"	"Indiana County, PA"	"42063"	40	82988	48.2
+	"Pennsylvania"	"42"	"Susquehanna County, PA"	"42115"	13	38123	34.1
+	"Pennsylvania"	"42"	"Wayne County, PA"	"42127"	20	51020	39.2
+	"South Carolina"	"45"	"Barnwell County, SC"	"45011"	20	20471	97.7
+	"South Carolina"	"45"	"McCormick County, SC"	"45065"			Unreliable
+	"South Dakota"	"46"	"Bennett County, SD"	"46007"	0		0
+	"Texas"	"48"	"Oldham County, TX"	"48359"			Unreliable
+	"Texas"	"48"	"San Saba County, TX"	"48411"	0		0
+	"South Dakota"	"46"	"Hanson County, SD"	"46061"	0		0
+	"South Dakota"	"46"	"Harding County, SD"	"46063"	0		0
+	"South Dakota"	"46"	"Hughes County, SD"	"46065"			Unreliable
+	"Tennessee"	"47"	"Crockett County, TN"	"47033"			Unreliable
+	"Tennessee"	"47"	"Franklin County, TN"	"47051"	12	44118	27.2
+	"Tennessee"	"47"	"Grundy County, TN"	"47061"			Unreliable
+	"Tennessee"	"47"	"Lauderdale County, TN"	"47097"	12	24742	48.5
+	"South Carolina"	"45"	"Greenville County, SC"	"45045"	276	547619	50.4
+	"South Carolina"	"45"	"Pickens County, SC"	"45077"	63	133475	47.2
+	"South Dakota"	"46"	"Grant County, SD"	"46051"	0		0
+	"Tennessee"	"47"	"Claiborne County, TN"	"47025"	21	32357	64.9
+	"Alabama"	"01"	"Randolph County, AL"	"01111"			Unreliable
+	"Arizona"	"04"	"Yuma County, AZ"	"04027"	40	208333	19.2
+	"Alabama"	"01"	"Hale County, AL"	"01065"			Unreliable
+	"Alabama"	"01"	"Shelby County, AL"	"01117"	62	229630	27
+	"Alaska"	"02"	"Aleutians West Census Area, AK"	"02016"	0		0
+	"Texas"	"48"	"Liberty County, TX"	"48291"	25	102459	24.4
+	"Alaska"	"02"	"Northwest Arctic Borough, AK"	"02188"			Unreliable
+	"Alaska"	"02"	"Wrangell City and Borough, AK"	"02275"			Unreliable
+	"Arizona"	"04"	"Navajo County, AZ"	"04017"	45	108696	41.4
+	"Tennessee"	"47"	"Marshall County, TN"	"47117"	12	35821	33.5
+	"Tennessee"	"47"	"Monroe County, TN"	"47123"	35	47684	73.4
+	"Tennessee"	"47"	"Wilson County, TN"	"47189"	65	158537	41
+	"Texas"	"48"	"Crockett County, TX"	"48105"			Unreliable
+	"Texas"	"48"	"Eastland County, TX"	"48133"			Unreliable
+	"Washington"	"53"	"Clallam County, WA"	"53009"	29	77748	37.3
+	"Washington"	"53"	"Ferry County, WA"	"53019"			Unreliable
+	"Washington"	"53"	"Grant County, WA"	"53025"	33	101538	32.5
+	"Washington"	"53"	"Island County, WA"	"53029"	13	86667	15
+	"Washington"	"53"	"Stevens County, WA"	"53065"			Unreliable
+	"Washington"	"53"	"Thurston County, WA"	"53067"	125	298329	41.9
+	"West Virginia"	"54"	"Harrison County, WV"	"54033"	47	64738	72.6
+	"West Virginia"	"54"	"Marshall County, WV"	"54051"			Unreliable
+	"West Virginia"	"54"	"Mineral County, WV"	"54057"	15	26882	55.8
+	"West Virginia"	"54"	"Mingo County, WV"	"54059"	27	22444	120.3
+	"Arkansas"	"05"	"Faulkner County, AR"	"05045"	21	127273	16.5
+	"Arkansas"	"05"	"Nevada County, AR"	"05099"	0		0
+	"California"	"06"	"Del Norte County, CA"	"06015"	29	27103	107
+	"California"	"06"	"Plumas County, CA"	"06063"			Unreliable
+	"Arkansas"	"05"	"Miller County, AR"	"05091"			Unreliable
+	"Arkansas"	"05"	"Montgomery County, AR"	"05097"	0		0
+	"Arkansas"	"05"	"Sevier County, AR"	"05133"			Unreliable
+	"Texas"	"48"	"Galveston County, TX"	"48167"	83	357759	23.2
+	"Texas"	"48"	"Hale County, TX"	"48189"			Unreliable
+	"Texas"	"48"	"Houston County, TX"	"48225"			Unreliable
+	"Texas"	"48"	"Lamar County, TX"	"48277"			Unreliable
+	"Texas"	"48"	"Nacogdoches County, TX"	"48347"			Unreliable
+	"Texas"	"48"	"Nueces County, TX"	"48355"	90	351562	25.6
+	"California"	"06"	"Tehama County, CA"	"06103"	28	65268	42.9
+	"Colorado"	"08"	"Boulder County, CO"	"08013"	52	327044	15.9
+	"Colorado"	"08"	"Douglas County, CO"	"08035"	36	375000	9.6
+	"Colorado"	"08"	"Grand County, CO"	"08049"	10	15723	63.6
+	"Colorado"	"08"	"Morgan County, CO"	"08087"			Unreliable
+	"Colorado"	"08"	"Otero County, CO"	"08089"			Unreliable
+	"Colorado"	"08"	"Weld County, CO"	"08123"	68	350515	19.4
+	"Florida"	"12"	"Brevard County, FL"	"12009"	168	631579	26.6
+	"Florida"	"12"	"Collier County, FL"	"12021"	109	397810	27.4
+	"Florida"	"12"	"Duval County, FL"	"12031"	499	1016293	49.1
+	"California"	"06"	"San Joaquin County, CA"	"06077"	170	794393	21.4
+	"California"	"06"	"Santa Barbara County, CA"	"06083"	127	444056	28.6
+	"California"	"06"	"Yuba County, CA"	"06115"	38	84444	45
+	"Colorado"	"08"	"Arapahoe County, CO"	"08005"	171	655172	26.1
+	"Colorado"	"08"	"Costilla County, CO"	"08023"			Unreliable
+	"Colorado"	"08"	"Rio Grande County, CO"	"08105"			Unreliable
+	"Delaware"	"10"	"New Castle County, DE"	"10003"	313	575368	54.4
+	"Florida"	"12"	"Bay County, FL"	"12005"	59	184953	31.9
+	"Texas"	"48"	"Collingsworth County, TX"	"48087"	0		0
+	"Texas"	"48"	"Dallas County, TX"	"48113"	548	2597156	21.1
+	"Texas"	"48"	"Gregg County, TX"	"48183"			Unreliable
+	"Texas"	"48"	"Guadalupe County, TX"	"48187"	16	181818	8.8
+	"Texas"	"48"	"Harrison County, TX"	"48203"	10	69930	14.3
+	"Texas"	"48"	"Lampasas County, TX"	"48281"			Unreliable
+	"Texas"	"48"	"Leon County, TX"	"48289"			Unreliable
+	"Texas"	"48"	"Live Oak County, TX"	"48297"			Unreliable
+	"Florida"	"12"	"Lafayette County, FL"	"12067"			Unreliable
+	"Florida"	"12"	"Lee County, FL"	"12071"	296	822222	36
+	"Florida"	"12"	"Okaloosa County, FL"	"12091"	116	216418	53.6
+	"Georgia"	"13"	"Bibb County, GA"	"13021"	31	155779	19.9
+	"Georgia"	"13"	"Bulloch County, GA"	"13031"			Unreliable
+	"Georgia"	"13"	"Camden County, GA"	"13039"	14	56911	24.6
+	"Florida"	"12"	"Clay County, FL"	"12019"	70	226537	30.9
+	"Florida"	"12"	"Escambia County, FL"	"12033"	240	323887	74.1
+	"Florida"	"12"	"Franklin County, FL"	"12037"			Unreliable
+	"Florida"	"12"	"Jackson County, FL"	"12063"			Unreliable
+	"Florida"	"12"	"Wakulla County, FL"	"12129"	11	35144	31.3
+	"Georgia"	"13"	"Carroll County, GA"	"13045"	47	124668	37.7
+	"Georgia"	"13"	"Chattahoochee County, GA"	"13053"			Unreliable
+	"Georgia"	"13"	"Chattooga County, GA"	"13055"			Unreliable
+	"Georgia"	"13"	"Clarke County, GA"	"13059"	37	129825	28.5
+	"Georgia"	"13"	"Cook County, GA"	"13075"			Unreliable
+	"Washington"	"53"	"Whatcom County, WA"	"53073"	67	230241	29.1
+	"West Virginia"	"54"	"Clay County, WV"	"54015"			Unreliable
+	"West Virginia"	"54"	"Hancock County, WV"	"54029"	18	28257	63.7
+	"Wisconsin"	"55"	"Bayfield County, WI"	"55007"			Unreliable
+	"Wisconsin"	"55"	"Door County, WI"	"55029"			Unreliable
+	"Wisconsin"	"55"	"Dunn County, WI"	"55033"			Unreliable
+	"Georgia"	"13"	"Effingham County, GA"	"13103"	15	69124	21.7
+	"Georgia"	"13"	"Emanuel County, GA"	"13107"			Unreliable
+	"Georgia"	"13"	"Glascock County, GA"	"13125"			Unreliable
+	"Georgia"	"13"	"Lumpkin County, GA"	"13187"	10	34722	28.8
+	"Georgia"	"13"	"Troup County, GA"	"13285"	10	70423	14.2
+	"Georgia"	"13"	"Wilkes County, GA"	"13317"			Unreliable
+	"Idaho"	"16"	"Caribou County, ID"	"16029"			Unreliable
+	"Idaho"	"16"	"Jerome County, ID"	"16053"			Unreliable
+	"Idaho"	"16"	"Minidoka County, ID"	"16067"			Unreliable
+	"Idaho"	"16"	"Power County, ID"	"16077"	0		0
+	"Illinois"	"17"	"Jasper County, IL"	"17079"			Unreliable
+	"Wisconsin"	"55"	"Outagamie County, WI"	"55087"	27	192857	14
+	"Wisconsin"	"55"	"Racine County, WI"	"55101"	50	196078	25.5
+	"Wisconsin"	"55"	"Vernon County, WI"	"55123"			Unreliable
+	"Wyoming"	"56"	"Converse County, WY"	"56009"			Unreliable
+	"Texas"	"48"	"Martin County, TX"	"48317"	0		0
+	"Texas"	"48"	"Montgomery County, TX"	"48339"	125	679348	18.4
+	"Texas"	"48"	"Navarro County, TX"	"48349"			Unreliable
+	"Texas"	"48"	"Pecos County, TX"	"48371"			Unreliable
+	"Texas"	"48"	"Rockwall County, TX"	"48397"	21	123529	17
+	"Texas"	"48"	"Rusk County, TX"	"48401"			Unreliable
+	"Texas"	"48"	"Sabine County, TX"	"48403"	0		0
+	"Texas"	"48"	"Sherman County, TX"	"48421"	0		0
+	"Idaho"	"16"	"Benewah County, ID"	"16009"			Unreliable
+	"Idaho"	"16"	"Bingham County, ID"	"16011"			Unreliable
+	"Idaho"	"16"	"Madison County, ID"	"16065"			Unreliable
+	"Georgia"	"13"	"Douglas County, GA"	"13097"	31	147619	21
+	"Georgia"	"13"	"Elbert County, GA"	"13105"			Unreliable
+	"Georgia"	"13"	"Habersham County, GA"	"13137"	11	47414	23.2
+	"Georgia"	"13"	"Jenkins County, GA"	"13165"			Unreliable
+	"Georgia"	"13"	"Stephens County, GA"	"13257"			Unreliable
+	"Virginia"	"51"	"Craig County, VA"	"51045"			Unreliable
+	"Virginia"	"51"	"Halifax County, VA"	"51083"	19	33628	56.5
+	"Virginia"	"51"	"Highland County, VA"	"51091"	0		0
+	"Virginia"	"51"	"King William County, VA"	"51101"			Unreliable
+	"Virginia"	"51"	"Mecklenburg County, VA"	"51117"			Unreliable
+	"Virginia"	"51"	"Middlesex County, VA"	"51119"			Unreliable
+	"Virginia"	"51"	"Prince William County, VA"	"51153"	73	486667	15
+	"Virginia"	"51"	"Southampton County, VA"	"51175"			Unreliable
+	"Virginia"	"51"	"Alexandria city, VA"	"51510"	19	154472	12.3
+	"Virginia"	"51"	"Chesapeake city, VA"	"51550"	65	252918	25.7
+	"Illinois"	"17"	"Iroquois County, IL"	"17075"			Unreliable
+	"Illinois"	"17"	"Cumberland County, IL"	"17035"	0		0
+	"Illinois"	"17"	"Kendall County, IL"	"17093"	18	137405	13.1
+	"Illinois"	"17"	"Ogle County, IL"	"17141"			Unreliable
+	"Illinois"	"17"	"Perry County, IL"	"17145"			Unreliable
+	"Illinois"	"17"	"Pulaski County, IL"	"17153"	0		0
+	"Illinois"	"17"	"St. Clair County, IL"	"17163"	80	252366	31.7
+	"Illinois"	"17"	"Williamson County, IL"	"17199"	16	66667	24
+	"Indiana"	"18"	"Decatur County, IN"	"18031"			Unreliable
+	"Idaho"	"16"	"Latah County, ID"	"16057"			Unreliable
+	"Idaho"	"16"	"Teton County, ID"	"16081"			Unreliable
+	"Indiana"	"18"	"Parke County, IN"	"18121"			Unreliable
+	"Indiana"	"18"	"Rush County, IN"	"18139"			Unreliable
+	"Indiana"	"18"	"Sullivan County, IN"	"18153"			Unreliable
+	"Indiana"	"18"	"Wayne County, IN"	"18177"	44	66265	66.4
+	"Iowa"	"19"	"Allamakee County, IA"	"19005"			Unreliable
+	"Iowa"	"19"	"Ida County, IA"	"19093"	0		0
+	"Iowa"	"19"	"Lucas County, IA"	"19117"			Unreliable
+	"Iowa"	"19"	"Mahaska County, IA"	"19123"			Unreliable
+	"Iowa"	"19"	"Scott County, IA"	"19163"	27	174194	15.5
+	"Iowa"	"19"	"Wright County, IA"	"19197"	0		0
+	"Kansas"	"20"	"Cloud County, KS"	"20029"	0		0
+	"Kansas"	"20"	"Haskell County, KS"	"20081"	0		0
+	"Kansas"	"20"	"Marion County, KS"	"20115"	0		0
+	"Kansas"	"20"	"Montgomery County, KS"	"20125"			Unreliable
+	"Kansas"	"20"	"Morris County, KS"	"20127"	0		0
+	"Washington"	"53"	"Jefferson County, WA"	"53031"			Unreliable
+	"Washington"	"53"	"San Juan County, WA"	"53055"			Unreliable
+	"Washington"	"53"	"Skamania County, WA"	"53059"			Unreliable
+	"Washington"	"53"	"Walla Walla County, WA"	"53071"	18	61856	29.1
+	"West Virginia"	"54"	"Barbour County, WV"	"54001"			Unreliable
+	"West Virginia"	"54"	"Morgan County, WV"	"54065"			Unreliable
+	"West Virginia"	"54"	"Nicholas County, WV"	"54067"			Unreliable
+	"West Virginia"	"54"	"Wayne County, WV"	"54099"	33	37975	86.9
+	"West Virginia"	"54"	"Wirt County, WV"	"54105"			Unreliable
+	"Kansas"	"20"	"Bourbon County, KS"	"20011"			Unreliable
+	"Kansas"	"20"	"Cheyenne County, KS"	"20023"			Unreliable
+	"Kansas"	"20"	"Cowley County, KS"	"20035"			Unreliable
+	"Kansas"	"20"	"Douglas County, KS"	"20045"	22	120219	18.3
+	"Kansas"	"20"	"Greeley County, KS"	"20071"	0		0
+	"Kansas"	"20"	"Jewell County, KS"	"20089"	0		0
+	"Kansas"	"20"	"Lane County, KS"	"20101"	0		0
+	"Kansas"	"20"	"Miami County, KS"	"20121"			Unreliable
+	"Kansas"	"20"	"Morton County, KS"	"20129"	0		0
+	"Kansas"	"20"	"Ness County, KS"	"20135"	0		0
+	"Kansas"	"20"	"Norton County, KS"	"20137"	0		0
+	"Kansas"	"20"	"Rooks County, KS"	"20163"	0		0
+	"Kansas"	"20"	"Sumner County, KS"	"20191"			Unreliable
+	"Kentucky"	"21"	"Boone County, KY"	"21015"	46	138973	33.1
+	"Kentucky"	"21"	"Crittenden County, KY"	"21055"			Unreliable
+	"Kentucky"	"21"	"Fayette County, KY"	"21067"	153	320084	47.8
+	"Kentucky"	"21"	"Floyd County, KY"	"21071"	43	34931	123.1
+	"Kentucky"	"21"	"Graves County, KY"	"21083"			Unreliable
+	"Kentucky"	"21"	"Greenup County, KY"	"21089"	18	35363	50.9
+	"Kentucky"	"21"	"Knox County, KY"	"21121"			Unreliable
+	"Kentucky"	"21"	"Lincoln County, KY"	"21137"	15	24430	61.4
+	"Kansas"	"20"	"Gove County, KS"	"20063"	0		0
+	"Kansas"	"20"	"Republic County, KS"	"20157"			Unreliable
+	"Kansas"	"20"	"Trego County, KS"	"20195"	0		0
+	"Louisiana"	"22"	"Winn Parish, LA"	"22127"			Unreliable
+	"Maine"	"23"	"Hancock County, ME"	"23009"	25	56561	44.2
+	"Maryland"	"24"	"Charles County, MD"	"24017"	70	170316	41.1
+	"Massachusetts"	"25"	"Worcester County, MA"	"25027"	361	863636	41.8
+	"Michigan"	"26"	"Ionia County, MI"	"26067"	10	66667	15
+	"Michigan"	"26"	"Jackson County, MI"	"26075"	43	159851	26.9
+	"Iowa"	"19"	"Webster County, IA"	"19187"			Unreliable
+	"Iowa"	"19"	"Woodbury County, IA"	"19193"			Unreliable
+	"Kansas"	"20"	"Atchison County, KS"	"20005"			Unreliable
+	"Kansas"	"20"	"Clay County, KS"	"20027"	0		0
+	"Kansas"	"20"	"Comanche County, KS"	"20033"	0		0
+	"Kansas"	"20"	"Franklin County, KS"	"20059"			Unreliable
+	"Kansas"	"20"	"Hodgeman County, KS"	"20083"	0		0
+	"Kansas"	"20"	"Pottawatomie County, KS"	"20149"			Unreliable
+	"Kansas"	"20"	"Sedgwick County, KS"	"20173"	230	525114	43.8
+	"Louisiana"	"22"	"Caddo Parish, LA"	"22017"	25	229358	10.9
+	"Louisiana"	"22"	"Jefferson Parish, LA"	"22051"	273	425897	64.1
+	"Louisiana"	"22"	"Sabine Parish, LA"	"22085"			Unreliable
+	"Maine"	"23"	"Lincoln County, ME"	"23015"	14	36269	38.6
+	"Maryland"	"24"	"Queen Anne's County, MD"	"24035"	11	51643	21.3
+	"Massachusetts"	"25"	"Franklin County, MA"	"25011"	27	71053	38
+	"Michigan"	"26"	"Allegan County, MI"	"26005"	18	121622	14.8
+	"Michigan"	"26"	"Antrim County, MI"	"26009"			Unreliable
+	"Michigan"	"26"	"Delta County, MI"	"26041"			Unreliable
+	"Michigan"	"26"	"Gogebic County, MI"	"26053"			Unreliable
+	"Michigan"	"26"	"Grand Traverse County, MI"	"26055"	22	96491	22.8
+	"Michigan"	"26"	"Hillsdale County, MI"	"26059"	12	45802	26.2
+	"Michigan"	"26"	"Marquette County, MI"	"26103"			Unreliable
+	"Michigan"	"26"	"Oakland County, MI"	"26125"	223	1274286	17.5
+	"Michigan"	"26"	"Monroe County, MI"	"26115"	42	154982	27.1
+	"Michigan"	"26"	"Otsego County, MI"	"26137"			Unreliable
+	"Minnesota"	"27"	"Beltrami County, MN"	"27007"	30	46512	64.5
+	"Minnesota"	"27"	"Cass County, MN"	"27021"	13	31325	41.5
+	"Minnesota"	"27"	"Dakota County, MN"	"27037"	51	443478	11.5
+	"Minnesota"	"27"	"Kandiyohi County, MN"	"27067"			Unreliable
+	"Minnesota"	"27"	"Kittson County, MN"	"27069"	0		0
+	"Minnesota"	"27"	"Otter Tail County, MN"	"27111"			Unreliable
+	"Minnesota"	"27"	"Red Lake County, MN"	"27125"	0		0
+	"Kansas"	"20"	"Sherman County, KS"	"20181"	0		0
+	"Kansas"	"20"	"Washington County, KS"	"20201"	0		0
+	"Kentucky"	"21"	"Adair County, KY"	"21001"	10	19084	52.4
+	"Kentucky"	"21"	"Carroll County, KY"	"21041"			Unreliable
+	"Kentucky"	"21"	"Jackson County, KY"	"21109"			Unreliable
+	"Kansas"	"20"	"Ellsworth County, KS"	"20053"	0		0
+	"Kentucky"	"21"	"Mercer County, KY"	"21167"	14	22913	61.1
+	"Kentucky"	"21"	"Monroe County, KY"	"21171"			Unreliable
+	"Iowa"	"19"	"Washington County, IA"	"19183"	0		0
+	"Kansas"	"20"	"Elk County, KS"	"20049"	0		0
+	"Kansas"	"20"	"Gray County, KS"	"20069"	0		0
+	"Kansas"	"20"	"Greenwood County, KS"	"20073"	0		0
+	"Kansas"	"20"	"Johnson County, KS"	"20091"	86	618705	13.9
+	"Kansas"	"20"	"Marshall County, KS"	"20117"	0		0
+	"Kansas"	"20"	"Rice County, KS"	"20159"			Unreliable
+	"Kansas"	"20"	"Saline County, KS"	"20169"	10	53476	18.7
+	"Kansas"	"20"	"Wallace County, KS"	"20199"			Unreliable
+	"Maine"	"23"	"Kennebec County, ME"	"23011"	56	126411	44.3
+	"Maine"	"23"	"Waldo County, ME"	"23027"	22	40219	54.7
+	"Maryland"	"24"	"Baltimore County, MD"	"24005"	379	845982	44.8
+	"Maryland"	"24"	"Somerset County, MD"	"24039"	15	24590	61
+	"Massachusetts"	"25"	"Plymouth County, MA"	"25023"	204	532637	38.3
+	"Michigan"	"26"	"Branch County, MI"	"26023"			Unreliable
+	"Michigan"	"26"	"Crawford County, MI"	"26039"			Unreliable
+	"Michigan"	"26"	"Iron County, MI"	"26071"			Unreliable
+	"Michigan"	"26"	"Lapeer County, MI"	"26087"	21	88608	23.7
+	"Kentucky"	"21"	"Bell County, KY"	"21013"	11	23605	46.6
+	"Kentucky"	"21"	"Marion County, KY"	"21155"	10	19763	50.6
+	"Kentucky"	"21"	"Spencer County, KY"	"21215"			Unreliable
+	"Kentucky"	"21"	"Warren County, KY"	"21227"	30	140187	21.4
+	"Louisiana"	"22"	"Acadia Parish, LA"	"22001"	29	56751	51.1
+	"Louisiana"	"22"	"LaSalle Parish, LA"	"22059"			Unreliable
+	"Louisiana"	"22"	"Red River Parish, LA"	"22081"			Unreliable
+	"Maine"	"23"	"Knox County, ME"	"23013"	21	41176	51
+	"Maine"	"23"	"Oxford County, ME"	"23017"	27	59471	45.4
+	"Maryland"	"24"	"Cecil County, MD"	"24015"	95	104857	90.6
+	"Maryland"	"24"	"Baltimore city, MD"	"24510"	778	569129	136.7
+	"Massachusetts"	"25"	"Bristol County, MA"	"25005"	298	579767	51.4
+	"Michigan"	"26"	"Houghton County, MI"	"26061"			Unreliable
+	"Michigan"	"26"	"Ontonagon County, MI"	"26131"			Unreliable
+	"Michigan"	"26"	"Presque Isle County, MI"	"26141"			Unreliable
+	"Michigan"	"26"	"St. Clair County, MI"	"26147"	39	159836	24.4
+	"Michigan"	"26"	"Shiawassee County, MI"	"26155"	19	67857	28
+	"Missouri"	"29"	"Clay County, MO"	"29047"	61	257384	23.7
+	"Maryland"	"24"	"Worcester County, MD"	"24047"	12	54054	22.2
+	"Michigan"	"26"	"Baraga County, MI"	"26013"			Unreliable
+	"Michigan"	"26"	"Manistee County, MI"	"26101"	14	25362	55.2
+	"Michigan"	"26"	"Tuscola County, MI"	"26157"			Unreliable
+	"Michigan"	"26"	"Wayne County, MI"	"26163"	862	1759184	49
+	"Minnesota"	"27"	"Freeborn County, MN"	"27047"			Unreliable
+	"Minnesota"	"27"	"Isanti County, MN"	"27059"			Unreliable
+	"Minnesota"	"27"	"Pope County, MN"	"27121"			Unreliable
+	"Minnesota"	"27"	"Stearns County, MN"	"27145"	24	160000	15
+	"Minnesota"	"27"	"Waseca County, MN"	"27161"			Unreliable
+	"Mississippi"	"28"	"Carroll County, MS"	"28015"			Unreliable
+	"Mississippi"	"28"	"Monroe County, MS"	"28095"			Unreliable
+	"Missouri"	"29"	"Buchanan County, MO"	"29021"	37	82960	44.6
+	"Missouri"	"29"	"Montgomery County, MO"	"29139"			Unreliable
+	"Missouri"	"29"	"Osage County, MO"	"29151"			Unreliable
+	"Michigan"	"26"	"Roscommon County, MI"	"26143"			Unreliable
+	"Michigan"	"26"	"Wexford County, MI"	"26165"			Unreliable
+	"Minnesota"	"27"	"Carver County, MN"	"27019"	11	110000	10
+	"Minnesota"	"27"	"Clay County, MN"	"27027"	13	65990	19.7
+	"Minnesota"	"27"	"Lac qui Parle County, MN"	"27073"	0		0
+	"Minnesota"	"27"	"Le Sueur County, MN"	"27079"			Unreliable
+	"Nebraska"	"31"	"Howard County, NE"	"31093"	0		0
+	"Minnesota"	"27"	"Wabasha County, MN"	"27157"			Unreliable
+	"Mississippi"	"28"	"Clay County, MS"	"28025"			Unreliable
+	"Montana"	"30"	"Prairie County, MT"	"30079"	0		0
+	"Nebraska"	"31"	"Adams County, NE"	"31001"			Unreliable
+	"Nebraska"	"31"	"Gage County, NE"	"31067"	0		0
+	"Mississippi"	"28"	"Hancock County, MS"	"28045"	18	46036	39.1
+	"Mississippi"	"28"	"Lauderdale County, MS"	"28075"			Unreliable
+	"Mississippi"	"28"	"Marshall County, MS"	"28093"			Unreliable
+	"Missouri"	"29"	"Bates County, MO"	"29013"			Unreliable
+	"Missouri"	"29"	"Carroll County, MO"	"29033"			Unreliable
+	"Missouri"	"29"	"Dallas County, MO"	"29059"			Unreliable
+	"Missouri"	"29"	"Cole County, MO"	"29051"	13	76923	16.9
+	"Missouri"	"29"	"Dade County, MO"	"29057"			Unreliable
+	"Missouri"	"29"	"Lawrence County, MO"	"29109"			Unreliable
+	"Missouri"	"29"	"Lewis County, MO"	"29111"			Unreliable
+	"Missouri"	"29"	"Ozark County, MO"	"29153"			Unreliable
+	"Missouri"	"29"	"Saline County, MO"	"29195"			Unreliable
+	"New York"	"36"	"Kings County, NY"	"36047"	727	2587189	28.1
+	"New York"	"36"	"Oneida County, NY"	"36065"	79	228324	34.6
+	"North Carolina"	"37"	"Davidson County, NC"	"37057"	95	172414	55.1
+	"North Carolina"	"37"	"Henderson County, NC"	"37089"	41	118156	34.7
+	"Nebraska"	"31"	"Red Willow County, NE"	"31145"	0		0
+	"Nebraska"	"31"	"Thayer County, NE"	"31169"	0		0
+	"Nevada"	"32"	"Nye County, NV"	"32023"	32	54795	58.4
+	"New Jersey"	"34"	"Mercer County, NJ"	"34021"	135	380282	35.5
+	"New Jersey"	"34"	"Passaic County, NJ"	"34031"	144	514286	28
+	"New Jersey"	"34"	"Sussex County, NJ"	"34037"	34	145299	23.4
+	"New Jersey"	"34"	"Union County, NJ"	"34039"	160	571429	28
+	"New Mexico"	"35"	"Curry County, NM"	"35009"	18	47368	38
+	"New Mexico"	"35"	"Guadalupe County, NM"	"35019"			Unreliable
+	"New Mexico"	"35"	"Taos County, NM"	"35055"	20	34602	57.8
+	"New Mexico"	"35"	"Valencia County, NM"	"35061"	27	78261	34.5
+	"New York"	"36"	"Monroe County, NY"	"36055"	319	750588	42.5
+	"New York"	"36"	"Orleans County, NY"	"36073"			Unreliable
+	"New York"	"36"	"Putnam County, NY"	"36079"	25	98425	25.4
+	"New York"	"36"	"Rensselaer County, NY"	"36083"	43	159259	27
+	"New York"	"36"	"Schenectady County, NY"	"36093"	48	159468	30.1
+	"North Carolina"	"37"	"Alamance County, NC"	"37001"	58	176829	32.8
+	"North Carolina"	"37"	"Columbus County, NC"	"37047"	22	50114	43.9
+	"North Carolina"	"37"	"Lincoln County, NC"	"37109"	29	93248	31.1
+	"North Carolina"	"37"	"Perquimans County, NC"	"37143"			Unreliable
+	"North Carolina"	"37"	"Randolph County, NC"	"37151"	110	146277	75.2
+	"North Carolina"	"37"	"Transylvania County, NC"	"37175"			Unreliable
+	"North Dakota"	"38"	"McKenzie County, ND"	"38053"			Unreliable
+	"North Dakota"	"38"	"Oliver County, ND"	"38065"	0		0
+	"North Dakota"	"38"	"Richland County, ND"	"38077"			Unreliable
+	"North Dakota"	"38"	"Rolette County, ND"	"38079"			Unreliable
+	"Ohio"	"39"	"Cuyahoga County, OH"	"39035"	562	1237885	45.4
+	"Ohio"	"39"	"Mahoning County, OH"	"39099"	151	226048	66.8
+	"Ohio"	"39"	"Richland County, OH"	"39139"	64	125245	51.1
+	"Oklahoma"	"40"	"Atoka County, OK"	"40005"			Unreliable
+	"Oklahoma"	"40"	"Carter County, OK"	"40019"	13	48327	26.9
+	"Nebraska"	"31"	"Stanton County, NE"	"31167"			Unreliable
+	"Nevada"	"32"	"Churchill County, NV"	"32001"			Unreliable
+	"New Hampshire"	"33"	"Sullivan County, NH"	"33019"	14	43887	31.9
+	"New Jersey"	"34"	"Cape May County, NJ"	"34009"	49	95331	51.4
+	"Oklahoma"	"40"	"Cimarron County, OK"	"40025"	0		0
+	"Oklahoma"	"40"	"Major County, OK"	"40093"	0		0
+	"Oregon"	"41"	"Malheur County, OR"	"41045"			Unreliable
+	"Oregon"	"41"	"Umatilla County, OR"	"41059"	22	80292	27.4
+	"Oregon"	"41"	"Union County, OR"	"41061"			Unreliable
+	"North Carolina"	"37"	"Alleghany County, NC"	"37005"			Unreliable
+	"North Carolina"	"37"	"Ashe County, NC"	"37009"			Unreliable
+	"North Carolina"	"37"	"Davie County, NC"	"37059"	16	44077	36.3
+	"North Carolina"	"37"	"Guilford County, NC"	"37081"	216	546835	39.5
+	"North Carolina"	"37"	"Lee County, NC"	"37105"	38	65517	58
+	"Pennsylvania"	"42"	"Huntingdon County, PA"	"42061"	11	43307	25.4
+	"Pennsylvania"	"42"	"Lebanon County, PA"	"42075"	30	144231	20.8
+	"Pennsylvania"	"42"	"Philadelphia County, PA"	"42101"	1248	1565872	79.7
+	"Pennsylvania"	"42"	"Somerset County, PA"	"42111"	31	72600	42.7
+	"Pennsylvania"	"42"	"Warren County, PA"	"42123"			Unreliable
+	"South Carolina"	"45"	"Lee County, SC"	"45061"			Unreliable
+	"North Carolina"	"37"	"Person County, NC"	"37145"	10	39370	25.4
+	"North Carolina"	"37"	"Stanly County, NC"	"37167"	22	64140	34.3
+	"North Carolina"	"37"	"Tyrrell County, NC"	"37177"			Unreliable
+	"North Carolina"	"37"	"Vance County, NC"	"37181"	21	42169	49.8
+	"North Carolina"	"37"	"Watauga County, NC"	"37189"	12	55046	21.8
+	"North Dakota"	"38"	"Cass County, ND"	"38017"	31	192547	16.1
+	"North Dakota"	"38"	"McHenry County, ND"	"38049"			Unreliable
+	"North Dakota"	"38"	"McIntosh County, ND"	"38051"	0		0
+	"North Dakota"	"38"	"Renville County, ND"	"38075"	0		0
+	"Ohio"	"39"	"Ashland County, OH"	"39005"	12	51948	23.1
+	"Ohio"	"39"	"Crawford County, OH"	"39033"			Unreliable
+	"South Dakota"	"46"	"Brule County, SD"	"46015"	0		0
+	"South Dakota"	"46"	"Charles Mix County, SD"	"46023"	0		0
+	"South Dakota"	"46"	"Lyman County, SD"	"46085"	0		0
+	"South Dakota"	"46"	"McPherson County, SD"	"46089"	0		0
+	"South Dakota"	"46"	"Stanley County, SD"	"46117"	0		0
+	"Tennessee"	"47"	"Bradley County, TN"	"47011"	41	110512	37.1
+	"Tennessee"	"47"	"Dickson County, TN"	"47043"	32	55749	57.4
+	"Tennessee"	"47"	"Dyer County, TN"	"47045"			Unreliable
+	"Ohio"	"39"	"Fairfield County, OH"	"39045"	61	163102	37.4
+	"Ohio"	"39"	"Fulton County, OH"	"39051"	11	42146	26.1
+	"Ohio"	"39"	"Jackson County, OH"	"39079"	19	32590	58.3
+	"Ohio"	"39"	"Pike County, OH"	"39131"	21	27027	77.7
+	"Ohio"	"39"	"Putnam County, OH"	"39137"			Unreliable
+	"Oklahoma"	"40"	"Dewey County, OK"	"40043"			Unreliable
+	"Tennessee"	"47"	"Hawkins County, TN"	"47073"	24	57971	41.4
+	"Tennessee"	"47"	"Rhea County, TN"	"47143"	24	33708	71.2
+	"Tennessee"	"47"	"Roane County, TN"	"47145"	59	55140	107
+	"Tennessee"	"47"	"Robertson County, TN"	"47147"	36	75472	47.7
+	"Tennessee"	"47"	"Sullivan County, TN"	"47163"	75	160944	46.6
+	"Texas"	"48"	"Archer County, TX"	"48009"	0		0
+	"Texas"	"48"	"Caldwell County, TX"	"48055"			Unreliable
+	"Alabama"	"01"	"Barbour County, AL"	"01005"			Unreliable
+	"Oregon"	"41"	"Polk County, OR"	"41053"	15	89820	16.7
+	"Alabama"	"01"	"Cherokee County, AL"	"01019"			Unreliable
+	"Oklahoma"	"40"	"Roger Mills County, OK"	"40129"			Unreliable
+	"Oklahoma"	"40"	"Texas County, OK"	"40139"			Unreliable
+	"Oklahoma"	"40"	"Tillman County, OK"	"40141"			Unreliable
+	"Oregon"	"41"	"Lane County, OR"	"41039"	163	382629	42.6
+	"Oregon"	"41"	"Washington County, OR"	"41067"	84	6e+05	14
+	"Pennsylvania"	"42"	"Clarion County, PA"	"42031"			Unreliable
+	"Pennsylvania"	"42"	"Luzerne County, PA"	"42079"	162	326613	49.6
+	"Pennsylvania"	"42"	"Monroe County, PA"	"42089"	64	167539	38.2
+	"Ohio"	"39"	"Warren County, OH"	"39165"	45	250000	18
+	"Oklahoma"	"40"	"Cherokee County, OK"	"40021"	20	48077	41.6
+	"Oklahoma"	"40"	"Mayes County, OK"	"40097"			Unreliable
+	"Oklahoma"	"40"	"Stephens County, OK"	"40137"	13	43624	29.8
+	"Oregon"	"41"	"Crook County, OR"	"41013"			Unreliable
+	"Alabama"	"01"	"Cleburne County, AL"	"01029"	0		0
+	"Pennsylvania"	"42"	"Northampton County, PA"	"42095"	85	318352	26.7
+	"Pennsylvania"	"42"	"Venango County, PA"	"42121"	17	49708	34.2
+	"South Carolina"	"45"	"Beaufort County, SC"	"45013"	43	196347	21.9
+	"Oregon"	"41"	"Lincoln County, OR"	"41041"	22	50808	43.3
+	"Oregon"	"41"	"Linn County, OR"	"41043"	35	130597	26.8
+	"Pennsylvania"	"42"	"Bucks County, PA"	"42017"	188	646048	29.1
+	"Pennsylvania"	"42"	"Centre County, PA"	"42027"	14	157303	8.9
+	"Pennsylvania"	"42"	"Clearfield County, PA"	"42033"	14	77778	18
+	"Pennsylvania"	"42"	"Fulton County, PA"	"42057"			Unreliable
+	"Pennsylvania"	"42"	"Jefferson County, PA"	"42065"	13	43771	29.7
+	"Pennsylvania"	"42"	"Mercer County, PA"	"42085"	51	109208	46.7
+	"South Carolina"	"45"	"Cherokee County, SC"	"45021"	18	56075	32.1
+	"Alabama"	"01"	"Franklin County, AL"	"01059"	11	31884	34.5
+	"Alabama"	"01"	"Jackson County, AL"	"01071"	10	52910	18.9
+	"Alabama"	"01"	"Monroe County, AL"	"01099"			Unreliable
+	"Alaska"	"02"	"Denali Borough, AK"	"02068"	0		0
+	"Alaska"	"02"	"Hoonah-Angoon Census Area, AK"	"02105"			Unreliable
+	"Alaska"	"02"	"Yukon-Koyukuk Census Area, AK"	"02290"			Unreliable
+	"Arizona"	"04"	"Greenlee County, AZ"	"04011"			Unreliable
+	"South Dakota"	"46"	"Todd County, SD"	"46121"	0		0
+	"South Dakota"	"46"	"Yankton County, SD"	"46135"			Unreliable
+	"Tennessee"	"47"	"Campbell County, TN"	"47013"	44	39568	111.2
+	"Tennessee"	"47"	"Gibson County, TN"	"47053"	13	50781	25.6
+	"Virginia"	"51"	"Brunswick County, VA"	"51025"	10	15823	63.2
+	"Virginia"	"51"	"Culpeper County, VA"	"51047"	17	54313	31.3
+	"Virginia"	"51"	"Dinwiddie County, VA"	"51053"			Unreliable
+	"Virginia"	"51"	"Fluvanna County, VA"	"51065"			Unreliable
+	"Virginia"	"51"	"Giles County, VA"	"51071"			Unreliable
+	"Virginia"	"51"	"Grayson County, VA"	"51077"			Unreliable
+	"Virginia"	"51"	"New Kent County, VA"	"51127"			Unreliable
+	"Virginia"	"51"	"Stafford County, VA"	"51179"	36	162896	22.1
+	"Virginia"	"51"	"Sussex County, VA"	"51183"			Unreliable
+	"Alabama"	"01"	"Jefferson County, AL"	"01073"	374	665480	56.2
+	"Alabama"	"01"	"Morgan County, AL"	"01103"	42	124260	33.8
+	"Arizona"	"04"	"Yavapai County, AZ"	"04025"	67	246324	27.2
+	"Alabama"	"01"	"Covington County, AL"	"01039"	11	37543	29.3
+	"Alabama"	"01"	"Cullman County, AL"	"01043"	29	90625	32
+	"Alabama"	"01"	"DeKalb County, AL"	"01049"	19	71970	26.4
+	"Alabama"	"01"	"Walker County, AL"	"01127"	45	64470	69.8
+	"Alabama"	"01"	"Washington County, AL"	"01129"			Unreliable
+	"Arizona"	"04"	"Pinal County, AZ"	"04021"	106	464912	22.8
+	"Arkansas"	"05"	"Benton County, AR"	"05007"	39	302326	12.9
+	"Arkansas"	"05"	"Bradley County, AR"	"05011"	0		0
+	"Arkansas"	"05"	"Chicot County, AR"	"05017"			Unreliable
+	"Virginia"	"51"	"Tazewell County, VA"	"51185"	21	39548	53.1
+	"Virginia"	"51"	"Buena Vista city, VA"	"51530"			Unreliable
+	"Virginia"	"51"	"Hampton city, VA"	"51650"	45	138037	32.6
+	"Virginia"	"51"	"Roanoke city, VA"	"51770"	109	97670	111.6
+	"Virginia"	"51"	"Staunton city, VA"	"51790"			Unreliable
+	"Virginia"	"51"	"Williamsburg city, VA"	"51830"			Unreliable
+	"Washington"	"53"	"Benton County, WA"	"53005"	39	213115	18.3
+	"Washington"	"53"	"Franklin County, WA"	"53021"	23	98712	23.3
+	"Washington"	"53"	"Mason County, WA"	"53045"	36	68182	52.8
+	"Virginia"	"51"	"Smyth County, VA"	"51173"	13	29412	44.2
+	"Virginia"	"51"	"Warren County, VA"	"51187"	17	41363	41.1
+	"Virginia"	"51"	"Washington County, VA"	"51191"	16	53872	29.7
+	"Washington"	"53"	"Klickitat County, WA"	"53039"			Unreliable
+	"Washington"	"53"	"Pend Oreille County, WA"	"53051"			Unreliable
+	"Washington"	"53"	"Yakima County, WA"	"53077"	80	257235	31.1
+	"Arkansas"	"05"	"Little River County, AR"	"05081"			Unreliable
+	"Arkansas"	"05"	"Pope County, AR"	"05115"			Unreliable
+	"Arkansas"	"05"	"Woodruff County, AR"	"05147"	0		0
+	"California"	"06"	"Kings County, CA"	"06031"	28	153005	18.3
+	"California"	"06"	"Modoc County, CA"	"06049"			Unreliable
+	"California"	"06"	"Mono County, CA"	"06051"			Unreliable
+	"Arkansas"	"05"	"Lawrence County, AR"	"05075"	0		0
+	"Arkansas"	"05"	"Ouachita County, AR"	"05103"			Unreliable
+	"Arkansas"	"05"	"Pike County, AR"	"05109"			Unreliable
+	"Arkansas"	"05"	"Pulaski County, AR"	"05119"	132	398792	33.1
+	"California"	"06"	"Glenn County, CA"	"06021"	11	28351	38.8
+	"California"	"06"	"Santa Clara County, CA"	"06085"	334	1876404	17.8
+	"Texas"	"48"	"Runnels County, TX"	"48399"			Unreliable
+	"Texas"	"48"	"San Jacinto County, TX"	"48407"			Unreliable
+	"Texas"	"48"	"Stonewall County, TX"	"48433"	0		0
+	"Texas"	"48"	"Van Zandt County, TX"	"48467"			Unreliable
+	"Texas"	"48"	"Waller County, TX"	"48473"			Unreliable
+	"Utah"	"49"	"Juab County, UT"	"49023"			Unreliable
+	"Vermont"	"50"	"Chittenden County, VT"	"50007"	54	169279	31.9
+	"Colorado"	"08"	"Bent County, CO"	"08011"			Unreliable
+	"Colorado"	"08"	"Fremont County, CO"	"08043"	17	49563	34.3
+	"Colorado"	"08"	"Jefferson County, CO"	"08059"	151	576336	26.2
+	"Colorado"	"08"	"Sedgwick County, CO"	"08115"	0		0
+	"Connecticut"	"09"	"Tolland County, CT"	"09013"	27	150000	18
+	"Florida"	"12"	"Calhoun County, FL"	"12013"			Unreliable
+	"Florida"	"12"	"Flagler County, FL"	"12035"	43	126844	33.9
+	"California"	"06"	"Tuolumne County, CA"	"06109"	19	54598	34.8
+	"Colorado"	"08"	"Lake County, CO"	"08065"			Unreliable
+	"Colorado"	"08"	"Lincoln County, CO"	"08073"			Unreliable
+	"Colorado"	"08"	"Logan County, CO"	"08075"			Unreliable
+	"Colorado"	"08"	"Mineral County, CO"	"08079"	0		0
+	"Colorado"	"08"	"Moffat County, CO"	"08081"			Unreliable
+	"Colorado"	"08"	"Montezuma County, CO"	"08083"			Unreliable
+	"Colorado"	"08"	"Montrose County, CO"	"08085"	13	43771	29.7
+	"Colorado"	"08"	"Rio Blanco County, CO"	"08103"			Unreliable
+	"Colorado"	"08"	"Summit County, CO"	"08117"			Unreliable
+	"Connecticut"	"09"	"New London County, CT"	"09011"	132	268293	49.2
+	"Connecticut"	"09"	"Windham County, CT"	"09015"	50	116550	42.9
+	"Texas"	"48"	"Llano County, TX"	"48299"			Unreliable
+	"Texas"	"48"	"Mitchell County, TX"	"48335"			Unreliable
+	"Texas"	"48"	"Randall County, TX"	"48381"	25	146199	17.1
+	"Texas"	"48"	"Schleicher County, TX"	"48413"	0		0
+	"Texas"	"48"	"Ward County, TX"	"48475"	0		0
+	"Texas"	"48"	"Wheeler County, TX"	"48483"			Unreliable
+	"Texas"	"48"	"Winkler County, TX"	"48495"			Unreliable
+	"Texas"	"48"	"Young County, TX"	"48503"			Unreliable
+	"Florida"	"12"	"Jefferson County, FL"	"12065"			Unreliable
+	"Florida"	"12"	"Putnam County, FL"	"12107"	23	74675	30.8
+	"Georgia"	"13"	"Butts County, GA"	"13035"			Unreliable
+	"Georgia"	"13"	"Chatham County, GA"	"13051"	85	301418	28.2
+	"Georgia"	"13"	"Cobb County, GA"	"13067"	175	770925	22.7
+	"Texas"	"48"	"Collin County, TX"	"48085"	109	1159574	9.4
+	"Texas"	"48"	"Culberson County, TX"	"48109"	0		0
+	"Texas"	"48"	"Hunt County, TX"	"48231"	23	108491	21.2
+	"Texas"	"48"	"Kinney County, TX"	"48271"	0		0
+	"Texas"	"48"	"Swisher County, TX"	"48437"			Unreliable
+	"Texas"	"48"	"Wharton County, TX"	"48481"			Unreliable
+	"Texas"	"48"	"Wilbarger County, TX"	"48487"	0		0
+	"Texas"	"48"	"Willacy County, TX"	"48489"			Unreliable
+	"Texas"	"48"	"Zapata County, TX"	"48505"			Unreliable
+	"Utah"	"49"	"Grand County, UT"	"49019"			Unreliable
+	"Utah"	"49"	"Piute County, UT"	"49031"			Unreliable
+	"Virginia"	"51"	"Amherst County, VA"	"51009"			Unreliable
+	"Virginia"	"51"	"Botetourt County, VA"	"51023"	10	34130	29.3
+	"Virginia"	"51"	"Buckingham County, VA"	"51029"			Unreliable
+	"Georgia"	"13"	"Franklin County, GA"	"13119"			Unreliable
+	"Georgia"	"13"	"Gordon County, GA"	"13129"	16	58824	27.2
+	"Georgia"	"13"	"Heard County, GA"	"13149"			Unreliable
+	"Georgia"	"13"	"Liberty County, GA"	"13179"	19	67857	28
+	"Georgia"	"13"	"Miller County, GA"	"13201"			Unreliable
+	"Georgia"	"13"	"Murray County, GA"	"13213"			Unreliable
+	"Georgia"	"13"	"Newton County, GA"	"13217"	23	117949	19.5
+	"Georgia"	"13"	"Jefferson County, GA"	"13163"			Unreliable
+	"Georgia"	"13"	"Lincoln County, GA"	"13181"			Unreliable
+	"Georgia"	"13"	"Madison County, GA"	"13195"	20	31447	63.6
+	"Georgia"	"13"	"Morgan County, GA"	"13211"			Unreliable
+	"Georgia"	"13"	"Pierce County, GA"	"13229"			Unreliable
+	"Georgia"	"13"	"Putnam County, GA"	"13237"			Unreliable
+	"Georgia"	"13"	"Stewart County, GA"	"13259"	0		0
+	"Georgia"	"13"	"Towns County, GA"	"13281"			Unreliable
+	"Georgia"	"13"	"Treutlen County, GA"	"13283"			Unreliable
+	"Georgia"	"13"	"Twiggs County, GA"	"13289"			Unreliable
+	"Georgia"	"13"	"Wilcox County, GA"	"13315"	0		0
+	"Idaho"	"16"	"Elmore County, ID"	"16039"			Unreliable
+	"Illinois"	"17"	"Coles County, IL"	"17029"			Unreliable
+	"Illinois"	"17"	"Greene County, IL"	"17061"	0		0
+	"Illinois"	"17"	"Grundy County, IL"	"17063"	13	53061	24.5
+	"Illinois"	"17"	"Jo Daviess County, IL"	"17085"			Unreliable
+	"Illinois"	"17"	"LaSalle County, IL"	"17099"	39	108033	36.1
+	"Illinois"	"17"	"Marion County, IL"	"17121"	16	36866	43.4
+	"Virginia"	"51"	"York County, VA"	"51199"			Unreliable
+	"Virginia"	"51"	"Fairfax city, VA"	"51600"			Unreliable
+	"Virginia"	"51"	"Newport News city, VA"	"51700"	66	183844	35.9
+	"West Virginia"	"54"	"Berkeley County, WV"	"54003"	87	129464	67.2
+	"West Virginia"	"54"	"Greenbrier County, WV"	"54025"	26	32379	80.3
+	"Illinois"	"17"	"Alexander County, IL"	"17003"	0		0
+	"Illinois"	"17"	"Brown County, IL"	"17009"	0		0
+	"Illinois"	"17"	"Douglas County, IL"	"17041"			Unreliable
+	"Illinois"	"17"	"DuPage County, IL"	"17043"	139	920530	15.1
+	"Illinois"	"17"	"Fulton County, IL"	"17057"			Unreliable
+	"Illinois"	"17"	"Jackson County, IL"	"17077"			Unreliable
+	"Illinois"	"17"	"Knox County, IL"	"17095"			Unreliable
+	"Illinois"	"17"	"McDonough County, IL"	"17109"	0		0
+	"Illinois"	"17"	"McHenry County, IL"	"17111"	45	312500	14.4
+	"Illinois"	"17"	"Morgan County, IL"	"17137"			Unreliable
+	"Indiana"	"18"	"Blackford County, IN"	"18009"			Unreliable
+	"Indiana"	"18"	"DeKalb County, IN"	"18033"			Unreliable
+	"Indiana"	"18"	"Greene County, IN"	"18055"			Unreliable
+	"Indiana"	"18"	"Lake County, IN"	"18089"	187	5e+05	37.4
+	"Indiana"	"18"	"Martin County, IN"	"18101"	0		0
+	"Virginia"	"51"	"Northumberland County, VA"	"51133"			Unreliable
+	"Virginia"	"51"	"Pulaski County, VA"	"51155"			Unreliable
+	"Virginia"	"51"	"Lexington city, VA"	"51678"	0		0
+	"Virginia"	"51"	"Norton city, VA"	"51720"	0		0
+	"Virginia"	"51"	"Virginia Beach city, VA"	"51810"	110	454545	24.2
+	"Virginia"	"51"	"Waynesboro city, VA"	"51820"	10	22779	43.9
+	"Illinois"	"17"	"Shelby County, IL"	"17173"			Unreliable
+	"Indiana"	"18"	"Franklin County, IN"	"18047"			Unreliable
+	"Indiana"	"18"	"Gibson County, IN"	"18051"			Unreliable
+	"Indiana"	"18"	"Marshall County, IN"	"18099"	15	46440	32.3
+	"Indiana"	"18"	"Morgan County, IN"	"18109"	33	72210	45.7
+	"Indiana"	"18"	"Ohio County, IN"	"18115"			Unreliable
+	"Indiana"	"18"	"Ripley County, IN"	"18137"			Unreliable
+	"Indiana"	"18"	"St. Joseph County, IN"	"18141"	93	271930	34.2
+	"Indiana"	"18"	"Vigo County, IN"	"18167"	30	106007	28.3
+	"Indiana"	"18"	"White County, IN"	"18181"			Unreliable
+	"Iowa"	"19"	"Cerro Gordo County, IA"	"19033"			Unreliable
+	"Iowa"	"19"	"Decatur County, IA"	"19053"			Unreliable
+	"Iowa"	"19"	"Delaware County, IA"	"19055"			Unreliable
+	"Iowa"	"19"	"Jackson County, IA"	"19097"			Unreliable
+	"West Virginia"	"54"	"McDowell County, WV"	"54047"	28	17800	157.3
+	"West Virginia"	"54"	"Preston County, WV"	"54077"			Unreliable
+	"West Virginia"	"54"	"Roane County, WV"	"54087"			Unreliable
+	"West Virginia"	"54"	"Wetzel County, WV"	"54103"			Unreliable
+	"Wisconsin"	"55"	"Crawford County, WI"	"55023"			Unreliable
+	"Indiana"	"18"	"Wells County, IN"	"18179"			Unreliable
+	"Iowa"	"19"	"Davis County, IA"	"19051"			Unreliable
+	"Iowa"	"19"	"Dubuque County, IA"	"19061"	11	99099	11.1
+	"Iowa"	"19"	"Hamilton County, IA"	"19079"			Unreliable
+	"Iowa"	"19"	"Harrison County, IA"	"19085"			Unreliable
+	"Iowa"	"19"	"Iowa County, IA"	"19095"	0		0
+	"Iowa"	"19"	"Keokuk County, IA"	"19107"			Unreliable
+	"Iowa"	"19"	"Kossuth County, IA"	"19109"	0		0
+	"Iowa"	"19"	"Taylor County, IA"	"19173"	0		0
+	"Iowa"	"19"	"Worth County, IA"	"19195"	0		0
+	"Kansas"	"20"	"Cherokee County, KS"	"20021"			Unreliable
+	"Kansas"	"20"	"Decatur County, KS"	"20039"	0		0
+	"Kansas"	"20"	"Dickinson County, KS"	"20041"			Unreliable
+	"Kansas"	"20"	"Graham County, KS"	"20065"	0		0
+	"Kansas"	"20"	"Hamilton County, KS"	"20075"	0		0
+	"Kansas"	"20"	"Jackson County, KS"	"20085"			Unreliable
+	"Iowa"	"19"	"Shelby County, IA"	"19165"			Unreliable
+	"Kansas"	"20"	"Clark County, KS"	"20025"	0		0
+	"Kansas"	"20"	"Doniphan County, KS"	"20043"			Unreliable
+	"Florida"	"12"	"Citrus County, FL"	"12017"	71	162471	43.7
+	"Florida"	"12"	"Leon County, FL"	"12073"	50	297619	16.8
+	"Florida"	"12"	"St. Lucie County, FL"	"12111"	98	358974	27.3
+	"Texas"	"48"	"Wichita County, TX"	"48485"	38	130137	29.2
+	"Utah"	"49"	"Millard County, UT"	"49027"	0		0
+	"Utah"	"49"	"Salt Lake County, UT"	"49035"	238	1184080	20.1
+	"Vermont"	"50"	"Orleans County, VT"	"50019"			Unreliable
+	"Wisconsin"	"55"	"Sauk County, WI"	"55111"	17	65891	25.8
+	"Wisconsin"	"55"	"Waukesha County, WI"	"55133"	64	410256	15.6
+	"Wisconsin"	"55"	"Waushara County, WI"	"55137"			Unreliable
+	"Wyoming"	"56"	"Crook County, WY"	"56011"			Unreliable
+	"Wyoming"	"56"	"Fremont County, WY"	"56013"			Unreliable
+	"Wyoming"	"56"	"Johnson County, WY"	"56019"	0		0
+	"Wyoming"	"56"	"Lincoln County, WY"	"56023"			Unreliable
+	"Wyoming"	"56"	"Niobrara County, WY"	"56027"	0		0
+	"Wyoming"	"56"	"Uinta County, WY"	"56041"			Unreliable
+	"Georgia"	"13"	"Glynn County, GA"	"13127"	29	85044	34.1
+	"Hawaii"	"15"	"Hawaii County, HI"	"15001"	35	205882	17
+	"Georgia"	"13"	"Jeff Davis County, GA"	"13161"			Unreliable
+	"Georgia"	"13"	"Lee County, GA"	"13177"			Unreliable
+	"Georgia"	"13"	"Paulding County, GA"	"13223"	52	178694	29.1
+	"Georgia"	"13"	"Spalding County, GA"	"13255"	16	68966	23.2
+	"Georgia"	"13"	"Telfair County, GA"	"13271"			Unreliable
+	"Georgia"	"13"	"Thomas County, GA"	"13275"	12	45627	26.3
+	"Georgia"	"13"	"Ware County, GA"	"13299"	17	35565	47.8
+	"Hawaii"	"15"	"Kauai County, HI"	"15007"	16	73733	21.7
+	"Virginia"	"51"	"Charlottesville city, VA"	"51540"	15	45317	33.1
+	"Virginia"	"51"	"Danville city, VA"	"51590"	13	42071	30.9
+	"Virginia"	"51"	"Norfolk city, VA"	"51710"	114	232653	49
+	"Virginia"	"51"	"Petersburg city, VA"	"51730"	32	33473	95.6
+	"Virginia"	"51"	"Poquoson city, VA"	"51735"			Unreliable
+	"Virginia"	"51"	"Radford city, VA"	"51750"			Unreliable
+	"Virginia"	"51"	"Suffolk city, VA"	"51800"	28	98592	28.4
+	"Hawaii"	"15"	"Kalawao County, HI"	"15005"	0		0
+	"Idaho"	"16"	"Bonner County, ID"	"16017"			Unreliable
+	"Idaho"	"16"	"Boundary County, ID"	"16021"			Unreliable
+	"Idaho"	"16"	"Franklin County, ID"	"16041"	0		0
+	"Illinois"	"17"	"Cook County, IL"	"17031"	2094	5107317	41
+	"Illinois"	"17"	"Crawford County, IL"	"17033"			Unreliable
+	"Illinois"	"17"	"McLean County, IL"	"17113"	22	170543	12.9
+	"Illinois"	"17"	"Macoupin County, IL"	"17117"			Unreliable
+	"Illinois"	"17"	"Montgomery County, IL"	"17135"			Unreliable
+	"Illinois"	"17"	"Peoria County, IL"	"17143"	63	177966	35.4
+	"Illinois"	"17"	"Rock Island County, IL"	"17161"			Unreliable
+	"Illinois"	"17"	"Stephenson County, IL"	"17177"			Unreliable
+	"Iowa"	"19"	"Johnson County, IA"	"19103"	16	156863	10.2
+	"Indiana"	"18"	"Hancock County, IN"	"18059"	21	83004	25.3
+	"Indiana"	"18"	"Henry County, IN"	"18065"	11	48889	22.5
+	"Indiana"	"18"	"Jackson County, IN"	"18071"	18	46272	38.9
+	"West Virginia"	"54"	"Brooke County, WV"	"54009"	14	21705	64.5
+	"West Virginia"	"54"	"Jackson County, WV"	"54035"	23	27677	83.1
+	"West Virginia"	"54"	"Kanawha County, WV"	"54039"	173	175813	98.4
+	"West Virginia"	"54"	"Randolph County, WV"	"54083"			Unreliable
+	"West Virginia"	"54"	"Ritchie County, WV"	"54085"	0		0
+	"Wisconsin"	"55"	"La Crosse County, WI"	"55063"	29	120332	24.1
+	"Wisconsin"	"55"	"Marathon County, WI"	"55073"	26	138298	18.8
+	"Illinois"	"17"	"Madison County, IL"	"17119"	101	263708	38.3
+	"Illinois"	"17"	"Mason County, IL"	"17125"			Unreliable
+	"Illinois"	"17"	"Randolph County, IL"	"17157"			Unreliable
+	"Illinois"	"17"	"Washington County, IL"	"17189"			Unreliable
+	"Illinois"	"17"	"Winnebago County, IL"	"17201"	151	281716	53.6
+	"Indiana"	"18"	"Delaware County, IN"	"18035"	60	112150	53.5
+	"Indiana"	"18"	"Elkhart County, IN"	"18039"	32	206452	15.5
+	"Indiana"	"18"	"Spencer County, IN"	"18147"			Unreliable
+	"Iowa"	"19"	"Bremer County, IA"	"19017"	0		0
+	"Iowa"	"19"	"Cedar County, IA"	"19031"			Unreliable
+	"Iowa"	"19"	"Jefferson County, IA"	"19101"			Unreliable
+	"Iowa"	"19"	"Palo Alto County, IA"	"19147"	0		0
+	"Indiana"	"18"	"Pike County, IN"	"18125"			Unreliable
+	"Indiana"	"18"	"Steuben County, IN"	"18151"			Unreliable
+	"Indiana"	"18"	"Switzerland County, IN"	"18155"			Unreliable
+	"Indiana"	"18"	"Warren County, IN"	"18171"			Unreliable
+	"Iowa"	"19"	"Audubon County, IA"	"19009"	0		0
+	"Iowa"	"19"	"Carroll County, IA"	"19027"			Unreliable
+	"Iowa"	"19"	"Clayton County, IA"	"19043"			Unreliable
+	"Iowa"	"19"	"Clinton County, IA"	"19045"	14	46205	30.3
+	"Iowa"	"19"	"Dallas County, IA"	"19049"			Unreliable
+	"Iowa"	"19"	"Dickinson County, IA"	"19059"	0		0
+	"Iowa"	"19"	"Emmet County, IA"	"19063"			Unreliable
+	"Iowa"	"19"	"Fremont County, IA"	"19071"	0		0
+	"Iowa"	"19"	"Hancock County, IA"	"19081"	0		0
+	"Indiana"	"18"	"Tipton County, IN"	"18159"			Unreliable
+	"Indiana"	"18"	"Vanderburgh County, IN"	"18163"	68	179420	37.9
+	"Iowa"	"19"	"Black Hawk County, IA"	"19013"	11	129412	8.5
+	"Iowa"	"19"	"Winneshiek County, IA"	"19191"	0		0
+	"Iowa"	"19"	"Hardin County, IA"	"19083"	0		0
+	"Iowa"	"19"	"Henry County, IA"	"19087"			Unreliable
+	"Iowa"	"19"	"Marshall County, IA"	"19127"			Unreliable
+	"Iowa"	"19"	"Montgomery County, IA"	"19137"	0		0
+	"Kansas"	"20"	"Barber County, KS"	"20007"	0		0
+	"Kansas"	"20"	"Barton County, KS"	"20009"			Unreliable
+	"Kansas"	"20"	"Kingman County, KS"	"20095"	0		0
+	"Kansas"	"20"	"Logan County, KS"	"20109"			Unreliable
+	"Kansas"	"20"	"Ottawa County, KS"	"20143"			Unreliable
+	"Kansas"	"20"	"Shawnee County, KS"	"20177"	59	177711	33.2
+	"Kentucky"	"21"	"Caldwell County, KY"	"21033"			Unreliable
+	"Kentucky"	"21"	"Henderson County, KY"	"21101"	15	43988	34.1
+	"Kentucky"	"21"	"Johnson County, KY"	"21115"			Unreliable
+	"Kentucky"	"21"	"Lee County, KY"	"21129"			Unreliable
+	"Kentucky"	"21"	"McLean County, KY"	"21149"			Unreliable
+	"Kentucky"	"21"	"Mason County, KY"	"21161"	13	16905	76.9
+	"Kentucky"	"21"	"Morgan County, KY"	"21175"			Unreliable
+	"Kentucky"	"21"	"Ohio County, KY"	"21183"			Unreliable
+	"Kentucky"	"21"	"Webster County, KY"	"21233"			Unreliable
+	"Louisiana"	"22"	"Concordia Parish, LA"	"22029"			Unreliable
+	"Louisiana"	"22"	"Livingston Parish, LA"	"22063"	127	148019	85.8
+	"Louisiana"	"22"	"St. Helena Parish, LA"	"22091"			Unreliable
+	"Louisiana"	"22"	"St. Tammany Parish, LA"	"22103"	115	273159	42.1
+	"Iowa"	"19"	"Monona County, IA"	"19133"			Unreliable
+	"Iowa"	"19"	"Ringgold County, IA"	"19159"			Unreliable
+	"Iowa"	"19"	"Van Buren County, IA"	"19177"			Unreliable
+	"Iowa"	"19"	"Winnebago County, IA"	"19189"	0		0
+	"Kansas"	"20"	"Anderson County, KS"	"20003"			Unreliable
+	"Kansas"	"20"	"Edwards County, KS"	"20047"			Unreliable
+	"Kansas"	"20"	"Ellis County, KS"	"20051"			Unreliable
+	"Kansas"	"20"	"Leavenworth County, KS"	"20103"	29	82857	35
+	"Kansas"	"20"	"Lincoln County, KS"	"20105"			Unreliable
+	"Kansas"	"20"	"Osborne County, KS"	"20141"	0		0
+	"Iowa"	"19"	"Wayne County, IA"	"19185"			Unreliable
+	"Kansas"	"20"	"Jefferson County, KS"	"20087"			Unreliable
+	"Kansas"	"20"	"Nemaha County, KS"	"20131"	0		0
+	"Kansas"	"20"	"Wabaunsee County, KS"	"20197"	0		0
+	"Kentucky"	"21"	"Ballard County, KY"	"21007"			Unreliable
+	"Kansas"	"20"	"Sheridan County, KS"	"20179"	0		0
+	"Kansas"	"20"	"Stanton County, KS"	"20187"			Unreliable
+	"Kansas"	"20"	"Thomas County, KS"	"20193"	0		0
+	"Kansas"	"20"	"Wichita County, KS"	"20203"			Unreliable
+	"Kentucky"	"21"	"Carlisle County, KY"	"21039"	0		0
+	"Kentucky"	"21"	"Clay County, KY"	"21051"	12	19868	60.4
+	"Kentucky"	"21"	"Gallatin County, KY"	"21077"			Unreliable
+	"Kentucky"	"21"	"Henry County, KY"	"21103"			Unreliable
+	"Kansas"	"20"	"Wyandotte County, KS"	"20209"	62	165775	37.4
+	"Kentucky"	"21"	"Bath County, KY"	"21011"	21	12828	163.7
+	"Kentucky"	"21"	"Calloway County, KY"	"21035"			Unreliable
+	"Kentucky"	"21"	"Casey County, KY"	"21045"			Unreliable
+	"Kentucky"	"21"	"Clinton County, KY"	"21053"			Unreliable
+	"Kentucky"	"21"	"Harrison County, KY"	"21097"	12	19108	62.8
+	"Kentucky"	"21"	"McCreary County, KY"	"21147"			Unreliable
+	"Kentucky"	"21"	"Meade County, KY"	"21163"			Unreliable
+	"Louisiana"	"22"	"East Carroll Parish, LA"	"22035"	0		0
+	"Minnesota"	"27"	"Brown County, MN"	"27015"	0		0
+	"Minnesota"	"27"	"Cook County, MN"	"27031"			Unreliable
+	"Minnesota"	"27"	"Cottonwood County, MN"	"27033"			Unreliable
+	"Minnesota"	"27"	"Olmsted County, MN"	"27109"	43	164122	26.2
+	"Minnesota"	"27"	"Yellow Medicine County, MN"	"27173"			Unreliable
+	"Mississippi"	"28"	"Adams County, MS"	"28001"			Unreliable
+	"Mississippi"	"28"	"Amite County, MS"	"28005"			Unreliable
+	"Mississippi"	"28"	"Chickasaw County, MS"	"28017"			Unreliable
+	"Mississippi"	"28"	"Copiah County, MS"	"28029"			Unreliable
+	"Mississippi"	"28"	"Alcorn County, MS"	"28003"			Unreliable
+	"Mississippi"	"28"	"George County, MS"	"28039"			Unreliable
+	"Mississippi"	"28"	"Jefferson Davis County, MS"	"28065"			Unreliable
+	"Mississippi"	"28"	"Oktibbeha County, MS"	"28105"			Unreliable
+	"Mississippi"	"28"	"Wayne County, MS"	"28153"			Unreliable
+	"Missouri"	"29"	"Maries County, MO"	"29125"			Unreliable
+	"Missouri"	"29"	"Ralls County, MO"	"29173"	0		0
+	"Missouri"	"29"	"Schuyler County, MO"	"29197"	0		0
+	"Missouri"	"29"	"Warren County, MO"	"29219"	14	37333	37.5
+	"Missouri"	"29"	"Wayne County, MO"	"29223"			Unreliable
+	"Montana"	"30"	"Sweet Grass County, MT"	"30097"	0		0
+	"Montana"	"30"	"Toole County, MT"	"30101"	0		0
+	"Montana"	"30"	"Wheatland County, MT"	"30107"	0		0
+	"Nebraska"	"31"	"Buffalo County, NE"	"31019"			Unreliable
+	"Nebraska"	"31"	"Grant County, NE"	"31075"	0		0
+	"Nebraska"	"31"	"Holt County, NE"	"31089"			Unreliable
+	"Nebraska"	"31"	"Keith County, NE"	"31101"			Unreliable
+	"Nebraska"	"31"	"Logan County, NE"	"31113"	0		0
+	"Michigan"	"26"	"Livingston County, MI"	"26093"	30	196078	15.3
+	"Michigan"	"26"	"Macomb County, MI"	"26099"	301	875000	34.4
+	"Michigan"	"26"	"Mecosta County, MI"	"26107"			Unreliable
+	"Michigan"	"26"	"Menominee County, MI"	"26109"			Unreliable
+	"Michigan"	"26"	"Missaukee County, MI"	"26113"			Unreliable
+	"Michigan"	"26"	"Ottawa County, MI"	"26139"	31	300971	10.3
+	"Minnesota"	"27"	"Benton County, MN"	"27009"	16	41558	38.5
+	"Minnesota"	"27"	"Fillmore County, MN"	"27045"			Unreliable
+	"Minnesota"	"27"	"Itasca County, MN"	"27061"			Unreliable
+	"Minnesota"	"27"	"Murray County, MN"	"27101"	0		0
+	"Mississippi"	"28"	"Scott County, MS"	"28123"	0		0
+	"Mississippi"	"28"	"Sharkey County, MS"	"28125"	0		0
+	"Mississippi"	"28"	"Smith County, MS"	"28129"			Unreliable
+	"Missouri"	"29"	"Carter County, MO"	"29035"			Unreliable
+	"Missouri"	"29"	"Clark County, MO"	"29045"	0		0
+	"Missouri"	"29"	"Johnson County, MO"	"29101"			Unreliable
+	"Nebraska"	"31"	"Nuckolls County, NE"	"31129"	0		0
+	"Nevada"	"32"	"Douglas County, NV"	"32005"			Unreliable
+	"New Jersey"	"34"	"Essex County, NJ"	"34013"	421	850505	49.5
+	"New Jersey"	"34"	"Somerset County, NJ"	"34035"	61	346591	17.6
+	"Missouri"	"29"	"Harrison County, MO"	"29081"	0		0
+	"Missouri"	"29"	"Pemiscot County, MO"	"29155"			Unreliable
+	"Missouri"	"29"	"Pulaski County, MO"	"29169"	32	53782	59.5
+	"Missouri"	"29"	"Stoddard County, MO"	"29207"			Unreliable
+	"Missouri"	"29"	"Sullivan County, MO"	"29211"			Unreliable
+	"Missouri"	"29"	"St. Louis city, MO"	"29510"	302	286256	105.5
+	"Montana"	"30"	"Golden Valley County, MT"	"30037"	0		0
+	"Montana"	"30"	"Missoula County, MT"	"30063"	21	120690	17.4
+	"Montana"	"30"	"Valley County, MT"	"30105"			Unreliable
+	"Nebraska"	"31"	"Dawson County, NE"	"31047"			Unreliable
+	"Nebraska"	"31"	"Hayes County, NE"	"31085"	0		0
+	"Nebraska"	"31"	"Keya Paha County, NE"	"31103"	0		0
+	"New York"	"36"	"Jefferson County, NY"	"36045"	23	115578	19.9
+	"New York"	"36"	"Madison County, NY"	"36053"	16	66946	23.9
+	"New York"	"36"	"Onondaga County, NY"	"36067"	170	469613	36.2
+	"New York"	"36"	"Seneca County, NY"	"36099"			Unreliable
+	"North Carolina"	"37"	"Buncombe County, NC"	"37021"	142	273603	51.9
+	"North Carolina"	"37"	"Burke County, NC"	"37023"	38	87963	43.2
+	"North Dakota"	"38"	"Pierce County, ND"	"38069"	0		0
+	"North Carolina"	"37"	"Chatham County, NC"	"37037"	24	80000	30
+	"North Carolina"	"37"	"Currituck County, NC"	"37053"			Unreliable
+	"North Carolina"	"37"	"Johnston County, NC"	"37101"	64	235294	27.2
+	"North Carolina"	"37"	"Nash County, NC"	"37127"	39	95823	40.7
+	"North Carolina"	"37"	"Northampton County, NC"	"37131"			Unreliable
+	"North Carolina"	"37"	"Surry County, NC"	"37171"	31	71429	43.4
+	"North Carolina"	"37"	"Wilson County, NC"	"37195"	29	78378	37
+	"Nebraska"	"31"	"Seward County, NE"	"31159"	0		0
+	"Nebraska"	"31"	"Sherman County, NE"	"31163"			Unreliable
+	"Nebraska"	"31"	"Washington County, NE"	"31177"			Unreliable
+	"Nevada"	"32"	"Esmeralda County, NV"	"32009"	0		0
+	"New Mexico"	"35"	"De Baca County, NM"	"35011"	0		0
+	"New York"	"36"	"Allegany County, NY"	"36003"	16	46784	34.2
+	"New York"	"36"	"Cortland County, NY"	"36023"	10	46083	21.7
+	"New York"	"36"	"Delaware County, NY"	"36025"	12	44776	26.8
+	"Oklahoma"	"40"	"Harper County, OK"	"40059"	0		0
+	"Oklahoma"	"40"	"Haskell County, OK"	"40061"			Unreliable
+	"Oklahoma"	"40"	"McIntosh County, OK"	"40091"			Unreliable
+	"Oklahoma"	"40"	"Payne County, OK"	"40119"	13	82803	15.7
+	"Oklahoma"	"40"	"Pittsburg County, OK"	"40121"	17	43478	39.1
+	"Oklahoma"	"40"	"Seminole County, OK"	"40133"			Unreliable
+	"Oklahoma"	"40"	"Tulsa County, OK"	"40143"	276	676471	40.8
+	"Oregon"	"41"	"Wasco County, OR"	"41065"	12	26549	45.2
+	"Oregon"	"41"	"Clackamas County, OR"	"41005"	85	422886	20.1
+	"Oregon"	"41"	"Douglas County, OR"	"41019"	40	112360	35.6
+	"Oregon"	"41"	"Josephine County, OR"	"41033"	34	87855	38.7
+	"New York"	"36"	"Tioga County, NY"	"36107"			Unreliable
+	"North Carolina"	"37"	"Avery County, NC"	"37011"			Unreliable
+	"North Carolina"	"37"	"Jones County, NC"	"37103"			Unreliable
+	"North Carolina"	"37"	"Onslow County, NC"	"37133"	86	209246	41.1
+	"Oregon"	"41"	"Yamhill County, OR"	"41071"	24	108597	22.1
+	"Pennsylvania"	"42"	"Fayette County, PA"	"42051"	84	125373	67
+	"Pennsylvania"	"42"	"Lackawanna County, PA"	"42069"	91	215640	42.2
+	"Pennsylvania"	"42"	"Lawrence County, PA"	"42073"	88	84778	103.8
+	"Pennsylvania"	"42"	"Lehigh County, PA"	"42077"	126	376119	33.5
+	"Rhode Island"	"44"	"Bristol County, RI"	"44001"	10	50251	19.9
+	"North Carolina"	"37"	"Orange County, NC"	"37135"	33	150000	22
+	"North Carolina"	"37"	"Wake County, NC"	"37183"	224	1172775	19.1
+	"North Dakota"	"38"	"Bottineau County, ND"	"38009"			Unreliable
+	"North Dakota"	"38"	"Grand Forks County, ND"	"38035"	10	72464	13.8
+	"North Dakota"	"38"	"Stutsman County, ND"	"38093"			Unreliable
+	"North Dakota"	"38"	"Williams County, ND"	"38105"			Unreliable
+	"Ohio"	"39"	"Carroll County, OH"	"39019"			Unreliable
+	"Ohio"	"39"	"Clermont County, OH"	"39025"	73	210983	34.6
+	"Ohio"	"39"	"Clinton County, OH"	"39027"	20	41929	47.7
+	"Ohio"	"39"	"Fayette County, OH"	"39047"	16	28829	55.5
+	"Ohio"	"39"	"Guernsey County, OH"	"39059"	16	38095	42
+	"South Carolina"	"45"	"Charleston County, SC"	"45019"	153	419178	36.5
+	"South Carolina"	"45"	"Darlington County, SC"	"45031"	27	62500	43.2
+	"South Carolina"	"45"	"Dorchester County, SC"	"45035"	47	166078	28.3
+	"South Carolina"	"45"	"Georgetown County, SC"	"45043"	40	64620	61.9
+	"South Carolina"	"45"	"Greenwood County, SC"	"45047"	31	69196	44.8
+	"South Carolina"	"45"	"Jasper County, SC"	"45053"	20	32000	62.5
+	"South Carolina"	"45"	"York County, SC"	"45091"	97	293939	33
+	"South Dakota"	"46"	"Mellette County, SD"	"46095"	0		0
+	"Ohio"	"39"	"Medina County, OH"	"39103"	26	183099	14.2
+	"Ohio"	"39"	"Ross County, OH"	"39141"	62	76543	81
+	"Ohio"	"39"	"Wyandot County, OH"	"39175"			Unreliable
+	"Oklahoma"	"40"	"Beaver County, OK"	"40007"	0		0
+	"Oklahoma"	"40"	"Jefferson County, OK"	"40067"			Unreliable
+	"Oklahoma"	"40"	"Logan County, OK"	"40083"	11	51887	21.2
+	"Tennessee"	"47"	"Fayette County, TN"	"47047"	15	43353	34.6
+	"Tennessee"	"47"	"Cumberland County, TN"	"47035"	44	63492	69.3
+	"Tennessee"	"47"	"Jackson County, TN"	"47087"			Unreliable
+	"Tennessee"	"47"	"Lincoln County, TN"	"47103"			Unreliable
+	"Tennessee"	"47"	"Moore County, TN"	"47127"			Unreliable
+	"Tennessee"	"47"	"Scott County, TN"	"47151"			Unreliable
+	"Texas"	"48"	"Atascosa County, TX"	"48013"			Unreliable
+	"Texas"	"48"	"Brewster County, TX"	"48043"			Unreliable
+	"Texas"	"48"	"Calhoun County, TX"	"48057"			Unreliable
+	"Texas"	"48"	"Coleman County, TX"	"48083"			Unreliable
+	"Texas"	"48"	"Crane County, TX"	"48103"			Unreliable
+	"Texas"	"48"	"Dimmit County, TX"	"48127"			Unreliable
+	"Texas"	"48"	"Fisher County, TX"	"48151"			Unreliable
+	"Texas"	"48"	"Franklin County, TX"	"48159"			Unreliable
+	"Texas"	"48"	"Goliad County, TX"	"48175"	0		0
+	"Texas"	"48"	"Frio County, TX"	"48163"			Unreliable
+	"Texas"	"48"	"Grimes County, TX"	"48185"			Unreliable
+	"Texas"	"48"	"Harris County, TX"	"48201"	1035	4791667	21.6
+	"Texas"	"48"	"Hartley County, TX"	"48205"			Unreliable
+	"Texas"	"48"	"Irion County, TX"	"48235"	0		0
+	"Texas"	"48"	"Kleberg County, TX"	"48273"			Unreliable
+	"Texas"	"48"	"Milam County, TX"	"48331"			Unreliable
+	"Texas"	"48"	"DeWitt County, TX"	"48123"			Unreliable
+	"Texas"	"48"	"Ector County, TX"	"48135"	33	160976	20.5
+	"Texas"	"48"	"Hudspeth County, TX"	"48229"			Unreliable
+	"Texas"	"48"	"Jim Hogg County, TX"	"48247"			Unreliable
+	"Texas"	"48"	"Knox County, TX"	"48275"	0		0
+	"Texas"	"48"	"Panola County, TX"	"48365"			Unreliable
+	"Texas"	"48"	"Real County, TX"	"48385"	0		0
+	"Texas"	"48"	"Roberts County, TX"	"48393"	0		0
+	"Texas"	"48"	"Scurry County, TX"	"48415"			Unreliable
+	"Texas"	"48"	"Throckmorton County, TX"	"48447"	0		0
+	"Texas"	"48"	"Williamson County, TX"	"48491"	79	669492	11.8
+	"Texas"	"48"	"Wilson County, TX"	"48493"			Unreliable
+	"Texas"	"48"	"Upshur County, TX"	"48459"			Unreliable
+	"Texas"	"48"	"Walker County, TX"	"48471"	11	79710	13.8
+	"Utah"	"49"	"Davis County, UT"	"49011"	55	369128	14.9
+	"Utah"	"49"	"Duchesne County, UT"	"49013"			Unreliable
+	"Texas"	"48"	"Victoria County, TX"	"48469"	18	90909	19.8
+	"Texas"	"48"	"Washington County, TX"	"48477"			Unreliable
+	"Vermont"	"50"	"Caledonia County, VT"	"50005"	11	30556	36
+	"South Carolina"	"45"	"Kershaw County, SC"	"45055"	29	67916	42.7
+	"South Carolina"	"45"	"Williamsburg County, SC"	"45089"	15	30120	49.8
+	"South Dakota"	"46"	"Beadle County, SD"	"46005"			Unreliable
+	"South Dakota"	"46"	"Custer County, SD"	"46033"	0		0
+	"South Dakota"	"46"	"Davison County, SD"	"46035"			Unreliable
+	"South Dakota"	"46"	"Hutchinson County, SD"	"46067"	0		0
+	"South Dakota"	"46"	"Hyde County, SD"	"46069"	0		0
+	"South Dakota"	"46"	"Lake County, SD"	"46079"			Unreliable
+	"South Dakota"	"46"	"Ziebach County, SD"	"46137"	0		0
+	"Tennessee"	"47"	"Benton County, TN"	"47005"			Unreliable
+	"Tennessee"	"47"	"Greene County, TN"	"47059"	36	71287	50.5
+	"Tennessee"	"47"	"Hamilton County, TN"	"47065"	181	374741	48.3
+	"Tennessee"	"47"	"Jefferson County, TN"	"47089"	31	56673	54.7
+	"Tennessee"	"47"	"Knox County, TN"	"47093"	449	495585	90.6
+	"Tennessee"	"47"	"Lake County, TN"	"47095"			Unreliable
+	"Tennessee"	"47"	"Lawrence County, TN"	"47099"	18	45455	39.6
+	"Tennessee"	"47"	"Lewis County, TN"	"47101"			Unreliable
+	"Tennessee"	"47"	"Overton County, TN"	"47133"			Unreliable
+	"Tennessee"	"47"	"Sumner County, TN"	"47165"	59	203448	29
+	"Texas"	"48"	"Aransas County, TX"	"48007"			Unreliable
+	"Texas"	"48"	"Austin County, TX"	"48015"			Unreliable
+	"Virginia"	"51"	"Winchester city, VA"	"51840"			Unreliable
+	"Washington"	"53"	"Adams County, WA"	"53001"			Unreliable
+	"Washington"	"53"	"Grays Harbor County, WA"	"53027"	46	77052	59.7
+	"Washington"	"53"	"Wahkiakum County, WA"	"53069"	0		0
+	"West Virginia"	"54"	"Hampshire County, WV"	"54027"	11	23454	46.9
+	"West Virginia"	"54"	"Putnam County, WV"	"54079"	27	57082	47.3
+	"Alabama"	"01"	"Chambers County, AL"	"01017"			Unreliable
+	"Alabama"	"01"	"Autauga County, AL"	"01001"			Unreliable
+	"Virginia"	"51"	"Hopewell city, VA"	"51670"	27	22785	118.5
+	"Virginia"	"51"	"Manassas city, VA"	"51683"	12	42705	28.1
+	"Virginia"	"51"	"Portsmouth city, VA"	"51740"	90	96983	92.8
+	"Washington"	"53"	"Chelan County, WA"	"53007"	27	80119	33.7
+	"West Virginia"	"54"	"Lincoln County, WV"	"54043"	19	19854	95.7
+	"West Virginia"	"54"	"Logan County, WV"	"54045"	44	31206	141
+	"Arkansas"	"05"	"Calhoun County, AR"	"05013"			Unreliable
+	"Arkansas"	"05"	"Crittenden County, AR"	"05035"	12	47059	25.5
+	"Arkansas"	"05"	"Union County, AR"	"05139"			Unreliable
+	"California"	"06"	"Los Angeles County, CA"	"06037"	2345	9730290	24.1
+	"Texas"	"48"	"Comal County, TX"	"48091"	21	184211	11.4
+	"Texas"	"48"	"Delta County, TX"	"48119"			Unreliable
+	"Texas"	"48"	"Hemphill County, TX"	"48211"			Unreliable
+	"Texas"	"48"	"Limestone County, TX"	"48293"			Unreliable
+	"Alabama"	"01"	"Colbert County, AL"	"01033"	13	58036	22.4
+	"Alabama"	"01"	"Fayette County, AL"	"01057"			Unreliable
+	"Alabama"	"01"	"Madison County, AL"	"01089"	105	403846	26
+	"Alabama"	"01"	"Marion County, AL"	"01093"			Unreliable
+	"Alabama"	"01"	"Pike County, AL"	"01109"			Unreliable
+	"Alabama"	"01"	"Russell County, AL"	"01113"	15	58594	25.6
+	"Alaska"	"02"	"Aleutians East Borough, AK"	"02013"			Unreliable
+	"Alaska"	"02"	"Bristol Bay Borough, AK"	"02060"			Unreliable
+	"Alaska"	"02"	"Chugach Census Area, AK"	"02063"	0		0
+	"Alaska"	"02"	"North Slope Borough, AK"	"02185"			Unreliable
+	"Arkansas"	"05"	"Clark County, AR"	"05019"			Unreliable
+	"Arkansas"	"05"	"Lincoln County, AR"	"05079"			Unreliable
+	"Arkansas"	"05"	"Marion County, AR"	"05089"			Unreliable
+	"California"	"06"	"Inyo County, CA"	"06027"			Unreliable
+	"Texas"	"48"	"McMullen County, TX"	"48311"	0		0
+	"Texas"	"48"	"Medina County, TX"	"48325"			Unreliable
+	"Texas"	"48"	"Morris County, TX"	"48343"			Unreliable
+	"Texas"	"48"	"Nolan County, TX"	"48353"			Unreliable
+	"Texas"	"48"	"Palo Pinto County, TX"	"48363"	10	29326	34.1
+	"Texas"	"48"	"Red River County, TX"	"48387"			Unreliable
+	"Texas"	"48"	"Robertson County, TX"	"48395"			Unreliable
+	"Texas"	"48"	"San Augustine County, TX"	"48405"			Unreliable
+	"Texas"	"48"	"Somervell County, TX"	"48425"			Unreliable
+	"Texas"	"48"	"Sterling County, TX"	"48431"	0		0
+	"Texas"	"48"	"Titus County, TX"	"48449"			Unreliable
+	"Texas"	"48"	"Val Verde County, TX"	"48465"			Unreliable
+	"Washington"	"53"	"Pierce County, WA"	"53053"	337	925824	36.4
+	"West Virginia"	"54"	"Jefferson County, WV"	"54037"	34	59028	57.6
+	"West Virginia"	"54"	"Raleigh County, WV"	"54081"	91	72800	125
+	"West Virginia"	"54"	"Wood County, WV"	"54107"	45	83333	54
+	"Wisconsin"	"55"	"Chippewa County, WI"	"55017"	12	66667	18
+	"Arkansas"	"05"	"Mississippi County, AR"	"05093"	12	38835	30.9
+	"Arkansas"	"05"	"Saline County, AR"	"05125"	22	127168	17.3
+	"Arkansas"	"05"	"Scott County, AR"	"05127"	0		0
+	"Arkansas"	"05"	"Searcy County, AR"	"05129"	0		0
+	"California"	"06"	"Fresno County, CA"	"06019"	214	1014218	21.1
+	"California"	"06"	"Madera County, CA"	"06039"	28	160000	17.5
+	"California"	"06"	"Mendocino County, CA"	"06045"	63	90000	70
+	"California"	"06"	"Orange County, CA"	"06059"	750	3151261	23.8
+	"California"	"06"	"Placer County, CA"	"06061"	82	418367	19.6
+	"Colorado"	"08"	"Baca County, CO"	"08009"	0		0
+	"Colorado"	"08"	"Cheyenne County, CO"	"08017"	0		0
+	"Colorado"	"08"	"Clear Creek County, CO"	"08019"			Unreliable
+	"Colorado"	"08"	"Mesa County, CO"	"08077"	30	158730	18.9
+	"Colorado"	"08"	"Park County, CO"	"08093"			Unreliable
+	"Colorado"	"08"	"Prowers County, CO"	"08099"			Unreliable
+	"Colorado"	"08"	"San Juan County, CO"	"08111"	0		0
+	"Florida"	"12"	"Baker County, FL"	"12003"	15	27778	54
+	"Wyoming"	"56"	"Hot Springs County, WY"	"56017"			Unreliable
+	"California"	"06"	"Sonoma County, CA"	"06097"	110	482456	22.8
+	"California"	"06"	"Trinity County, CA"	"06105"			Unreliable
+	"Colorado"	"08"	"Dolores County, CO"	"08033"	0		0
+	"Colorado"	"08"	"Huerfano County, CO"	"08055"			Unreliable
+	"Colorado"	"08"	"Jackson County, CO"	"08057"	0		0
+	"Colorado"	"08"	"Phillips County, CO"	"08095"			Unreliable
+	"Florida"	"12"	"Broward County, FL"	"12011"	630	1944444	32.4
+	"Florida"	"12"	"Madison County, FL"	"12079"			Unreliable
+	"Florida"	"12"	"Miami-Dade County, FL"	"12086"	350	2671756	13.1
+	"Florida"	"12"	"Monroe County, FL"	"12087"	32	81633	39.2
+	"Florida"	"12"	"Taylor County, FL"	"12123"			Unreliable
+	"Georgia"	"13"	"Appling County, GA"	"13001"			Unreliable
+	"Georgia"	"13"	"Ben Hill County, GA"	"13017"			Unreliable
+	"Florida"	"12"	"Pasco County, FL"	"12101"	314	609709	51.5
+	"Georgia"	"13"	"Banks County, GA"	"13011"			Unreliable
+	"Georgia"	"13"	"Barrow County, GA"	"13013"	37	89157	41.5
+	"Georgia"	"13"	"Cherokee County, GA"	"13057"	51	281768	18.1
+	"Florida"	"12"	"Gilchrist County, FL"	"12041"			Unreliable
+	"Florida"	"12"	"Hernando County, FL"	"12053"	92	206742	44.5
+	"Florida"	"12"	"Orange County, FL"	"12095"	361	1449799	24.9
+	"Georgia"	"13"	"Atkinson County, GA"	"13003"			Unreliable
+	"Georgia"	"13"	"Bleckley County, GA"	"13023"			Unreliable
+	"Georgia"	"13"	"Bryan County, GA"	"13029"	11	48246	22.8
+	"Georgia"	"13"	"Calhoun County, GA"	"13037"	0		0
+	"Georgia"	"13"	"Evans County, GA"	"13109"			Unreliable
+	"Georgia"	"13"	"Floyd County, GA"	"13115"	29	99315	29.2
+	"Georgia"	"13"	"Grady County, GA"	"13131"			Unreliable
+	"West Virginia"	"54"	"Pocahontas County, WV"	"54075"			Unreliable
+	"West Virginia"	"54"	"Upshur County, WV"	"54097"			Unreliable
+	"Wisconsin"	"55"	"Calumet County, WI"	"55015"			Unreliable
+	"Wisconsin"	"55"	"Rusk County, WI"	"55107"			Unreliable
+	"Wisconsin"	"55"	"Adams County, WI"	"55001"			Unreliable
+	"Wisconsin"	"55"	"Marinette County, WI"	"55075"			Unreliable
+	"Wisconsin"	"55"	"Marquette County, WI"	"55077"			Unreliable
+	"Wisconsin"	"55"	"Sawyer County, WI"	"55113"	11	18519	59.4
+	"Wisconsin"	"55"	"Washington County, WI"	"55131"	30	137615	21.8
+	"Georgia"	"13"	"Gilmer County, GA"	"13123"			Unreliable
+	"Georgia"	"13"	"Harris County, GA"	"13145"			Unreliable
+	"Georgia"	"13"	"Oglethorpe County, GA"	"13221"			Unreliable
+	"Georgia"	"13"	"Polk County, GA"	"13233"	16	43716	36.6
+	"Georgia"	"13"	"Taliaferro County, GA"	"13265"			Unreliable
+	"Georgia"	"13"	"Toombs County, GA"	"13279"	10	26810	37.3
+	"Georgia"	"13"	"Washington County, GA"	"13303"			Unreliable
+	"Georgia"	"13"	"Coffee County, GA"	"13069"			Unreliable
+	"Georgia"	"13"	"Dawson County, GA"	"13085"			Unreliable
+	"Georgia"	"13"	"Dodge County, GA"	"13091"			Unreliable
+	"Georgia"	"13"	"Meriwether County, GA"	"13199"			Unreliable
+	"Georgia"	"13"	"Schley County, GA"	"13249"			Unreliable
+	"Georgia"	"13"	"Taylor County, GA"	"13269"	0		0
+	"Utah"	"49"	"San Juan County, UT"	"49037"			Unreliable
+	"Utah"	"49"	"Wasatch County, UT"	"49051"			Unreliable
+	"Vermont"	"50"	"Lamoille County, VT"	"50015"			Unreliable
+	"Vermont"	"50"	"Windham County, VT"	"50025"	29	45886	63.2
+	"Virginia"	"51"	"Carroll County, VA"	"51035"			Unreliable
+	"Virginia"	"51"	"Cumberland County, VA"	"51049"			Unreliable
+	"Virginia"	"51"	"Loudoun County, VA"	"51107"	26	433333	6
+	"Virginia"	"51"	"Prince Edward County, VA"	"51147"			Unreliable
+	"Wisconsin"	"55"	"Jefferson County, WI"	"55055"	17	85859	19.8
+	"Idaho"	"16"	"Clark County, ID"	"16033"	0		0
+	"Idaho"	"16"	"Fremont County, ID"	"16043"			Unreliable
+	"Idaho"	"16"	"Gem County, ID"	"16045"			Unreliable
+	"Illinois"	"17"	"Franklin County, IL"	"17055"			Unreliable
+	"Illinois"	"17"	"Macon County, IL"	"17115"	23	101322	22.7
+	"Illinois"	"17"	"De Witt County, IL"	"17039"	0		0
+	"Illinois"	"17"	"Hamilton County, IL"	"17065"			Unreliable
+	"Illinois"	"17"	"Kankakee County, IL"	"17091"	48	105960	45.3
+	"Illinois"	"17"	"Scott County, IL"	"17171"	0		0
+	"Illinois"	"17"	"Union County, IL"	"17181"			Unreliable
+	"Indiana"	"18"	"Daviess County, IN"	"18027"			Unreliable
+	"Indiana"	"18"	"Fountain County, IN"	"18045"			Unreliable
+	"Indiana"	"18"	"Grant County, IN"	"18053"	46	65997	69.7
+	"Indiana"	"18"	"LaPorte County, IN"	"18091"	53	111814	47.4
+	"Indiana"	"18"	"Orange County, IN"	"18117"			Unreliable
+	"Illinois"	"17"	"Warren County, IL"	"17187"			Unreliable
+	"Indiana"	"18"	"Fayette County, IN"	"18041"			Unreliable
+	"Indiana"	"18"	"LaGrange County, IN"	"18087"			Unreliable
+	"Indiana"	"18"	"Montgomery County, IN"	"18107"	11	38328	28.7
+	"Indiana"	"18"	"Putnam County, IN"	"18133"			Unreliable
+	"Indiana"	"18"	"Randolph County, IN"	"18135"	13	24345	53.4
+	"Indiana"	"18"	"Vermillion County, IN"	"18165"			Unreliable
+	"Iowa"	"19"	"Appanoose County, IA"	"19007"			Unreliable
+	"Iowa"	"19"	"Buchanan County, IA"	"19019"	0		0
+	"Iowa"	"19"	"Buena Vista County, IA"	"19021"	0		0
+	"Iowa"	"19"	"Mills County, IA"	"19129"			Unreliable
+	"Iowa"	"19"	"Muscatine County, IA"	"19139"			Unreliable
+	"Indiana"	"18"	"Shelby County, IN"	"18145"	20	45147	44.3
+	"Indiana"	"18"	"Washington County, IN"	"18175"	13	28200	46.1
+	"Iowa"	"19"	"Adair County, IA"	"19001"	0		0
+	"Iowa"	"19"	"Greene County, IA"	"19073"			Unreliable
+	"Iowa"	"19"	"Howard County, IA"	"19089"	0		0
+	"Iowa"	"19"	"Lee County, IA"	"19111"			Unreliable
+	"Iowa"	"19"	"Page County, IA"	"19145"			Unreliable
+	"Wisconsin"	"55"	"Clark County, WI"	"55019"			Unreliable
+	"Wisconsin"	"55"	"Grant County, WI"	"55043"			Unreliable
+	"Wisconsin"	"55"	"Iron County, WI"	"55051"			Unreliable
+	"Wisconsin"	"55"	"Langlade County, WI"	"55067"			Unreliable
+	"Wisconsin"	"55"	"Pepin County, WI"	"55091"	0		0
+	"Wisconsin"	"55"	"Portage County, WI"	"55097"			Unreliable
+	"Iowa"	"19"	"Monroe County, IA"	"19135"	0		0
+	"Iowa"	"19"	"Pottawattamie County, IA"	"19155"	21	92920	22.6
+	"Kansas"	"20"	"Chase County, KS"	"20017"	0		0
+	"Kansas"	"20"	"Linn County, KS"	"20107"			Unreliable
+	"Kansas"	"20"	"McPherson County, KS"	"20113"			Unreliable
+	"Kansas"	"20"	"Stafford County, KS"	"20185"	0		0
+	"Kentucky"	"21"	"Bourbon County, KY"	"21017"			Unreliable
+	"Kentucky"	"21"	"Carter County, KY"	"21043"	19	26352	72.1
+	"Kentucky"	"21"	"Franklin County, KY"	"21073"	32	51530	62.1
+	"Kentucky"	"21"	"Jefferson County, KY"	"21111"	512	773414	66.2
+	"Kentucky"	"21"	"Lawrence County, KY"	"21127"	10	16103	62.1
+	"Wisconsin"	"55"	"Forest County, WI"	"55041"			Unreliable
+	"Wisconsin"	"55"	"Kewaunee County, WI"	"55061"	0		0
+	"Wisconsin"	"55"	"Oconto County, WI"	"55083"			Unreliable
+	"Wisconsin"	"55"	"Ozaukee County, WI"	"55089"	10	92593	10.8
+	"Wisconsin"	"55"	"Polk County, WI"	"55095"			Unreliable
+	"Wisconsin"	"55"	"Waupaca County, WI"	"55135"			Unreliable
+	"Wyoming"	"56"	"Sublette County, WY"	"56035"			Unreliable
+	"Wyoming"	"56"	"Teton County, WY"	"56039"	0		0
+	"Louisiana"	"22"	"Beauregard Parish, LA"	"22011"			Unreliable
+	"Louisiana"	"22"	"Caldwell Parish, LA"	"22021"			Unreliable
+	"Louisiana"	"22"	"St. Landry Parish, LA"	"22097"	31	81579	38
+	"Louisiana"	"22"	"West Feliciana Parish, LA"	"22125"	15	15400	97.4
+	"Louisiana"	"22"	"Calcasieu Parish, LA"	"22019"	59	202055	29.2
+	"Louisiana"	"22"	"Lafayette Parish, LA"	"22055"	115	247845	46.4
+	"Louisiana"	"22"	"Rapides Parish, LA"	"22079"	75	127119	59
+	"Louisiana"	"22"	"St. Mary Parish, LA"	"22101"	27	47788	56.5
+	"Maine"	"23"	"Penobscot County, ME"	"23019"	103	154655	66.6
+	"Maryland"	"24"	"Calvert County, MD"	"24009"	28	94595	29.6
+	"Maryland"	"24"	"Kent County, MD"	"24029"			Unreliable
+	"Massachusetts"	"25"	"Hampden County, MA"	"25013"	249	461111	54
+	"Michigan"	"26"	"Barry County, MI"	"26015"			Unreliable
+	"Michigan"	"26"	"Lake County, MI"	"26085"			Unreliable
+	"Michigan"	"26"	"Lenawee County, MI"	"26091"	24	98361	24.4
+	"Michigan"	"26"	"Montmorency County, MI"	"26119"	0		0
+	"Massachusetts"	"25"	"Berkshire County, MA"	"25003"	48	127660	37.6
+	"Massachusetts"	"25"	"Hampshire County, MA"	"25015"	43	162264	26.5
+	"Massachusetts"	"25"	"Suffolk County, MA"	"25025"	330	769231	42.9
+	"Michigan"	"26"	"Alger County, MI"	"26003"			Unreliable
+	"Michigan"	"26"	"Alpena County, MI"	"26007"			Unreliable
+	"Michigan"	"26"	"Eaton County, MI"	"26045"	25	108696	23
+	"Michigan"	"26"	"Gladwin County, MI"	"26051"	10	25641	39
+	"Michigan"	"26"	"Ogemaw County, MI"	"26129"			Unreliable
+	"Michigan"	"26"	"Osceola County, MI"	"26133"			Unreliable
+	"Michigan"	"26"	"St. Joseph County, MI"	"26149"	13	60748	21.4
+	"Kentucky"	"21"	"Allen County, KY"	"21003"			Unreliable
+	"Kentucky"	"21"	"Bracken County, KY"	"21023"			Unreliable
+	"Kentucky"	"21"	"Butler County, KY"	"21031"			Unreliable
+	"Kentucky"	"21"	"Grayson County, KY"	"21085"			Unreliable
+	"Kentucky"	"21"	"Livingston County, KY"	"21139"			Unreliable
+	"Kentucky"	"21"	"Magoffin County, KY"	"21153"			Unreliable
+	"Kentucky"	"21"	"Menifee County, KY"	"21165"			Unreliable
+	"Kentucky"	"21"	"Muhlenberg County, KY"	"21177"			Unreliable
+	"Kentucky"	"21"	"Nelson County, KY"	"21179"	20	47393	42.2
+	"Kentucky"	"21"	"Nicholas County, KY"	"21181"			Unreliable
+	"Kentucky"	"21"	"Scott County, KY"	"21209"	25	59102	42.3
+	"Louisiana"	"22"	"Allen Parish, LA"	"22003"			Unreliable
+	"Louisiana"	"22"	"Catahoula Parish, LA"	"22025"			Unreliable
+	"Maryland"	"24"	"Howard County, MD"	"24027"	52	335484	15.5
+	"Maryland"	"24"	"St. Mary's County, MD"	"24037"	37	114907	32.2
+	"Michigan"	"26"	"Cass County, MI"	"26027"	10	51546	19.4
+	"Michigan"	"26"	"Genesee County, MI"	"26049"	230	402098	57.2
+	"Michigan"	"26"	"Schoolcraft County, MI"	"26153"			Unreliable
+	"Michigan"	"26"	"Montcalm County, MI"	"26117"	13	67358	19.3
+	"Michigan"	"26"	"Van Buren County, MI"	"26159"	19	75697	25.1
+	"Minnesota"	"27"	"Chisago County, MN"	"27025"			Unreliable
+	"Minnesota"	"27"	"Clearwater County, MN"	"27029"			Unreliable
+	"Minnesota"	"27"	"Hubbard County, MN"	"27057"			Unreliable
+	"Minnesota"	"27"	"Jackson County, MN"	"27063"			Unreliable
+	"Minnesota"	"27"	"McLeod County, MN"	"27085"			Unreliable
+	"Minnesota"	"27"	"Meeker County, MN"	"27093"			Unreliable
+	"Minnesota"	"27"	"Renville County, MN"	"27129"			Unreliable
+	"Minnesota"	"27"	"Rock County, MN"	"27133"	0		0
+	"Minnesota"	"27"	"Sibley County, MN"	"27143"	0		0
+	"Mississippi"	"28"	"Lamar County, MS"	"28073"	20	65789	30.4
+	"Mississippi"	"28"	"Lincoln County, MS"	"28085"			Unreliable
+	"Mississippi"	"28"	"Pontotoc County, MS"	"28115"			Unreliable
+	"Missouri"	"29"	"Callaway County, MO"	"29027"	13	44674	29.1
+	"Missouri"	"29"	"Chariton County, MO"	"29041"			Unreliable
+	"Missouri"	"29"	"Greene County, MO"	"29077"	121	303258	39.9
+	"Missouri"	"29"	"Henry County, MO"	"29083"			Unreliable
+	"Missouri"	"29"	"Hickory County, MO"	"29085"			Unreliable
+	"Missouri"	"29"	"Lincoln County, MO"	"29113"	28	63205	44.3
+	"Missouri"	"29"	"Perry County, MO"	"29157"			Unreliable
+	"Missouri"	"29"	"Shannon County, MO"	"29203"	0		0
+	"Missouri"	"29"	"Shelby County, MO"	"29205"			Unreliable
+	"Missouri"	"29"	"Wright County, MO"	"29229"			Unreliable
+	"Montana"	"30"	"Daniels County, MT"	"30019"	0		0
+	"Montana"	"30"	"Lake County, MT"	"30047"	10	32895	30.4
+	"Montana"	"30"	"Stillwater County, MT"	"30095"			Unreliable
+	"Nebraska"	"31"	"Dawes County, NE"	"31045"	0		0
+	"Nebraska"	"31"	"Dodge County, NE"	"31053"			Unreliable
+	"Nebraska"	"31"	"Greeley County, NE"	"31077"	0		0
+	"Nebraska"	"31"	"Merrick County, NE"	"31121"			Unreliable
+	"Nebraska"	"31"	"Otoe County, NE"	"31131"			Unreliable
+	"Nebraska"	"31"	"Perkins County, NE"	"31135"	0		0
+	"Montana"	"30"	"Dawson County, MT"	"30021"			Unreliable
+	"Montana"	"30"	"Lewis and Clark County, MT"	"30049"	12	73620	16.3
+	"Montana"	"30"	"Lincoln County, MT"	"30053"			Unreliable
+	"Montana"	"30"	"Park County, MT"	"30067"			Unreliable
+	"Montana"	"30"	"Phillips County, MT"	"30071"	0		0
+	"Montana"	"30"	"Powder River County, MT"	"30075"	0		0
+	"Montana"	"30"	"Yellowstone County, MT"	"30111"	28	169697	16.5
+	"Nebraska"	"31"	"Hall County, NE"	"31079"			Unreliable
+	"Mississippi"	"28"	"Humphreys County, MS"	"28053"	0		0
+	"Mississippi"	"28"	"Madison County, MS"	"28089"	14	111111	12.6
+	"Mississippi"	"28"	"Simpson County, MS"	"28127"			Unreliable
+	"Mississippi"	"28"	"Tippah County, MS"	"28139"			Unreliable
+	"Mississippi"	"28"	"Warren County, MS"	"28149"			Unreliable
+	"Mississippi"	"28"	"Wilkinson County, MS"	"28157"			Unreliable
+	"Missouri"	"29"	"Adair County, MO"	"29001"	0		0
+	"Missouri"	"29"	"Boone County, MO"	"29019"	49	187739	26.1
+	"Missouri"	"29"	"Cooper County, MO"	"29053"			Unreliable
+	"Missouri"	"29"	"Linn County, MO"	"29115"			Unreliable
+	"Missouri"	"29"	"McDonald County, MO"	"29119"			Unreliable
+	"Missouri"	"29"	"Reynolds County, MO"	"29179"	0		0
+	"Missouri"	"29"	"Ripley County, MO"	"29181"			Unreliable
+	"Missouri"	"29"	"St. Louis County, MO"	"29189"	372	992000	37.5
+	"Montana"	"30"	"Flathead County, MT"	"30029"	20	111732	17.9
+	"Montana"	"30"	"Rosebud County, MT"	"30087"			Unreliable
+	"Nebraska"	"31"	"Banner County, NE"	"31007"	0		0
+	"Nebraska"	"31"	"Colfax County, NE"	"31037"	0		0
+	"Nebraska"	"31"	"Kimball County, NE"	"31105"	0		0
+	"Nebraska"	"31"	"Pawnee County, NE"	"31133"	0		0
+	"Nebraska"	"31"	"Rock County, NE"	"31149"	0		0
+	"Nebraska"	"31"	"Thomas County, NE"	"31171"	0		0
+	"Nevada"	"32"	"Carson City, NV"	"32510"	15	58140	25.8
+	"New Jersey"	"34"	"Salem County, NJ"	"34033"	27	65217	41.4
+	"New Mexico"	"35"	"Doña Ana County, NM"	"35013"	58	223938	25.9
+	"New Mexico"	"35"	"Grant County, NM"	"35017"	11	27708	39.7
+	"New Mexico"	"35"	"Los Alamos County, NM"	"35028"			Unreliable
+	"New Mexico"	"35"	"McKinley County, NM"	"35031"	29	69880	41.5
+	"New Mexico"	"35"	"Sierra County, NM"	"35051"			Unreliable
+	"New York"	"36"	"Franklin County, NY"	"36033"	10	46296	21.6
+	"New York"	"36"	"Lewis County, NY"	"36049"			Unreliable
+	"New York"	"36"	"Ontario County, NY"	"36069"	16	112676	14.2
+	"New York"	"36"	"Otsego County, NY"	"36077"	17	60498	28.1
+	"New York"	"36"	"Schuyler County, NY"	"36097"			Unreliable
+	"New York"	"36"	"Suffolk County, NY"	"36103"	530	1527378	34.7
+	"North Carolina"	"37"	"Alexander County, NC"	"37003"	10	36364	27.5
+	"North Carolina"	"37"	"Anson County, NC"	"37007"			Unreliable
+	"North Carolina"	"37"	"Carteret County, NC"	"37031"	36	69364	51.9
+	"Ohio"	"39"	"Ashtabula County, OH"	"39007"	35	96953	36.1
+	"Ohio"	"39"	"Hamilton County, OH"	"39061"	337	823961	40.9
+	"Ohio"	"39"	"Scioto County, OH"	"39145"	88	72190	121.9
+	"Ohio"	"39"	"Shelby County, OH"	"39149"			Unreliable
+	"Ohio"	"39"	"Stark County, OH"	"39151"	144	373057	38.6
+	"Ohio"	"39"	"Erie County, OH"	"39043"	27	74586	36.2
+	"Ohio"	"39"	"Licking County, OH"	"39089"	59	181538	32.5
+	"Ohio"	"39"	"Morgan County, OH"	"39115"			Unreliable
+	"Ohio"	"39"	"Trumbull County, OH"	"39155"	120	200669	59.8
+	"Ohio"	"39"	"Washington County, OH"	"39167"	26	58824	44.2
+	"Oklahoma"	"40"	"Cotton County, OK"	"40033"			Unreliable
+	"Oklahoma"	"40"	"Hughes County, OK"	"40063"			Unreliable
+	"Ohio"	"39"	"Wayne County, OH"	"39169"	33	116608	28.3
+	"Oklahoma"	"40"	"Cleveland County, OK"	"40027"	49	298780	16.4
+	"Oklahoma"	"40"	"Le Flore County, OK"	"40079"	10	49020	20.4
+	"Oklahoma"	"40"	"Pawnee County, OK"	"40117"	10	15674	63.8
+	"Oklahoma"	"40"	"Sequoyah County, OK"	"40135"	17	39813	42.7
+	"Oregon"	"41"	"Jackson County, OR"	"41029"	77	221902	34.7
+	"Oklahoma"	"40"	"Grant County, OK"	"40053"			Unreliable
+	"Oklahoma"	"40"	"Kiowa County, OK"	"40075"	0		0
+	"Oklahoma"	"40"	"Muskogee County, OK"	"40101"	20	66225	30.2
+	"Oregon"	"41"	"Klamath County, OR"	"41035"	17	70248	24.2
+	"New York"	"36"	"Sullivan County, NY"	"36105"	48	79734	60.2
+	"New York"	"36"	"Wayne County, NY"	"36117"	30	90909	33
+	"North Carolina"	"37"	"Brunswick County, NC"	"37019"	61	152882	39.9
+	"North Carolina"	"37"	"Craven County, NC"	"37049"	85	101070	84.1
+	"North Carolina"	"37"	"Forsyth County, NC"	"37067"	179	389978	45.9
+	"North Carolina"	"37"	"Greene County, NC"	"37079"			Unreliable
+	"Pennsylvania"	"42"	"Franklin County, PA"	"42055"	21	156716	13.4
+	"South Carolina"	"45"	"Aiken County, SC"	"45003"	95	174312	54.5
+	"South Carolina"	"45"	"Fairfield County, SC"	"45039"			Unreliable
+	"South Carolina"	"45"	"Florence County, SC"	"45041"	69	136634	50.5
+	"South Carolina"	"45"	"Marlboro County, SC"	"45069"			Unreliable
+	"North Carolina"	"37"	"Rutherford County, NC"	"37161"	45	64935	69.3
+	"North Dakota"	"38"	"Barnes County, ND"	"38003"	0		0
+	"North Dakota"	"38"	"Kidder County, ND"	"38043"	0		0
+	"North Dakota"	"38"	"LaMoure County, ND"	"38045"	0		0
+	"North Dakota"	"38"	"Mercer County, ND"	"38057"			Unreliable
+	"South Dakota"	"46"	"Jones County, SD"	"46075"	0		0
+	"South Dakota"	"46"	"Sanborn County, SD"	"46111"	0		0
+	"Tennessee"	"47"	"Bledsoe County, TN"	"47007"			Unreliable
+	"Tennessee"	"47"	"Carter County, TN"	"47019"	34	56478	60.2
+	"Tennessee"	"47"	"Chester County, TN"	"47023"			Unreliable
+	"Tennessee"	"47"	"Giles County, TN"	"47055"	11	30556	36
+	"North Dakota"	"38"	"Ramsey County, ND"	"38071"	0		0
+	"North Dakota"	"38"	"Towner County, ND"	"38095"	0		0
+	"North Dakota"	"38"	"Traill County, ND"	"38097"	0		0
+	"North Dakota"	"38"	"Wells County, ND"	"38103"	0		0
+	"Ohio"	"39"	"Delaware County, OH"	"39041"	32	226950	14.1
+	"Ohio"	"39"	"Logan County, OH"	"39091"	13	46099	28.2
+	"Ohio"	"39"	"Meigs County, OH"	"39105"	22	21956	100.2
+	"Ohio"	"39"	"Paulding County, OH"	"39125"			Unreliable
+	"Ohio"	"39"	"Pickaway County, OH"	"39129"	31	59961	51.7
+	"Ohio"	"39"	"Portage County, OH"	"39133"	38	161702	23.5
+	"Ohio"	"39"	"Seneca County, OH"	"39147"	18	54545	33
+	"Ohio"	"39"	"Union County, OH"	"39159"	10	66667	15
+	"Ohio"	"39"	"Vinton County, OH"	"39163"	18	12579	143.1
+	"Ohio"	"39"	"Wood County, OH"	"39173"	17	131783	12.9
+	"Tennessee"	"47"	"McNairy County, TN"	"47109"			Unreliable
+	"Tennessee"	"47"	"Sequatchie County, TN"	"47153"			Unreliable
+	"Tennessee"	"47"	"Sevier County, TN"	"47155"	65	98784	65.8
+	"Tennessee"	"47"	"Tipton County, TN"	"47167"	26	61611	42.2
+	"Texas"	"48"	"Anderson County, TX"	"48001"			Unreliable
+	"Texas"	"48"	"Armstrong County, TX"	"48011"			Unreliable
+	"Texas"	"48"	"Bastrop County, TX"	"48021"	11	106796	10.3
+	"Texas"	"48"	"Concho County, TX"	"48095"	0		0
+	"Texas"	"48"	"Dallam County, TX"	"48111"			Unreliable
+	"Texas"	"48"	"Dawson County, TX"	"48115"			Unreliable
+	"Oklahoma"	"40"	"Pushmataha County, OK"	"40127"			Unreliable
+	"Oklahoma"	"40"	"Woodward County, OK"	"40153"			Unreliable
+	"Oregon"	"41"	"Benton County, OR"	"41003"	11	97345	11.3
+	"Oregon"	"41"	"Clatsop County, OR"	"41007"	16	41667	38.4
+	"Oregon"	"41"	"Gilliam County, OR"	"41021"	0		0
+	"Pennsylvania"	"42"	"Beaver County, PA"	"42007"	64	165803	38.6
+	"Pennsylvania"	"42"	"Berks County, PA"	"42011"	122	431095	28.3
+	"Pennsylvania"	"42"	"Cameron County, PA"	"42023"	0		0
+	"Texas"	"48"	"Hansford County, TX"	"48195"	0		0
+	"Texas"	"48"	"Hardin County, TX"	"48199"			Unreliable
+	"Texas"	"48"	"Hidalgo County, TX"	"48215"	47	886792	5.3
+	"Texas"	"48"	"Hockley County, TX"	"48219"			Unreliable
+	"Texas"	"48"	"Hutchinson County, TX"	"48233"			Unreliable
+	"Texas"	"48"	"Lipscomb County, TX"	"48295"			Unreliable
+	"Texas"	"48"	"Menard County, TX"	"48327"	0		0
+	"Texas"	"48"	"Orange County, TX"	"48361"	30	84986	35.3
+	"South Carolina"	"45"	"Allendale County, SC"	"45005"			Unreliable
+	"South Carolina"	"45"	"Anderson County, SC"	"45007"	71	209440	33.9
+	"South Carolina"	"45"	"Bamberg County, SC"	"45009"			Unreliable
+	"Texas"	"48"	"Refugio County, TX"	"48391"			Unreliable
+	"Texas"	"48"	"Shackelford County, TX"	"48417"			Unreliable
+	"Texas"	"48"	"Terry County, TX"	"48445"			Unreliable
+	"Texas"	"48"	"Tom Green County, TX"	"48451"	12	118812	10.1
+	"Utah"	"49"	"Iron County, UT"	"49021"	11	62500	17.6
+	"Utah"	"49"	"Morgan County, UT"	"49029"	0		0
+	"Vermont"	"50"	"Orange County, VT"	"50017"	10	29851	33.5
+	"Utah"	"49"	"Washington County, UT"	"49053"	33	197605	16.7
+	"Virginia"	"51"	"Albemarle County, VA"	"51003"	20	114943	17.4
+	"Virginia"	"51"	"Augusta County, VA"	"51015"			Unreliable
+	"Virginia"	"51"	"Bland County, VA"	"51021"			Unreliable
+	"Virginia"	"51"	"Rappahannock County, VA"	"51157"			Unreliable
+	"Utah"	"49"	"Weber County, UT"	"49057"	59	269406	21.9
+	"Virginia"	"51"	"Buchanan County, VA"	"51027"	22	19383	113.5
+	"Virginia"	"51"	"Franklin County, VA"	"51067"	17	55016	30.9
+	"Virginia"	"51"	"King George County, VA"	"51099"			Unreliable
+	"Virginia"	"51"	"Madison County, VA"	"51113"			Unreliable
+	"Alabama"	"01"	"Choctaw County, AL"	"01023"	0		0
+	"Alabama"	"01"	"Coffee County, AL"	"01031"			Unreliable
+	"Virginia"	"51"	"Henry County, VA"	"51089"	41	49818	82.3
+	"Virginia"	"51"	"Montgomery County, VA"	"51121"	17	98837	17.2
+	"Virginia"	"51"	"Rockingham County, VA"	"51165"	12	85714	14
+	"Virginia"	"51"	"Manassas Park city, VA"	"51685"			Unreliable
+	"Virginia"	"51"	"Salem city, VA"	"51775"	16	25682	62.3
+	"Tennessee"	"47"	"Hardeman County, TN"	"47069"			Unreliable
+	"Tennessee"	"47"	"Loudon County, TN"	"47105"	25	58275	42.9
+	"Tennessee"	"47"	"Macon County, TN"	"47111"	15	26224	57.2
+	"Tennessee"	"47"	"Pickett County, TN"	"47137"			Unreliable
+	"Tennessee"	"47"	"Putnam County, TN"	"47141"	28	82353	34
+	"Alabama"	"01"	"Montgomery County, AL"	"01101"	40	225989	17.7
+	"Alabama"	"01"	"St. Clair County, AL"	"01115"	42	93960	44.7
+	"Alabama"	"01"	"Wilcox County, AL"	"01131"			Unreliable
+	"Alaska"	"02"	"Bethel Census Area, AK"	"02050"			Unreliable
+	"Alaska"	"02"	"Southeast Fairbanks Census Area, AK"	"02240"			Unreliable
+	"Arizona"	"04"	"Santa Cruz County, AZ"	"04023"			Unreliable
+	"Arkansas"	"05"	"Ashley County, AR"	"05003"			Unreliable
+	"Alabama"	"01"	"Dale County, AL"	"01045"	10	49505	20.2
+	"Alabama"	"01"	"Etowah County, AL"	"01055"	31	102990	30.1
+	"Alaska"	"02"	"Copper River Census Area, AK"	"02066"	0		0
+	"Arkansas"	"05"	"Clay County, AR"	"05021"			Unreliable
+	"Virginia"	"51"	"Alleghany County, VA"	"51005"			Unreliable
+	"Virginia"	"51"	"Henrico County, VA"	"51087"	118	334278	35.3
+	"Virginia"	"51"	"Lunenburg County, VA"	"51111"			Unreliable
+	"Virginia"	"51"	"Pittsylvania County, VA"	"51143"	16	59925	26.7
+	"Virginia"	"51"	"Shenandoah County, VA"	"51171"	11	44898	24.5
+	"Virginia"	"51"	"Emporia city, VA"	"51595"			Unreliable
+	"California"	"06"	"Solano County, CA"	"06095"	130	448276	29
+	"Colorado"	"08"	"Archuleta County, CO"	"08007"			Unreliable
+	"Colorado"	"08"	"Hinsdale County, CO"	"08053"	0		0
+	"Colorado"	"08"	"Kit Carson County, CO"	"08063"	0		0
+	"Colorado"	"08"	"Teller County, CO"	"08119"			Unreliable
+	"Colorado"	"08"	"Washington County, CO"	"08121"	0		0
+	"Arkansas"	"05"	"Cleburne County, AR"	"05023"			Unreliable
+	"Arkansas"	"05"	"Hempstead County, AR"	"05057"			Unreliable
+	"Arkansas"	"05"	"Jackson County, AR"	"05067"			Unreliable
+	"Arkansas"	"05"	"Madison County, AR"	"05087"			Unreliable
+	"Arkansas"	"05"	"Newton County, AR"	"05101"	0		0
+	"Arkansas"	"05"	"Van Buren County, AR"	"05141"			Unreliable
+	"Arkansas"	"05"	"Washington County, AR"	"05143"	37	256944	14.4
+	"Arkansas"	"05"	"Yell County, AR"	"05149"			Unreliable
+	"California"	"06"	"Calaveras County, CA"	"06009"			Unreliable
+	"California"	"06"	"Sacramento County, CA"	"06067"	530	1582090	33.5
+	"Utah"	"49"	"Beaver County, UT"	"49001"			Unreliable
+	"Utah"	"49"	"Sevier County, UT"	"49041"			Unreliable
+	"Vermont"	"50"	"Washington County, VT"	"50023"	14	60086	23.3
+	"Virginia"	"51"	"Arlington County, VA"	"51013"	22	234043	9.4
+	"Virginia"	"51"	"Charlotte County, VA"	"51037"			Unreliable
+	"Virginia"	"51"	"Chesterfield County, VA"	"51041"	91	377593	24.1
+	"Virginia"	"51"	"Lee County, VA"	"51105"			Unreliable
+	"Florida"	"12"	"Columbia County, FL"	"12023"	17	71730	23.7
+	"Florida"	"12"	"Gadsden County, FL"	"12039"	13	43333	30
+	"Florida"	"12"	"Gulf County, FL"	"12045"			Unreliable
+	"Florida"	"12"	"Liberty County, FL"	"12077"			Unreliable
+	"Georgia"	"13"	"Brooks County, GA"	"13027"			Unreliable
+	"Georgia"	"13"	"Crisp County, GA"	"13081"	10	19724	50.7
+	"Georgia"	"13"	"Dade County, GA"	"13083"			Unreliable
+	"California"	"06"	"San Luis Obispo County, CA"	"06079"	84	281879	29.8
+	"California"	"06"	"Shasta County, CA"	"06089"	59	180982	32.6
+	"Colorado"	"08"	"Adams County, CO"	"08001"	176	526946	33.4
+	"Colorado"	"08"	"Conejos County, CO"	"08021"			Unreliable
+	"Colorado"	"08"	"Delta County, CO"	"08029"			Unreliable
+	"Colorado"	"08"	"Gilpin County, CO"	"08047"	0		0
+	"Colorado"	"08"	"La Plata County, CO"	"08067"	18	56604	31.8
+	"Colorado"	"08"	"Las Animas County, CO"	"08071"			Unreliable
+	"Colorado"	"08"	"Pitkin County, CO"	"08097"			Unreliable

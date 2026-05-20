@@ -1,0 +1,52 @@
+"Notes"	"State"	"State Code"	Deaths	Population	Crude Rate
+	"Alaska"	"02"	200	732601	27.3
+	"Arizona"	"04"	1603	7353211	21.8
+	"Arkansas"	"05"	547	3038889	18
+	"California"	"06"	4312	39200000	11
+	"Colorado"	"08"	1293	5850679	22.1
+	"Connecticut"	"09"	398	3618182	11
+	"Delaware"	"10"	130	1015625	12.8
+	"District of Columbia"	"11"	44	666667	6.6
+	"Florida"	"12"	3446	22232258	15.5
+	"Georgia"	"13"	1624	10899329	14.9
+	"Hawaii"	"15"	246	1438596	17.1
+	"Idaho"	"16"	444	1938865	22.9
+	"Illinois"	"17"	1533	12565574	12.2
+	"Indiana"	"18"	1152	6816568	16.9
+	"Iowa"	"19"	590	3206522	18.4
+	"Kansas"	"20"	596	2935961	20.3
+	"Kentucky"	"21"	823	4521978	18.2
+	"Louisiana"	"22"	726	4594937	15.8
+	"Maine"	"23"	268	1388601	19.3
+	"Maryland"	"24"	608	6141414	9.9
+	"Massachusetts"	"25"	626	6955556	9
+	"Michigan"	"26"	1503	10020000	15
+	"Minnesota"	"27"	860	5733333	15
+	"Mississippi"	"28"	417	2936620	14.2
+	"Missouri"	"29"	1219	6187817	19.7
+	"Montana"	"30"	329	1122867	29.3
+	"Nebraska"	"31"	306	1974194	15.5
+	"Nevada"	"32"	698	3172727	22
+	"New Hampshire"	"33"	247	1395480	17.7
+	"New Jersey"	"34"	769	9265060	8.3
+	"New Mexico"	"35"	525	2116935	24.8
+	"New York"	"36"	1765	19611111	9
+	"North Carolina"	"37"	1614	10688742	15.1
+	"North Dakota"	"38"	169	778802	21.7
+	"Ohio"	"39"	1798	11751634	15.3
+	"Oklahoma"	"40"	857	4023474	21.3
+	"Oregon"	"41"	883	4245192	20.8
+	"Pennsylvania"	"42"	1955	12947020	15.1
+	"Rhode Island"	"44"	126	1095652	11.5
+	"South Carolina"	"45"	853	5298137	16.1
+	"South Dakota"	"46"	192	909953	21.1
+	"Tennessee"	"47"	1245	7033898	17.7
+	"Texas"	"48"	4368	30124138	14.5
+	"Utah"	"49"	718	3386792	21.2
+	"Vermont"	"50"	128	646465	19.8
+	"Virginia"	"51"	1208	8690647	13.9
+	"Washington"	"53"	1243	7768750	16
+	"West Virginia"	"54"	353	1773869	19.9
+	"Wisconsin"	"55"	924	5885350	15.7
+	"Wyoming"	"56"	155	582707	26.6
+	"Alabama"	"01"	840	5060241	16.6
