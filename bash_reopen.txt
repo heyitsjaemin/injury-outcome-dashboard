@@ -1,0 +1,41 @@
+Two things to set up — both go in ~/.bashrc and persist across sessions on Great Lakes:
+
+  1. Add these lines to ~/.bashrc:
+
+  ! grep -q "HISTFILESIZE" ~/.bashrc && cat >> ~/.bashrc << 'EOF'
+
+  # Persistent history
+  export HISTSIZE=10000
+  export HISTFILESIZE=20000
+  export HISTCONTROL=ignoredups:erasedups
+  shopt -s histappend
+  PROMPT_COMMAND="history -a${PROMPT_COMMAND:+; $PROMPT_COMMAND}"
+  EOF
+
+  Or type ! nano ~/.bashrc and paste these lines at the bottom:
+
+  # Persistent history
+  export HISTSIZE=10000
+  export HISTFILESIZE=20000
+  export HISTCONTROL=ignoredups:erasedups
+  shopt -s histappend
+  PROMPT_COMMAND="history -a${PROMPT_COMMAND:+; $PROMPT_COMMAND}"
+
+  The key line is PROMPT_COMMAND="history -a..." — it flushes every command to ~/.bash_history immediately after you run it, so even
+   if the session is killed (not just closed), nothing is lost.
+
+  2. Apply it now without reopening:
+
+  source ~/.bashrc
+  
+  ---
+  Bonus — use tmux to survive disconnections:
+  
+  On Great Lakes, if your SSH connection drops, any running process (like ./run.sh) dies with it. tmux keeps sessions alive:
+
+  tmux new -s dashboard    # start a named session
+  # ... work, run the app ...
+  # Ctrl+B then D to detach (session keeps running)
+  tmux attach -t dashboard # reconnect later from any terminal
+
+  This is especially useful when running ./run.sh since the app stays up even if VS Code disconnects.
