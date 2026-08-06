@@ -57,6 +57,12 @@ Flag reference:
 Output is written to `data/{level}/{injury_type}/{period}/all_demographics/`.  
 Run `./run.sh` afterward to rebuild the SQLite DB and restart the app.
 
+> **Adding a year beyond 2024:** `--period` is validated against the hard-coded
+> `VALID_PERIODS` vector in `scripts/fetch_cdc.R`. Add the new year to that list
+> first, or the fetch refuses it. Also extend `VALID_YEARS` in `fetch_env.R`
+> (section 2) so the environmental data covers the same year. See
+> `OPERATIONS_MANUAL.md` Section 7 for the full annual procedure.
+
 ---
 
 ## 2  Environmental data — `scripts/fetch_env.R`
@@ -102,7 +108,13 @@ Two tables are written to `data/injury_outcomes.sqlite`:
 | `env_by_county`| ~18,852       | `geoid`, `state_geoid`, `year`, `mean_temp`, `precip` |
 | `env_by_state` | ~300          | `geoid`, `year`, `mean_temp`, `precip`      |
 
-Coverage matches the dashboard years (2019–2024).
+Coverage matches the dashboard years (currently 2019–2024).
+
+> **Adding a year beyond 2024:** `fetch_env.R` filters to the hard-coded
+> `VALID_YEARS <- 2019:2024` range. Extend it (e.g. `2019:2025`) or the new
+> year's climate rows are dropped before they reach the database, and the
+> scatter panel will have no environmental points for that year. NOAA nClimDiv
+> also covers only the 48 continental states — Alaska and Hawaii never appear.
 
 ### Usage
 

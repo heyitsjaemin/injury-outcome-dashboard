@@ -4,6 +4,7 @@ An interactive R Shiny dashboard from the [University of Michigan Injury Prevent
 
 - **Live site (IPC):** https://injurycenter.umich.edu/injury-outcome-dashboard/
 - **Hosted deployment:** https://ipcapp.shinyapps.io/injury-outcome-dashboard/
+- **Operations manual (for maintainers):** [`docs/OPERATIONS_MANUAL.md`](docs/OPERATIONS_MANUAL.md) — end-to-end setup, the annual update runbook, deployment, troubleshooting, and long-term handoff. A PDF and Word copy sit beside it in `docs/`.
 
 ---
 
@@ -173,7 +174,7 @@ That is it. On every start, the app scans `data/` for `.txt` files that are newe
 
 ```
 Data changes detected (or DB missing) — rebuilding SQLite from data/ ...
-overdose_by_state: 102 rows written from 2 file(s)
+injury_by_state: 102 rows written from 2 file(s)
 ...
 ```
 
@@ -274,6 +275,8 @@ You can narrow the fetch with flags:
 Available `--injury` values: `Drug_OD`, `All_Suicide`, `All_Homicide`, `FA_Deaths`, `FA_Homicide`, `FA_Suicide`, or `all` (default).  
 Available `--period` values: `2019`–`2024`, or `all` (default).
 
+> **Adding a year beyond 2024:** `--period` is validated against a hard-coded list, `VALID_PERIODS`, in `scripts/fetch_cdc.R`. Add the new year there *before* fetching, or the script refuses it. You must also add the same year to `VALID_YEARS` in `scripts/fetch_env.R` (see [Section 5.3](#53-refreshing-environmental-data-from-noaa-fetch_envsh)), otherwise the new year's climate rows are filtered out and the scatter panel has no points for it. The full yearly procedure is in [`docs/OPERATIONS_MANUAL.md`](docs/OPERATIONS_MANUAL.md) Section 7.
+
 After fetching, restart the app with `./run.sh` — the DB rebuilds automatically.
 
 ### 5.3 Refreshing environmental data from NOAA (fetch_env.sh)
@@ -285,6 +288,8 @@ The scatter panel uses annual mean temperature (°F) and total precipitation (in
 ```
 
 This takes about 30–60 seconds (two file downloads). It writes `env_by_state` and `env_by_county` tables directly into `data/injury_outcomes.sqlite` — no DB rebuild needed afterward. Restart the app to pick up the new values.
+
+> **Note:** `fetch_env.R` filters to a hard-coded `VALID_YEARS` range (currently `2019:2024`). To include a new year, extend that range — otherwise the year is dropped before it reaches the database. NOAA nClimDiv also covers only the 48 continental states, so Alaska and Hawaii never get environmental points.
 
 ---
 
@@ -310,6 +315,9 @@ injury_outcome_dashboard/
 ├── deploy.sh            # Deploys to shinyapps.io
 │
 ├── docs/
+│   ├── OPERATIONS_MANUAL.md     # Maintainer manual: setup, annual update, deploy, handoff
+│   ├── OPERATIONS_MANUAL.pdf    # Rendered copy (attach/share); .docx alongside for editing
+│   ├── OPERATIONS_MANUAL.docx
 │   ├── DATA_FETCH.md    # CDC Socrata + NOAA nClimDiv source reference; CDC WONDER dead-end notes
 │   ├── _Applied Multiple Regression-Correlation Analysis for the Behavioral Sciences_Cohen.pdf
 │   └── How Many Subjects Does It Take To Do A Regression Analysis.pdf   # Green (1991)
@@ -345,7 +353,7 @@ The app loads everything once at startup in `global.R`, then `server.R` filters 
 **Boot sequence (`global.R`)**
 
 1. Connect to local SQLite at `data/injury_outcomes.sqlite`.
-2. Read **long-format** tables `overdose_by_state` and `overdose_by_county`. One row per `(injury_type, period, demographic, GEOID)` combination. Columns are uppercased to `INJURY_TYPE`, `PERIOD`, `DEMOGRAPHIC`, `GEOID`, `STATE`, `COUNTY_NAME` (county only), `DEATHS`, `POPULATION`, `CRUDE_RATE`.
+2. Read the **long-format** tables `injury_by_state` and `injury_by_county` into the globals `overdose_state` / `overdose_county`. One row per `(injury_type, period, demographic, GEOID)` combination. Columns are uppercased to `INJURY_TYPE`, `PERIOD`, `DEMOGRAPHIC`, `GEOID`, `STATE`, `COUNTY_NAME` (county only), `DEATHS`, `POPULATION`, `CRUDE_RATE`. Rows for the District of Columbia are dropped here (and GEOID `"11"` is excluded from the state shapefile), since it has no injury data.
 3. Read `env_by_state` and `env_by_county` (written by `fetch_env.R`) if present. Columns: `GEOID`, `YEAR`, `MEAN_TEMP` (°F), `PRECIP` (inches). If absent the scatter panel shows a prompt to run `./fetch_env.sh`.
 4. Read the two `.rds` shapefiles (`usa_states_s.rds`, `usa_counties_s.rds`).
 5. Build `available_options` — a named list with `injury_types`, `periods`, `demographics` as named character vectors (`c("Display Label" = "internal_key", ...)`) for the UI `choices`.
@@ -409,7 +417,7 @@ On Great Lakes these are provided by the `Rgeospatial/4.5.1-2025-10-07` module; 
 ## 10. Troubleshooting
 
 **The new dropdown option doesn't appear after I added a file.**
-Restart the app with `./run.sh`. On startup it auto-rebuilds the SQLite DB from the files in `data/`, and the dropdowns are sourced from that DB. If you already restarted and the option is still missing, look at the boot output: a line like `overdose_by_state: ... rows written from N file(s)` confirms the file was picked up. If the line says fewer files than you expect, the path probably doesn't match `data/{level}/{injury_type}/{period}/{demographic}/<file>.txt` — see Section 3.1.
+Restart the app with `./run.sh`. On startup it auto-rebuilds the SQLite DB from the files in `data/`, and the dropdowns are sourced from that DB. If you already restarted and the option is still missing, look at the boot output: a line like `injury_by_state: ... rows written from N file(s)` confirms the file was picked up. If the line says fewer files than you expect, the path probably doesn't match `data/{level}/{injury_type}/{period}/{demographic}/<file>.txt` — see Section 3.1.
 
 If you suspect the DB is stale (for example, you previously deleted a file and the dashboard still shows it), force a clean rebuild with `FORCE_DB_REBUILD=1 ./run.sh`.
 
